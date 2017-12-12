@@ -1,7 +1,6 @@
 # SublimeText - package list and configs
 
 - [Package list](#package-list)
-- [Custom configs](#configs)
 - [Key bindings](#key-bindings)
 - [User Settings](#user-settings)
 
@@ -56,7 +55,7 @@
   "draw_white_space": "all",
   "ensure_newline_at_eof_on_save": true,
   "font_face": "Fira Code",
-  "font_size": 11,
+  "font_size": 12,
   "highlight_line": true,
   "ignored_packages":
   [
@@ -77,9 +76,10 @@
   "show_encoding": true,
   "show_line_endings": true,
   "tab_size": 2,
-  "theme": "Primer Dark.sublime-theme",
+  "theme": "Adaptive.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
   "word_wrap": false
 }
+
 ```
