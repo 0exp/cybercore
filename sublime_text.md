@@ -51,7 +51,7 @@
 {
   "always_show_minimap_viewport": true,
   "close_windows_when_empty": false,
-  "color_scheme": "Packages/Theme - Primer/primer.dark.tmTheme",
+  "color_scheme": "Packages/Atomic Color Scheme/Atomic - Dark cyan (Soft).tmTheme",
   "draw_white_space": "all",
   "ensure_newline_at_eof_on_save": true,
   "font_face": "Fira Code",
@@ -81,5 +81,6 @@
   "trim_trailing_white_space_on_save": true,
   "word_wrap": false
 }
+
 
 ```
