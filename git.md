@@ -23,6 +23,7 @@
   bdr = push origin --delete
   dfc = diff --cached
   hist = log --pretty=format:\"(%C(cyan)%ad%C(reset)) %C(yellow)%h%C(reset) [%C(green)%an%C(reset)] %s%d\" --graph --date=relative
+  swipe = reset --soft HEAD^
 [core]
   ignorecase = false
   excludesfile = /Users/daiver/.gitignore

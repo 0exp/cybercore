@@ -10,22 +10,28 @@
 
 - A File icon
 - AdvancedNewFile
+- Atomic Color Scheme
 - Babel
 - Backeteer
 - Better CoffeeScript
 - BracketHighlighter
 - Colorsublime
 - Colorsublime - Themes
+- DashDoc
 - Delete Current File
 - DockBlockr
 - Elixir
 - File Rename
 - Git
 - GitGutter
+- Markdown Preview
 - Origami
 - Path Tools
 - RSpec
 - SimpleCov
+- Skins
+- SqlBeautifier
+- SyncSettings
 - Theme Primer
 - TodoReview
 - VAlign
@@ -51,7 +57,7 @@
 {
   "always_show_minimap_viewport": true,
   "close_windows_when_empty": false,
-  "color_scheme": "Packages/Atomic Color Scheme/Atomic - Dark cyan (Soft).tmTheme",
+  "color_scheme": "Packages/Atomic Color Scheme/Atomic - Dark blue (Soft).tmTheme",
   "draw_white_space": "all",
   "ensure_newline_at_eof_on_save": true,
   "font_face": "Fira Code",
@@ -81,6 +87,4 @@
   "trim_trailing_white_space_on_save": true,
   "word_wrap": false
 }
-
-
 ```
