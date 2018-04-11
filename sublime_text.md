@@ -21,7 +21,9 @@
 - Delete Current File
 - DockBlockr
 - Elixir
+- ElixirSublime
 - File Rename
+- Fix Mac Path
 - Git
 - GitGutter
 - Markdown Preview
