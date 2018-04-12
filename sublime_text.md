@@ -21,7 +21,6 @@
 - Delete Current File
 - DockBlockr
 - Elixir
-- ElixirSublime
 - File Rename
 - Fix Mac Path
 - Git
@@ -29,6 +28,7 @@
 - Markdown Preview
 - Origami
 - Path Tools
+- Pretty JSON
 - RSpec
 - SimpleCov
 - Skins
@@ -46,7 +46,7 @@
 ```javascript
 [
   { "keys": ["super+§"], "command": "copy_path" },
-  { "keys": ["super+shift+k"], "command": "reveal_in_side_bar" }
+  { "keys": ["super+alt+§"], "command": "reveal_in_side_bar" }
 ]
 
 ```

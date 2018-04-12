@@ -1,2 +1,0 @@
-- [SublimeText](/sublime_text.md)
-- [Git](/git.md)
