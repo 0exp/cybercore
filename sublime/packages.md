@@ -23,3 +23,4 @@
 - [SqlBeautifier](https://github.com/zsong/SqlBeautifier)
 - [TodoReview](https://github.com/jonathandelgado/SublimeTodoReview)
 - [VAlign](https://github.com/jarod2d/sublime_valign)
+- [SearchInProject](https://github.com/leonid-shevtsov/SearchInProject_SublimeText)
