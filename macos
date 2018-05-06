@@ -1,1 +1,14 @@
+npm install -g yarn
 brew install protobuf
+brew install tokey
+brew install ripgrep
+brew install tmux
+brew install htop
+brew install direnv
+brew install rbenv
+brew install mc
+
+# Zsh Prompt
+yarn global add spaceship-prompt
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
