@@ -2,9 +2,11 @@
 - [AdvancedNewFile](https://github.com/skuroda/Sublime-AdvancedNewFile)
 - [AtomicColorScheme](https://github.com/gerardbm/atomic)
 - [Babel](https://github.com/babel/babel-sublime)
+- [Better CoffeeScript]
 - [Bracketeer](https://github.com/colinta/SublimeBracketeer)
 - [BracketHighlighter](https://github.com/facelessuser/BracketHighlighter)
 - [Colorsublme](https://github.com/Colorsublime/Colorsublime-Plugin)
+- [DashDoc]
 - [Delete Current File](https://github.com/yaworsw/Sublime-DeleteCurrentFile)
 - [DockBlockr](https://github.com/spadgos/sublime-jsdocs)
 - [Elixir](https://github.com/elixir-editors/elixir-tmbundle/)
@@ -16,11 +18,13 @@
 - [Origami](https://github.com/SublimeText/Origami)
 - [Path Tools](https://github.com/pjdietz/sublime-path-tools)
 - [Pretty JSON](https://github.com/dzhibas/SublimePrettyJson)
+- [Protocol Buffer Syntax]
 - [RSpec](https://github.com/SublimeText/RSpec)
 - [Ruby Slim](https://github.com/slim-template/ruby-slim.tmbundle)
 - [SimpleCov](https://github.com/sentience/SublimeSimpleCov)
 - [Skins](https://github.com/deathaxe/sublime-skins/)
 - [SqlBeautifier](https://github.com/zsong/SqlBeautifier)
+- [TerminalView]
 - [TodoReview](https://github.com/jonathandelgado/SublimeTodoReview)
 - [VAlign](https://github.com/jarod2d/sublime_valign)
 - [SearchInProject](https://github.com/leonid-shevtsov/SearchInProject_SublimeText)

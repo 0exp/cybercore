@@ -3,9 +3,8 @@
   [
     "/Users/DaiveR/.kiex/elixirs/elixir-1.6.4/bin"
   ],
-  "always_show_minimap_viewport": true,
   "close_windows_when_empty": false,
-  "color_scheme": "Packages/Atomic Color Scheme/Atomic - Dark blue (Soft).tmTheme",
+  "color_scheme": "Packages/Atomic Color Scheme/Atomic - Light (Hard).tmTheme",
   "draw_white_space": "all",
   "ensure_newline_at_eof_on_save": true,
   "font_face": "Fira Code",
