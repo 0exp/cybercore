@@ -15,6 +15,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'elixir-editors/vim-elixir'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'morhetz/gruvbox'
 call vundle#end()
 filetype plugin indent on
 
@@ -41,6 +42,7 @@ set hidden
 set number relativenumber
 set laststatus=2
 set cursorline
+set cursorcolumn
 set scrolloff=3
 set sidescrolloff=3
 set background=dark
@@ -77,6 +79,8 @@ set undodir=~/.vim/undo
 set keymap=russian-jcukenwin
 set iminsert=0
 set imsearch=0
+
+colorscheme gruvbox
 
 " nnoremap <C-J> <C-W><C-J>
 " nnoremap <C-K> <C-W><C-K>
