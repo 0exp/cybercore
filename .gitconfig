@@ -20,3 +20,25 @@
 [core]
   ignorecase = false
   excludesfile = /Users/daiver/.gitignore
+  whitespace=-indent-with-non-tab,trailing-space,cr-at-eol
+[filter "lfs"]
+  required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+[color]
+  ui = auto
+[color "branch"]
+  current = green
+  local = white
+  remote = cyan
+[color "diff"]
+  meta = white bold
+  frag = cyan
+  old = red
+  new = green
+  whitespace = red reverse
+[color "status"]
+  added = green
+  changed = red
+  untracked = red
