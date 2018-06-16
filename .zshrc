@@ -6,9 +6,6 @@ source $ZSH/oh-my-zsh.sh
 # register SSH credentials
 ssh-add -K ~/.ssh/id_rsa > /dev/null 2>&1
 
-# reload zsh environment
-alias zshreload!="source ~/.zshrc"
-
 # git aliases
 alias gbd="git branch -D"
 alias gbl="git branch -l"
@@ -19,18 +16,19 @@ alias gca="git add -A && git commit -m"
 alias gco="git checkout"
 alias gcb="git checkout -b"
 alias gst="git status"
-alias gdc="git diff --cached"
+alias gdfc="git diff --cached"
 alias gdf="git diff"
 alias gaa="git add ."
-alias gsw="git reset --soft HEAD^"
+alias gswipe="git reset --soft HEAD^"
 alias grs="git reset HEAD"
-alias gpl="git pull origin"
-alias gpo="git push origin"
-alias gph="git push"
+alias gplo="git pull origin"
+alias gpor="git push origin"
+alias gpp="git push"
 alias gpt="git push --tags"
 alias glg="git log --graph --date=relative --pretty=format:\"%C(yellow)%h%C(reset) (%C(cyan)%ad%C(reset)) [%C(green)%an%C(reset)] %C(white)%s%C(reset)\""
 alias glp="git log -p"
-alias gswp="git reset --soft HEAD^"
+alias gconfed="st ~/.gitconfig"
+alias ggnored="st ~/.gitignore"
 
 # initialize rbenv (ruby version manager)
 eval "$(rbenv init -)"
@@ -51,3 +49,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # initialize kiex (elixir version manager)
 [[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
+
+# register global editor
+export EDITOR="/usr/bin/vim"
