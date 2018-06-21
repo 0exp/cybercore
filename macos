@@ -8,6 +8,9 @@ brew install direnv
 brew install rbenv
 brew install mc
 
+# Documentation generator
+pip install mkdocs
+
 # Zsh Prompt
 yarn global add spaceship-prompt
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
