@@ -39,6 +39,7 @@ alias rbenv-upgrade="brew upgrade rbenv ruby-build"
 # bundler aliases
 alias be="bundle exec"
 alias bi="bundle install"
+alias bercop="bundle exec rubocop"
 
 # zsh aliases
 alias zshreload="source ~/.zshrc"
