@@ -40,6 +40,7 @@ alias rbenv-upgrade="brew upgrade rbenv ruby-build"
 alias be="bundle exec"
 alias bi="bundle install"
 alias bircop="bundle exec rubocop"
+alias birspec="bundle exec rspec"
 alias brake="bundle exec rake"
 
 # zsh aliases
