@@ -29,6 +29,7 @@ alias gpsh="git push"
 alias gpsht="git push --tags"
 alias glg="git log --graph --date=short --pretty=format:\"%C(yellow)%h%C(reset) (%C(cyan)%ad%C(reset)) [%C(green)%an%C(reset)] %C(white)%s%C(reset)\""
 alias glp="git log -p"
+alias grm="git rm"
 alias gconfed="st ~/.gitconfig"
 alias ggnored="st ~/.gitignore"
 
