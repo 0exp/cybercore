@@ -1,6 +1,6 @@
 export ZSH=/Users/DaiveR/.oh-my-zsh
 ZSH_THEME="spaceship"
-plugins=(sublime osx)
+plugins=(sublime osx brew)
 source $ZSH/oh-my-zsh.sh
 
 # register SSH credentials
