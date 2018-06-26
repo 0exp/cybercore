@@ -32,6 +32,7 @@ alias glp="git log -p"
 alias grm="git rm"
 alias gconfed="st ~/.gitconfig"
 alias ggnored="st ~/.gitignore"
+alias gitstat="git diff --stat master"
 
 # initialize rbenv (ruby version manager)
 eval "$(rbenv init -)"
