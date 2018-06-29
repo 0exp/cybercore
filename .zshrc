@@ -1,5 +1,7 @@
 export ZSH=/Users/DaiveR/.oh-my-zsh
 ZSH_THEME="spaceship"
+DISABLE_UPDATE_PROMPT=true
+DISABLE_AUTO_UPDATE=true
 plugins=(sublime osx brew)
 source $ZSH/oh-my-zsh.sh
 
@@ -48,6 +50,7 @@ alias brake="bundle exec rake"
 # zsh aliases
 alias zshreload="source ~/.zshrc"
 alias zshedit="st ~/.zshrc"
+alias zshupdate="upgrade_oh_my_zsh"
 
 # initialize NVM (nodejs version manager)
 export NVM_DIR="$HOME/.nvm"
@@ -56,6 +59,9 @@ export NVM_DIR="$HOME/.nvm"
 
 # initialize kiex (elixir version manager)
 [[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
+
+# initializ TravisCI cli tool
+[ -f /Users/DaiveR/.travis/travis.sh ] && source /Users/DaiveR/.travis/travis.sh
 
 # register global editor
 export EDITOR="/usr/bin/vim"
