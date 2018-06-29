@@ -70,6 +70,9 @@ export EDITOR="/usr/bin/vim"
 autoload -U promptinit; promptinit
 prompt spaceship
 
+# Corrects errors in previous console command
+eval $(thefuck --alias)
+
 # ZSH spaceship prompt settings
 SPACESHIP_PROMPT_ORDER=(
   time
