@@ -11,6 +11,9 @@ brew install mc
 # homebrew extended
 brew cask
 
+# Right browser in right place
+brew cask install finicky
+
 # Documentation generator
 pip install mkdocs
 
