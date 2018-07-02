@@ -8,6 +8,9 @@ brew install direnv
 brew install rbenv
 brew install mc
 
+# homebrew extended
+brew cask
+
 # Documentation generator
 pip install mkdocs
 
