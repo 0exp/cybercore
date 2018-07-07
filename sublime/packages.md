@@ -6,9 +6,10 @@
 - [Bracketeer](https://github.com/colinta/SublimeBracketeer)
 - [BracketHighlighter](https://github.com/facelessuser/BracketHighlighter)
 - [Colorsublme](https://github.com/Colorsublime/Colorsublime-Plugin)
-- [DashDoc]
+- [DashDoc](https://github.com/farcaller/DashDoc)
 - [Delete Current File](https://github.com/yaworsw/Sublime-DeleteCurrentFile)
 - [DockBlockr](https://github.com/spadgos/sublime-jsdocs)
+- [Dockerfile Syntax Highlighting](https://github.com/asbjornenge/Docker.tmbundle)
 - [Elixir](https://github.com/elixir-editors/elixir-tmbundle/)
 - [File Rename](https://github.com/brianlow/FileRename)
 - [Fix Mac Path](https://github.com/int3h/SublimeFixMacPath)
