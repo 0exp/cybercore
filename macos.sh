@@ -1,4 +1,11 @@
+#!/bin/sh
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+brew update
+brew upgrade
+
 npm install -g yarn
+
 brew install protobuf
 brew install tokey
 brew install ripgrep
@@ -7,9 +14,16 @@ brew install htop
 brew install direnv
 brew install rbenv
 brew install mc
+brew install pstree
+
+# Corrects errors in previous console command
+brew install fuck
 
 # homebrew extended
-brew cask
+brew cask # or brew install caskroom/cask/brew-cask
+
+# iterm2 <3
+brew cask install iterm2 && brew cask cleanup
 
 # Archiver
 brew cask install keka
@@ -19,9 +33,6 @@ brew cask install finicky
 
 # Documentation generator
 pip install mkdocs
-
-# Corrects errors in previous console command
-brew install fuck
 
 # Zsh Prompt
 yarn global add spaceship-prompt
