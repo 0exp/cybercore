@@ -18,6 +18,7 @@ brew install pstree
 brew install mkcert # locally-trusted development certificates
 brew install nss # mkcert->firefox support
 brew install fuck # (corrects errors in previous console command)
+brew install watchman
 brew cask # or brew install caskroom/cask/brew-cask (homebrew extended)
 brew cask install iterm2 && brew cask cleanup
 brew cask install keka # (archiver)
