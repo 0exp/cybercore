@@ -21,7 +21,6 @@ brew install fuck # (corrects errors in previous console command)
 brew install watchman
 brew install imagemagick # (ARGH AAARGGHHHHH)
 brew install erlang
-brew install node
 brew cask # or brew install caskroom/cask/brew-cask (homebrew extended)
 brew cask install iterm2 && brew cask cleanup
 brew cask install keka # (archiver)
@@ -38,3 +37,6 @@ pip install mkdocs # documentation generator
 yarn global add spaceship-prompt
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+
+# NodeJS
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
