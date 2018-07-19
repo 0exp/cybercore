@@ -38,5 +38,5 @@ yarn global add spaceship-prompt
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
-# NodeJS
+# NVM (nodejs version manager)
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
