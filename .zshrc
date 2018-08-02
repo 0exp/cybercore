@@ -11,8 +11,11 @@ ssh-add -K ~/.ssh/id_rsa > /dev/null 2>&1
 # git aliases
 alias gbd="git branch -D"
 alias gbl="git branch -l"
+alias gbr="git branch -r"
 alias gba="git branch -a"
 alias gbm="git branch -m"
+alias gblr="git for-each-ref --sort=-committerdate refs/remotes/ --format=\"%(objectname:short) (%(committerdate:short)) [%(authorname)] %(refname:short)\""
+alias gbll="git for-each-ref --sort=-committerdate refs/heads/ --format=\"%(objectname:short) (%(committerdate:short)) [%(authorname)] %(refname:short)\""
 alias gct="git commit"
 alias gmrg="git merge"
 alias gcm="git commit -m"
