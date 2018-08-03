@@ -79,8 +79,3 @@ set undodir=~/.vim/undo
 set keymap=russian-jcukenwin
 set iminsert=0
 set imsearch=0
-
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
