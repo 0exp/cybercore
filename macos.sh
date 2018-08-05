@@ -25,6 +25,7 @@ brew install nmap
 brew install redis
 brew install rabbitmq
 brew install memcached
+brew install shellcheck # shell script syntax analyzer
 brew cask # or brew install caskroom/cask/brew-cask (homebrew extended)
 brew cask install iterm2
 brew cask install keka # (archiver)
@@ -35,10 +36,8 @@ brew cask install firefox
 brew cask install postman # (api test utility)
 brew cask install virtualbox
 brew cask install sourcetree
-pip install mkdocs # documentation generator
 
-####!!!
-brew install shellcheck # <---- shell script syntax analyzer
+pip install mkdocs # documentation generator
 
 # Zsh Prompt
 yarn global add spaceship-prompt

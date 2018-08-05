@@ -78,4 +78,3 @@ set directory=~/.vim/swaps
 set undodir=~/.vim/undo
 set keymap=russian-jcukenwin
 set iminsert=0
-set imsearch=0
