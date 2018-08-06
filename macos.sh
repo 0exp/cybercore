@@ -25,6 +25,7 @@ brew install nmap
 brew install redis
 brew install rabbitmq
 brew install memcached
+brew install mercurial
 brew install shellcheck # shell script syntax analyzer
 brew cask # or brew install caskroom/cask/brew-cask (homebrew extended)
 brew cask install iterm2
@@ -49,6 +50,9 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | 
 
 # kiex (elixir version manager)
 curl -sSL https://raw.githubusercontent.com/taylor/kiex/master/install | bash -s
+
+# gvm (golang version manager)
+curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer
 
 brew cleanup
 brew cask cleanup
