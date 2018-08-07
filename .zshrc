@@ -58,6 +58,7 @@ alias bircop="bundle exec rubocop"
 alias bircopp="bundle exec rubocop --parallel"
 alias bircopa="bundle exec rubocop -a \$(git diff master --name-only --diff-filter=AMCRU | grep -E \".*\.rb\")"
 alias birspec="bundle exec rspec"
+alias brout="bundle outdated"
 alias brake="bundle exec rake"
 
 # zsh aliases
