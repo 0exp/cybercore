@@ -54,6 +54,7 @@ alias rbenv-upgrade="brew upgrade rbenv ruby-build"
 # bundler aliases
 alias be="bundle exec"
 alias bi="bundle install"
+alias bu="bundle update"
 alias bircop="bundle exec rubocop"
 alias bircopp="bundle exec rubocop --parallel"
 alias bircopa="bundle exec rubocop -a \$(git diff master --name-only --diff-filter=AMCRU | grep -E \".*\.rb\")"
