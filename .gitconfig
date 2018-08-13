@@ -1,6 +1,7 @@
 [user]
   name = Rustam Ibragimov
   email = iamdaiver@icloud.com
+  signingkey = 446071B01D1A9AB5
 [alias]
   pl = pull origin
   po = push origin
