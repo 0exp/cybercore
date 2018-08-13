@@ -39,3 +39,5 @@
   added = green
   changed = red
   untracked = red
+[commit]
+  gpgsign = true
