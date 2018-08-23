@@ -31,7 +31,6 @@ brwe install gpg
 brew cask # or brew install caskroom/cask/brew-cask (homebrew extended)
 brew cask install iterm2
 brew cask install keka # (archiver)
-brew cask install finicky # (right browser in right place)
 brew cask install sonic-pi # (<3 live-coding virtual synth)
 brew cask install google-chrome
 brew cask install firefox
