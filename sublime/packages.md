@@ -30,3 +30,4 @@
 - [TerminalView](https://github.com/Wramberg/TerminalView)
 - [TodoReview](https://github.com/jonathandelgado/SublimeTodoReview)
 - [VAlign](https://github.com/jarod2d/sublime_valign)
+- [SyncedSideBar](https://github.com/TheSpyder/SyncedSideBar)
