@@ -12,7 +12,8 @@
   "highlight_line": true,
   "ignored_packages":
   [
-    "Vintage"
+    "Vintage",
+    "SyncedSideBar",
   ],
   "indent_guide_options":
   [
