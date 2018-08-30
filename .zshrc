@@ -86,6 +86,9 @@ export NVM_DIR="$HOME/.nvm"
 # initializ TravisCI cli tool
 [ -f /Users/DaiveR/.travis/travis.sh ] && source /Users/DaiveR/.travis/travis.sh
 
+# initialize FZF tool (fuzzy finder)
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 # register global editor
 export EDITOR="/usr/bin/vim"
 
