@@ -27,6 +27,8 @@ brew install rabbitmq
 brew install memcached
 brew install mercurial
 brew install shellcheck # shell script syntax analyzer
+brew install fzf
+$(brew --prefix)/opt/fzf/install # install useful key bindings and fuzzy completions
 brwe install gpg
 brew cask # or brew install caskroom/cask/brew-cask (homebrew extended)
 brew cask install iterm2
