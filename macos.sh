@@ -25,6 +25,7 @@ brew install nmap
 brew install redis
 brew install rabbitmq
 brew install memcached
+brew install telnet
 brew install mercurial
 brew install shellcheck # shell script syntax analyzer
 brew install fzf
