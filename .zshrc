@@ -19,6 +19,7 @@ alias gbll="git for-each-ref --sort=-committerdate refs/heads/ --format=\"%(obje
 alias gct="git commit -S"
 alias gmrg="git merge"
 alias gcm="git commit -S -m"
+alias gcrn="git commit  -S --amend -m"
 alias gca="git add -A && git commit -S -m"
 alias gco="git checkout"
 alias gcb="git checkout -b"
