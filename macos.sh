@@ -41,6 +41,7 @@ brew cask install firefox
 brew cask install postman # (api test utility)
 brew cask install virtualbox
 brew cask install sourcetree
+brew cask install sublime # DUOO dunno :\
 
 pip install mkdocs # documentation generator
 
