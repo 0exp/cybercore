@@ -31,3 +31,4 @@
 - [TodoReview](https://github.com/jonathandelgado/SublimeTodoReview)
 - [VAlign](https://github.com/jarod2d/sublime_valign)
 - [SyncedSideBar](https://github.com/TheSpyder/SyncedSideBar)
+- [SublimeCodeIntel](https://www.sublimecodeintel.com)
