@@ -20,6 +20,10 @@
     "draw_normal",
     "draw_active"
   ],
+  "folder_exclude_patterns":
+  [
+    "node_modules"
+  ],
   "index_files": true,
   "index_workers": 10,
   "overlay_scroll_bars": "enabled",
