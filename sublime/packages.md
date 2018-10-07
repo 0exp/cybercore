@@ -32,3 +32,4 @@
 - [VAlign](https://github.com/jarod2d/sublime_valign)
 - [SyncedSideBar](https://github.com/TheSpyder/SyncedSideBar)
 - [SublimeCodeIntel](https://www.sublimecodeintel.com)
+- [Tmux Syntax Highlight](https://github.com/kei-q/sublime-tmux-syntax-highlight)
