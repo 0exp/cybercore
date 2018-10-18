@@ -2,4 +2,5 @@
   { "keys": ["super+§"], "command": "copy_path" },
   { "keys": ["super+alt+§"], "command": "reveal_in_side_bar" },
   { "keys": ["super+shift+k"], "command": "goto_definition" },
+  { "keys": ["super+shift+j"], "command": "view_in_browser", "args": { "browser": "chrome" } }
 ]
