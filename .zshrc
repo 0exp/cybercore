@@ -73,6 +73,9 @@ alias birspec="bundle exec rspec"
 alias brout="bundle outdated"
 alias brake="bundle exec rake"
 
+# rails aliases
+alias brc="bundle exec rails c"
+
 # zsh aliases
 alias zshreload="source ~/.zshrc"
 alias zshedit="st ~/.zshrc"
