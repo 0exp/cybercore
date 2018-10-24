@@ -100,6 +100,12 @@ export NVM_DIR="$HOME/.nvm"
 # initialize FZF tool (fuzzy finder)
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# initialize rust lang environment
+source $HOME/.cargo/env
+# rust aliases
+alias rustdoc="rustup doc"
+alias rustupdate="rustup update"
+
 # register global editor
 export EDITOR="/usr/bin/vim"
 
