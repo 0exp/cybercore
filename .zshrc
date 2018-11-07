@@ -72,6 +72,7 @@ alias bircopa="bundle exec rubocop -a \$(git diff master --name-only --diff-filt
 alias birspec="bundle exec rspec"
 alias brout="bundle outdated"
 alias brake="bundle exec rake"
+alias brails="bundle exec rails"
 
 # rails aliases
 alias brc="bundle exec rails c"
