@@ -34,3 +34,4 @@
 - [SublimeCodeIntel](https://www.sublimecodeintel.com)
 - [Tmux Syntax Highlight](https://github.com/kei-q/sublime-tmux-syntax-highlight)
 - [View in Browser](https://github.com/adampresley/sublime-view-in-browser)
+- [ChangeQuotes](https://github.com/colinta/SublimeChangeQuotes)
