@@ -16,6 +16,7 @@ alias gotoevilevents="cd ~/Projects/evil_events"
 alias gotoqonfig="cd ~/Projects/qonfig"
 alias gotoportal="cd ~/Projects/sidekiq-portal"
 alias gotorecipes="cd ~/Projects/recipes"
+alias gotosymbiont="cd ~/Projects/symbiont-ruby"
 alias openall="cd ~/Projects && st ."
 
 # git aliases
