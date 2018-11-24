@@ -46,6 +46,8 @@ brew cask install sublime # DUOO dunno :\
 
 pip install mkdocs # documentation generator
 
+gem install solargraph # Ruby LSP
+
 # Zsh Prompt
 yarn global add spaceship-prompt
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
