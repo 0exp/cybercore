@@ -9,7 +9,6 @@ Pry.config.history.file = '~/.pry_history'
 Pry.config.should_load_plugins = true
 Pry.config.should_load_rc = true
 Pry.config.memory_size = 300
-Pry.config.prompt = Pry::DEFAULT_PROMPT
 Pry.config.prompt_name = 'pry'
 Pry.config.output = $stdout
 Pry.config.print = Pry::DEFAULT_PRINT
