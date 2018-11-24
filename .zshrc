@@ -8,6 +8,16 @@ source $ZSH/oh-my-zsh.sh
 # register SSH credentials
 ssh-add -K ~/.ssh/id_rsa > /dev/null 2>&1
 
+# go to project :)
+alias gotodots="cd ~/Projects/dotfiles"
+alias gotoarmitage="cd ~/Projects/armitage"
+alias gotoanycahce="cd ~/Projects/any_cache"
+alias gotoevilevents="cd ~/Projects/evil_events"
+alias gotoqonfig="cd ~/Projects/qonfig"
+alias gotoportal="cd ~/Projects/sidekiq-portal"
+alias gotorecipes="cd ~/Projects/recipes"
+alias openall="cd ~/Projects && st ."
+
 # git aliases
 alias gbd="git branch -D"
 alias gbl="git branch -l"
