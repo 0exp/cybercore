@@ -11,20 +11,24 @@ ssh-add -K ~/.ssh/id_rsa > /dev/null 2>&1
 # go to project :)
 alias gotodots="cd ~/Projects/dotfiles"
 alias gotoarmitage="cd ~/Projects/armitage"
-alias gotoanycahce="cd ~/Projects/any_cache"
+alias gotoanycache="cd ~/Projects/any_cache"
 alias gotoevilevents="cd ~/Projects/evil_events"
 alias gotoqonfig="cd ~/Projects/qonfig"
 alias gotoportal="cd ~/Projects/sidekiq-portal"
 alias gotorecipes="cd ~/Projects/recipes"
 alias gotosymbiont="cd ~/Projects/symbiont-ruby"
+alias gototrinity="cd ~/Projects/trinity"
 alias openall="cd ~/Projects && st ."
+
+# project aliases
+alias st-trtr="gototrinity && OVERMIND_SOCKET=tinirty_app_sock overmind s -f ./Procfile"
 
 # git aliases
 alias gbd="git branch -D"
 alias gbl="git branch -l"
 alias gbr="git branch -r"
 alias gba="git branch -a"
-alias gbrn="git branch -m"
+alias gbm="git branch -m"
 alias gblr="git for-each-ref --sort=-committerdate refs/remotes/ --format=\"%(objectname:short) (%(committerdate:short)) [%(authorname)] %(refname:short)\""
 alias gbll="git for-each-ref --sort=-committerdate refs/heads/ --format=\"%(objectname:short) (%(committerdate:short)) [%(authorname)] %(refname:short)\""
 alias gct="git commit"
