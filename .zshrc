@@ -21,7 +21,7 @@ alias gototrinity="cd ~/Projects/trinity"
 alias openall="cd ~/Projects && st ."
 
 # project aliases
-alias st-trtr="gototrinity && OVERMIND_SOCKET=tinirty_app_sock overmind s -f ./Procfile"
+alias start-trinity="gototrinity && OVERMIND_SOCKET=tinirty_app_sock overmind s -f ./Procfile"
 
 # git aliases
 alias gbd="git branch -D"
