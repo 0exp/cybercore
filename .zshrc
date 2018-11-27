@@ -21,9 +21,10 @@ alias gototrinity="cd ~/Projects/trinity"
 alias openall="cd ~/Projects && st ."
 
 # project aliases
-alias start-trinity="gototrinity && OVERMIND_SOCKET=tinirty_app_sock overmind s -f ./Procfile"
+alias st-tnt="gototrinity && OVERMIND_SOCKET=tinirty_app_sock overmind s -f ./Procfile"
 
 # git aliases
+alias gtf='git log --reverse --date=short --pretty=format:"(%ad) [%an] %s" | head -1'
 alias gbd="git branch -D"
 alias gbl="git branch -l"
 alias gbr="git branch -r"
