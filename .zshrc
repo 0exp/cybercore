@@ -18,6 +18,7 @@ alias gotoportal="cd ~/Projects/sidekiq-portal"
 alias gotorecipes="cd ~/Projects/recipes"
 alias gotosymbiont="cd ~/Projects/symbiont-ruby"
 alias gototrinity="cd ~/Projects/trinity"
+alias gotoprojects="cd ~/Projects"
 alias openall="cd ~/Projects && st ."
 
 # project aliases
