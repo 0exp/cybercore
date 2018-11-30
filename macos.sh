@@ -6,6 +6,7 @@ brew upgrade
 
 npm install -g yarn
 
+brew install blueutil # console bluetooth utility
 brew install protobuf
 brew install tokey
 brew install ripgrep
