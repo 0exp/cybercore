@@ -40,4 +40,6 @@
   changed = red
   untracked = red
 [commit]
-  gpgsign = true
+  gpgsign = false
+[pull]
+  rebase = true
