@@ -22,7 +22,10 @@ alias gotoprojects="cd ~/Projects"
 alias openall="cd ~/Projects && st ."
 
 # project aliases
-alias st-tnt="gototrinity && OVERMIND_SOCKET=tinirty_app_sock overmind s -f ./Procfile"
+alias st-trn="gototrinity && OVERMIND_SOCKET=tinirty_app_sock overmind s -f ./Procfile"
+alias trn-rc="gototrinity && bundle exec rails c"
+alias trn-migrate="gototrinity && bundle exec rails db:migrate"
+alias trn-rollback="gototrinity && bundle exec rails db:rollback"
 
 # git aliases
 alias gtf='git log --reverse --date=short --pretty=format:"(%ad) [%an] %s" | head -1'
@@ -111,6 +114,8 @@ alias edit-gpg-key="gpg --edit-key" # for example ("rsa2048/0123456A01A0A0AB0"):
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# install/reinstall nvm
+alias nvm-install="curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash"
 
 # initialize kiex (elixir version manager)
 [[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
