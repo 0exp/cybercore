@@ -60,8 +60,5 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | 
 # kiex (elixir version manager)
 curl -sSL https://raw.githubusercontent.com/taylor/kiex/master/install | bash -s
 
-# gvm (golang version manager)
-curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer
-
 brew cleanup
 brew cask cleanup
