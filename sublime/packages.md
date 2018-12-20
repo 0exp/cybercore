@@ -36,5 +36,5 @@
 - [View in Browser](https://github.com/adampresley/sublime-view-in-browser)
 - [ChangeQuotes](https://github.com/colinta/SublimeChangeQuotes)
 - [LSP](https://github.com/tomv564/LSP)
-- [Local History)(https://github.com/vishr/local-history)]
+- [Local History](https://github.com/vishr/local-history)
 - [TypeScript Syntax](https://github.com/braver/TypeScriptSyntax)
