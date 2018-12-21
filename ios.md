@@ -6,3 +6,5 @@
 - dash
 - githawk
 - byword
+- testflight
+- команды
