@@ -82,6 +82,7 @@ alias gignored="st ~/.gitignore"
 alias gdfstat="git diff --stat master"
 alias glas="git config --get-regexp alias"
 alias gitmans="git shortlog --summary --numbered"
+alias grkn='git commit --amend --author="Rustam Ibragimov <iamdaiver@icloud.com>'
 
 # initialize rbenv (ruby version manager)
 eval "$(rbenv init -)"
