@@ -38,3 +38,4 @@
 - [LSP](https://github.com/tomv564/LSP)
 - [Local History](https://github.com/vishr/local-history)
 - [TypeScript Syntax](https://github.com/braver/TypeScriptSyntax)
+- [Vue Syntax Highlight](https://github.com/vuejs/vue-syntax-highlight)
