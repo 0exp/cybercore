@@ -62,3 +62,6 @@ curl -sSL https://raw.githubusercontent.com/taylor/kiex/master/install | bash -s
 
 brew cleanup
 brew cask cleanup
+
+# Sublime Symlink!! :)
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" subl

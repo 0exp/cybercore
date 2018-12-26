@@ -2,7 +2,7 @@ export ZSH=/Users/DaiveR/.oh-my-zsh
 ZSH_THEME="spaceship"
 DISABLE_UPDATE_PROMPT=true
 DISABLE_AUTO_UPDATE=true
-plugins=(sublime osx brew docker gpg-agent)
+plugins=(osx brew docker gpg-agent)
 source $ZSH/oh-my-zsh.sh
 
 # register SSH credentials
@@ -91,6 +91,7 @@ alias rbenv-upgrade="brew upgrade rbenv ruby-build"
 alias be="bundle exec"
 alias bi="bundle install"
 alias bu="bundle update"
+alias bo="EDITOR=subl bundle open"
 alias bircop="bundle exec rubocop"
 alias bircopp="bundle exec rubocop --parallel"
 alias bircopa="bundle exec rubocop -a \$(git diff master --name-only --diff-filter=AMCRU | grep -E \".*\.rb\")"
