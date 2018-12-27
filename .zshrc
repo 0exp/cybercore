@@ -2,7 +2,7 @@ export ZSH=/Users/DaiveR/.oh-my-zsh
 ZSH_THEME="spaceship"
 DISABLE_UPDATE_PROMPT=true
 DISABLE_AUTO_UPDATE=true
-plugins=(osx brew docker gpg-agent)
+plugins=(sublime osx brew docker gpg-agent)
 source $ZSH/oh-my-zsh.sh
 
 # register SSH credentials
