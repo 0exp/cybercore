@@ -19,6 +19,7 @@ alias gotorecipes="cd ~/Projects/recipes"
 alias gotosymbiont="cd ~/Projects/symbiont-ruby"
 alias gototrinity="cd ~/Projects/trinity"
 alias gotorabbitmatcher="cd ~/Projects/rabbit_matcher"
+alias gotosmartcore="cd ~/Projects/smart_core"
 alias gotoprojects="cd ~/Projects"
 alias openall="cd ~/Projects && st ."
 
