@@ -26,10 +26,10 @@ alias gotoprojects="cd ~/Projects"
 alias openall="cd ~/Projects && st ."
 
 # project aliases
-alias st-trn="gototrinity && OVERMIND_SOCKET=tinirty_app_sock overmind s -f ./Procfile"
-alias trn-rc="gototrinity && bundle exec rails c"
-alias trn-migrate="gototrinity && bundle exec rails db:migrate"
-alias trn-rollback="gototrinity && bundle exec rails db:rollback"
+alias st-trn="gototrinity && cd server && OVERMIND_SOCKET=tinirty_app_sock overmind s -f ./Procfile"
+alias trn-rc="gototrinity && cd server && bundle exec rails c"
+alias trn-migrate="gototrinity && cd server && bundle exec rails db:migrate"
+alias trn-rollback="gototrinity && cd server && bundle exec rails db:rollback"
 
 # git aliases
 alias gtf='git log --reverse --date=short --pretty=format:"(%ad) [%an] %s" | head -1'
