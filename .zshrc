@@ -164,12 +164,14 @@ alias rustupdate="rustup update"
 # register global editor
 export EDITOR="/usr/bin/vim"
 
+# Corrects errors in previous console command
+eval $(thefuck --alias)
+
 # Set Spaceship ZSH as a prompt
 autoload -U promptinit; promptinit
 prompt spaceship
-
-# Corrects errors in previous console command
-eval $(thefuck --alias)
+# upgrade spaceship prompt
+alias spacegrade="yarn global upgrade spaceship"
 
 # ZSH spaceship prompt settings
 SPACESHIP_PROMPT_ORDER=(
