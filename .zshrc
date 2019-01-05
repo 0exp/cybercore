@@ -2,7 +2,7 @@ export ZSH=/Users/DaiveR/.oh-my-zsh
 ZSH_THEME="spaceship"
 DISABLE_UPDATE_PROMPT=true
 DISABLE_AUTO_UPDATE=true
-plugins=(sublime osx brew docker gpg-agent)
+plugins=(sublime osx brew docker ssh postgres gpg-agent)
 source $ZSH/oh-my-zsh.sh
 
 # register SSH credentials
@@ -81,7 +81,7 @@ alias gtg="git tag"
 alias gstg="git tag -s"
 alias gtv="git tag -v"
 alias gconfed="st ~/.gitconfig"
-alias gignored="st ~/.gitignore"
+alias ggnored="st ~/.gitignore"
 alias gdfstat="git diff --stat master"
 alias glas="git config --get-regexp alias"
 alias gitmans="git shortlog --summary --numbered"
