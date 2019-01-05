@@ -64,4 +64,5 @@ brew cleanup
 brew cask cleanup
 
 # Sublime Symlink!! :)
+# before: cd /usr/local/bin
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" subl
