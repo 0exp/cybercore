@@ -21,6 +21,7 @@ alias gotosymbiont="cd ~/Projects/symbiont-ruby"
 alias gototrinity="cd ~/Projects/trinity"
 alias gotorabbitmatcher="cd ~/Projects/rabbit_matcher"
 alias gotosmartcore="cd ~/Projects/smart_core"
+alias gotosidekiqportal="cd ~/Projects/sidekiq-portal"
 alias gotoprojects="cd ~/Projects"
 alias openall="cd ~/Projects && st ."
 
