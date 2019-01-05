@@ -10,6 +10,7 @@ ssh-add -K ~/.ssh/id_rsa > /dev/null 2>&1
 
 # go to project :)
 alias gotodots="cd ~/Projects/dotfiles"
+alias gotoblastwave="cd ~/Projects/blast_wave"
 alias gotoarmitage="cd ~/Projects/armitage"
 alias gotoanycache="cd ~/Projects/any_cache"
 alias gotoevilevents="cd ~/Projects/evil_events"
