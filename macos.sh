@@ -1,6 +1,8 @@
 #!/bin/sh
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
+# TODO: migrate to ansible
+
 brew update
 brew upgrade
 
