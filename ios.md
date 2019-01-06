@@ -10,3 +10,4 @@
 - terminus
 - команды
 - OpenVPN
+- (testflifght) iSH
