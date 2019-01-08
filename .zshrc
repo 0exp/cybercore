@@ -23,7 +23,7 @@ alias gotorabbitmatcher="cd ~/Projects/rabbit_matcher"
 alias gotosmartcore="cd ~/Projects/smart_core"
 alias gotosidekiqportal="cd ~/Projects/sidekiq-portal"
 alias gotoprojects="cd ~/Projects"
-alias openall="cd ~/Projects && st ."
+alias openall="st ~/Projects"
 
 # project aliases
 alias st-trn="gototrinity && cd server && OVERMIND_SOCKET=tinirty_app_sock overmind s -f ./Procfile"
