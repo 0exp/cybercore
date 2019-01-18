@@ -23,7 +23,7 @@ alias gotorabbitmatcher="cd ~/Projects/rabbit_matcher"
 alias gotosmartcore="cd ~/Projects/smart_core"
 alias gotosidekiqportal="cd ~/Projects/sidekiq-portal"
 alias gotoprojects="cd ~/Projects"
-alias openall="st ~/Projects"
+alias openprojects="st ~/Projects"
 
 # project aliases
 alias st-trn="gototrinity && cd server && OVERMIND_SOCKET=tinirty_app_sock overmind s -f ./Procfile"
@@ -172,7 +172,6 @@ autoload -U promptinit; promptinit
 prompt spaceship
 # upgrade spaceship prompt
 alias spacegrade="yarn global upgrade spaceship"
-
 # ZSH spaceship prompt settings
 SPACESHIP_PROMPT_ORDER=(
   time
