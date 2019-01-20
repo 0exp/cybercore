@@ -46,6 +46,7 @@ brew cask install postman # (api test utility)
 brew cask install virtualbox
 brew cask install sourcetree
 brew cask install sublime # DUOO dunno :\
+brew install fx # command-line json viewer O.O
 
 pip install mkdocs # documentation generator
 
