@@ -30,6 +30,7 @@ alias st-trn="gototrinity && cd server && OVERMIND_SOCKET=tinirty_app_sock overm
 alias trn-rc="gototrinity && cd server && bundle exec rails c"
 alias trn-migrate="gototrinity && cd server && bundle exec rails db:migrate"
 alias trn-rollback="gototrinity && cd server && bundle exec rails db:rollback"
+alias tp-migrate="RAILS_ENV=test bundle exec rails db:drop db:create db:migrate"
 
 # git aliases
 alias gtf='git log --reverse --date=short --pretty=format:"(%ad) [%an] %s" | head -1'
