@@ -41,3 +41,4 @@
 - [Vue Syntax Highlight](https://github.com/vuejs/vue-syntax-highlight)
 - [Sass](https://github.com/braver/SublimeSass)
 - [Ansible](https://github.com/clifford-github/sublime-ansible)
+- [Swift](https://github.com/quiqueg/Swift-Sublime-Package)
