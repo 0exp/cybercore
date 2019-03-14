@@ -109,7 +109,7 @@ alias brails="bundle exec rails"
 alias brc="bundle exec rails c"
 
 # zsh aliases
-alias zshreload="source ~/.zshrc"
+alias zshreload="source ~/.zshrc && clear"
 alias zshedit="st ~/.zshrc"
 alias zshupgrade="upgrade_oh_my_zsh"
 
