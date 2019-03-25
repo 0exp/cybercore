@@ -114,6 +114,7 @@ alias brc="bundle exec rails c"
 alias zshreload="source ~/.zshrc && clear"
 alias zshedit="st ~/.zshrc"
 alias zshupgrade="upgrade_oh_my_zsh"
+alias zhsuodate="zshupgrade"
 
 # gpg
 alias show-gpg-keys="gpg --list-secret-keys --keyid-format LONG"
