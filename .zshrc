@@ -8,6 +8,9 @@ source $ZSH/oh-my-zsh.sh
 # register SSH credentials
 ssh-add -K ~/.ssh/id_rsa > /dev/null 2>&1
 
+# BETTER LIFE
+alias clr="clear"
+
 # go to project :)
 alias gotodots="cd ~/Projects/dotfiles && clear"
 alias gotoblastwave="cd ~/Projects/blast_wave && clear"
