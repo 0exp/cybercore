@@ -5,11 +5,11 @@
 - macOS environment
 
 ```shell
-ansible-playbook ./macbook.yml
+ansible-playbook ./playbooks/macbook.yml
 ```
 
 - macOS tasks (see via dry-run)
 
 ```shell
-ansible-playbook ./macbook.yml --check
+ansible-playbook ./playbooks/macbook.yml --check
 ```
