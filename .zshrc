@@ -29,6 +29,7 @@ alias gotoprojects="cd ~/Projects && clear"
 alias openprojects="st ~/Projects"
 alias opengoprojects="st ~/go"
 alias gotogoprojects="cd ~/go"
+alias gotohome="cd ~"
 
 # project aliases
 alias st-trn="gototrinity && cd server && OVERMIND_SOCKET=tinirty_app_sock overmind s -f ./Procfile"
