@@ -152,12 +152,8 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
-
 # install/reinstall nvm
 alias nvm-install="curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash"
-
-# initialize kiex (elixir version manager)
-[[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
 
 # initializ TravisCI cli tool
 [ -f /Users/DaiveR/.travis/travis.sh ] && source /Users/DaiveR/.travis/travis.sh
