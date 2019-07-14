@@ -45,8 +45,6 @@ brew cask install firefox
 brew cask install postman # (api test utility)
 brew cask install virtualbox
 brew cask install sourcetree
-brew cask install sublime # DUOO dunno :\
-brew install fx # command-line json viewer O.O
 
 pip install mkdocs # documentation generator
 
@@ -54,14 +52,11 @@ gem install solargraph # Ruby LSP
 
 # Zsh Prompt
 yarn global add spaceship-prompt
-git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
-ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH/themes/spaceship-prompt"
+ln -s "$ZSH/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH/themes/spaceship.zsh-theme"
 
 # NVM (nodejs version manager)
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
-
-# kiex (elixir version manager)
-curl -sSL https://raw.githubusercontent.com/taylor/kiex/master/install | bash -s
 
 brew cleanup
 brew cask cleanup
