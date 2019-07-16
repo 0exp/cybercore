@@ -1,0 +1,6 @@
+---
+
+- name: "Install <dropbox>"
+  homebrew_cask:
+    package: dropbox
+    state: latest

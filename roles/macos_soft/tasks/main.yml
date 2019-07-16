@@ -1,0 +1,36 @@
+---
+
+- name: 'Install macOS-related necessary software'
+  include_tasks: "{{ item }}.yml"
+  with_items:
+    - protobuf
+    - ripgrep
+    - tmux
+    - htop
+    - direnv
+    - mc
+    - mkcert
+    - nss
+    - nmap
+    - telnet
+    - shellcheck
+    - fzf
+    - bat
+    - dnsmasq
+    - gpg
+    - wget
+    - tree
+    - tree
+    - pstree
+    - blueutil
+    - keka
+    - slack
+    - iterm2
+    - dropbox
+    - transmission
+    - jetbrains-toolbox
+    - sublime-text
+    - skype
+    - google-chrome
+    - vlc
+    - cleanup

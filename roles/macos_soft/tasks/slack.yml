@@ -1,0 +1,6 @@
+---
+
+- name: "Install <slack>"
+  homebrew_cask:
+    package: slack
+    state: latest

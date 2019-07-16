@@ -1,0 +1,6 @@
+---
+
+- name: "Install <ripgrep>"
+  homebrew:
+    package: ripgrep
+    state: latest

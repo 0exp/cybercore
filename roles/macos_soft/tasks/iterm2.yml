@@ -1,0 +1,6 @@
+---
+
+- name: "Install <iterm2>"
+  homebrew_cask:
+    package: iterm2
+    state: latest

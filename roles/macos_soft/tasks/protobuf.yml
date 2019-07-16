@@ -1,0 +1,6 @@
+---
+
+- name: "Install <protobuf>"
+  homebrew:
+    package: protobuf
+    state: latest

@@ -1,0 +1,6 @@
+---
+
+- name: "Install <shellcheck>"
+  homebrew:
+    package: shellcheck
+    state: latest

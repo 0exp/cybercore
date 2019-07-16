@@ -1,0 +1,6 @@
+---
+
+- name: "Install <tree>"
+  homebrew:
+    package: tree
+    state: latest

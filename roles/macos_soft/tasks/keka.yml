@@ -1,0 +1,6 @@
+---
+
+- name: "Install <keka>"
+  homebrew_cask:
+    package: keka
+    state: latest

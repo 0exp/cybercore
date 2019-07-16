@@ -1,0 +1,31 @@
+---
+
+- name: "[dev/js] Remove old <nvm>"
+  become: yes
+  become_user: "{{ macbook.home_user }}"
+  file:
+    path: "{{ macbook.development.js.nvm_path }}"
+    state: absent
+
+- name: "[dev/js] Install <nvm@{{ macbook.development.js.nvm_version }}>"
+  become: yes
+  become_user: "{{ macbook.home_user }}"
+  git:
+    repo: https://github.com/nvm-sh/nvm
+    dest: "{{ macbook.development.js.nvm_path }}"
+    version: "{{ macbook.development.js.nvm_version }}"
+
+- name: "[dev/js] Install <nodejs@{{ macbook.development.js.node_version }}>"
+  become: yes
+  become_user: "{{ macbook.home_user }}"
+  shell: |
+    source {{ macbook.development.js.nvm_path }}/nvm.sh
+    nvm install {{ macbook.development.js.node_version }}
+
+- name: "[dev/js] Install <yarn@{{ macbook.development.js.yarn_version }}>"
+  become: yes
+  become_user: "{{ macbook.home_user }}"
+  npm:
+    name: yarn
+    version: "{{ macbook.development.js.yarn_version }}"
+    global: yes

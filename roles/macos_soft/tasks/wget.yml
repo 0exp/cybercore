@@ -1,0 +1,6 @@
+---
+
+- name: "Install <wget>"
+  homebrew:
+    package: wget
+    state: latest

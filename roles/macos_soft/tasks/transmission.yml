@@ -1,0 +1,6 @@
+---
+
+- name: "Install <transmission>"
+  homebrew_cask:
+    package: transmission
+    state: latest

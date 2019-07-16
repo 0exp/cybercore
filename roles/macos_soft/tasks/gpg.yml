@@ -1,0 +1,6 @@
+---
+
+- name: "Install <gpg>"
+  homebrew:
+    package: gpg
+    state: latest

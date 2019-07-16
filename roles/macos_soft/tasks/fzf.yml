@@ -1,0 +1,6 @@
+---
+
+- name: "Install <fzf>"
+  homebrew:
+    package: fzf
+    state: latest

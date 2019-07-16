@@ -1,0 +1,6 @@
+---
+
+- name: "Install <telnet>"
+  homebrew:
+    package: telnet
+    state: latest

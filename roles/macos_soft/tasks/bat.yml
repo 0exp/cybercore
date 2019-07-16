@@ -1,0 +1,6 @@
+---
+
+- name: "Install <bat>"
+  homebrew:
+    package: bat
+    state: latest

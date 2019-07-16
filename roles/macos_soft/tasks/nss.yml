@@ -1,0 +1,6 @@
+---
+
+- name: "Install <nss>"
+  homebrew:
+    package: nss
+    state: latest

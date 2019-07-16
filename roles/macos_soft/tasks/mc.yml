@@ -1,0 +1,6 @@
+---
+
+- name: "Install <mc>"
+  homebrew:
+    package: mc
+    state: latest

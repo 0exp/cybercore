@@ -1,0 +1,6 @@
+---
+
+- name: "Install <nmap>"
+  homebrew:
+    package: nmap
+    state: latest

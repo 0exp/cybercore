@@ -1,0 +1,6 @@
+---
+
+- name: "Install <mkcert>"
+  homebrew:
+    package: mkcert
+    state: latest

@@ -1,0 +1,6 @@
+---
+
+- name: "Install <htop>"
+  homebrew:
+    package: htop
+    state: latest
