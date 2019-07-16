@@ -22,12 +22,12 @@
       register: macbook_rbenv_ruby_versions
 
     - name: "[macOS/dev/ruby] Install <ruby@{{ macbook.development.ruby.ruby_version }}>"
-      shell: |
-        eval "$(rbenv init -)"
-        rbenv install {{ macbook.development.ruby.ruby_version }}
+      shell: rbenv install {{ macbook.development.ruby.ruby_version }}
       when: macbook.development.ruby.ruby_version not in macbook_rbenv_ruby_versions.stdout
 
     - name: "[macOS/dev/ruby] Install <bundler@{{ macbook.development.ruby.bundler_version }}>"
-      shell:
-        eval "$(rbenv init -)"
+      become: yes
+      become_user: "{{ macbook.home_user }}"
+      shell: |
+        rbenv local {{ macbook.development.ruby.ruby_version }}
         gem install bundler --version={{ macbook.development.ruby.bundler_version }}
