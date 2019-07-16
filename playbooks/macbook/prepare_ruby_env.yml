@@ -29,5 +29,5 @@
       become: yes
       become_user: "{{ macbook.home_user }}"
       shell: |
-        rbenv local {{ macbook.development.ruby.ruby_version }}
+        rbenv shell {{ macbook.development.ruby.ruby_version }}
         gem install bundler --version={{ macbook.development.ruby.bundler_version }}
