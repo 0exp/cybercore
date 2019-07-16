@@ -1,0 +1,6 @@
+---
+
+- import_playbook: macbook/initial_system_configuration.yml
+- import_playbook: macbook/install_common_software.yml
+- import_playbook: macbook/prepare_js_env.yml
+- import_playbook: macbook/prepare_ruby_env.yml

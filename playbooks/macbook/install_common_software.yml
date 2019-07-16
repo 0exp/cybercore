@@ -1,0 +1,155 @@
+---
+
+- name: "[homebrew] Install common software"
+  hosts: macbook
+  gather_facts: yes
+  tasks:
+    - name: "[homebrew/packages] Install <protobuf>"
+      homebrew:
+        package: protobuf
+        state: latest
+
+    - name: "[homebrew/packages] Install <ripgrep>"
+      homebrew:
+        package: ripgrep
+        state: latest
+
+    - name: "[homebrew/packages] Install <tmux>"
+      homebrew:
+        package: tmux
+        state: latest
+
+    - name: "[homebrew/packages] Install <htop>"
+      homebrew:
+        package: htop
+        state: latest
+
+    - name: "[homebrew/packages] Install <direnv>"
+      homebrew:
+        package: direnv
+        state: latest
+
+    - name: "[homebrew/packages] Install <mc>"
+      homebrew:
+        package: mc
+        state: latest
+
+    # locally-trusted development certificates
+    - name: "[homebrew/packages] Install <mkcert>"
+      homebrew:
+        package: mkcert
+        state: latest
+
+    # mkcert->firefox support
+    - name: "[homebrew/packages] Install <nss>"
+      homebrew:
+        package: nss
+        state: latest
+
+    - name: "[homebrew/packages] Install <nmap>"
+      homebrew:
+        package: nmap
+        state: latest
+
+    - name: "[homebrew/packages] Install <telnet>"
+      homebrew:
+        package: telnet
+        state: latest
+
+    - name: "[homebrew/packages] Install <shellcheck>"
+      homebrew:
+        package: shellcheck
+        state: latest
+
+    - name: "[homebrew/packages] Install <fzf>"
+      homebrew:
+        package: fzf
+        state: latest
+
+    - name: "[homebrew/packages] Install <bat>"
+      homebrew:
+        package: bat
+        state: latest
+
+    - name: "[homebrew/packages] Install <dnsmasq>"
+      homebrew:
+        package: dnsmasq
+        state: latest
+
+    - name: "[homebrew/packages] Install <gpg>"
+      homebrew:
+        package: gpg
+        state: latest
+
+    - name: "[homebrew/packages] Install <wget>"
+      homebrew:
+        package: wget
+        state: latest
+
+    - name: "[homebrew/packages] Install <tree>"
+      homebrew:
+        package: tree
+        state: latest
+
+    - name: "[homebrew/packages] Install <vault>"
+      homebrew:
+        package: tree
+        state: latest
+
+    - name: "[homebrew/packages] Install <pstree>"
+      homebrew:
+        package: pstree
+        state: latest
+
+    - name: "[homebrew/packages] Install <blueutil>"
+      homebrew:
+        package: blueutil
+        state: latest
+
+    - name: "[homebrew/packages/cask] Install <keka>"
+      homebrew_cask:
+        package: keka
+        state: latest
+
+    - name: "[homebrew/packages/cask] Install <slack>"
+      homebrew_cask:
+        package: slack
+        state: latest
+
+    - name: "[homebrew/package/cask] Install <iterm2>"
+      homebrew_cask:
+        package: iterm2
+        state: latest
+
+    - name: "[homebrew/package/cask] Install <dropbox>"
+      homebrew_cask:
+        package: dropbox
+        state: latest
+
+    - name: "[homebrew/package] Install <transmission>"
+      homebrew_cask:
+        package: transmission
+        state: latest
+
+    - name: "[homebrew/package/cask] Install <jetbrains-toolbox>"
+      homebrew_cask:
+        package: jetbrains-toolbox
+        state: latest
+
+    - name: "[homebrew/package/cask] Install <sublime-text>"
+      homebrew_cask:
+        package: sublime-text
+        state: latest
+
+    - name: "[homebrew/package/cask] Install <skype>"
+      homebrew_cask:
+        package: skype
+        state: latest
+
+    - name: "[homebrew/package/cask] Insall <google-chrome>"
+      homebrew_cask:
+        package: google-chrome
+        state: latest
+
+    - name: "[homebrew] Cleanup"
+      command: "brew cleanup && brew cask cleanup"

@@ -1,33 +1,38 @@
 ---
 
-- name: "[macOS/dev/ruby] Prepare Ruby Environment"
+- name: "[dev/ruby] Prepare Ruby Environment"
   hosts: macbook
   gather_facts: yes
 
   tasks:
-    - name: "[macOS/dev/ruby] Install <rbenv>"
+    - name: "[dev/ruby] Install <rbenv>"
       homebrew:
         package: rbenv
         state: latest
         update_homebrew: yes
 
-    - name: "[macOS/dev/ruby] Install <ruby-build>"
+    - name: "[dev/ruby] Install <ruby-build>"
       homebrew:
         package: ruby-build
         state: latest
         update_homebrew: yes
 
-    - name: "[macOS/dev/ruby] Check installed ruby versions"
+    - name: "[dev/ruby] Check installed ruby versions"
       shell: rbenv versions
       register: macbook_rbenv_ruby_versions
 
-    - name: "[macOS/dev/ruby] Install <ruby@{{ macbook.development.ruby.ruby_version }}>"
+    - name: "[dev/ruby] Install <ruby@{{ macbook.development.ruby.ruby_version }}>"
       shell: rbenv install {{ macbook.development.ruby.ruby_version }}
       when: macbook.development.ruby.ruby_version not in macbook_rbenv_ruby_versions.stdout
 
-    - name: "[macOS/dev/ruby] Install <bundler@{{ macbook.development.ruby.bundler_version }}>"
+    - name: "[dev/ruby] Install <bundler@{{ macbook.development.ruby.bundler_version }}>"
       become: yes
       become_user: "{{ macbook.home_user }}"
       shell: |
         rbenv shell {{ macbook.development.ruby.ruby_version }}
         gem install bundler --version={{ macbook.development.ruby.bundler_version }}
+
+    - name: "[dev/ruby] Set global ruby version to {{ macbook.development.ruby.ruby_version }}"
+      become: yes
+      become_user: "{{ macbook.home_user }}"
+      command: rbenv global {{ macbook.development.ruby.ruby_version }}
