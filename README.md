@@ -6,3 +6,4 @@ Macbook env:
 ### TODO
 
 - publish my ansible roles to `ansible-galaxy`
+- macOS pre-ansible-installation readme
