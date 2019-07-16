@@ -1,0 +1,11 @@
+---
+
+macbook:
+  home_user: "{{ ansible_user_id }}"
+  home_path: "{{ ansible_env.HOME }}"
+
+  development:
+    js:
+      nvm_path: "{{ ansible_env.HOME }}/.nvm"
+      nvm_version: v0.34.0
+      node_version: node

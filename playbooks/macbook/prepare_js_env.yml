@@ -1,0 +1,35 @@
+---
+
+- name: "[macOS/dev/js] Prepare JavaScript Environment"
+  hosts: macbook
+  gather_facts: yes
+
+  tasks:
+    - name: "[macOS/dev/js] NVM: remove old NVM"
+      become: yes
+      become_user: "{{ macbook.home_user }}"
+      file:
+        path: "{{ macbook.development.js.nvm_path }}"
+        state: absent
+
+    - name: "[macOS/dev/js] NVM: install NVM"
+      become: yes
+      become_user: "{{ macbook.home_user }}"
+      git:
+        repo: https://github.com/nvm-sh/nvm
+        dest: "{{ macbook.development.js.nvm_path }}"
+        version: "{{ macbook.development.js.nvm_version }}"
+
+    - name: "[macOS/dev/js] NVM: install the latest nodejs"
+      become: yes
+      become_user: "{{ macbook.home_user }}"
+      shell: |
+        source {{ macbook.development.js.nvm_path }}/nvm.sh
+        nvm install {{ macbook.development.js.node_version }}
+
+    - name: "[macOS/dev/js] YARN: install yarn package manager"
+      become: yes
+      become_user: "{{ macbook.home_user }}"
+      npm:
+        name: yarn
+        global: yes
