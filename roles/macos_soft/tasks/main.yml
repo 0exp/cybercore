@@ -1,6 +1,6 @@
 ---
 
-- name: 'Install macOS-related necessary software'
+- name: "Install macOS-related necessary software"
   include_tasks: "{{ item }}.yml"
   with_items:
     - protobuf

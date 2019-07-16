@@ -1,6 +1,6 @@
 ---
 
-- name: "Install <sublime-text>"
+- name: "[homebrew/pkg] Install <sublime-text>"
   homebrew_cask:
     package: sublime-text
     state: latest

@@ -1,6 +1,6 @@
 ---
 
-- name: "Install <nss>"
+- name: "[homebrew/pkg] Install <nss>"
   homebrew:
     package: nss
     state: latest

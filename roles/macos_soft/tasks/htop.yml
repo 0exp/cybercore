@@ -1,6 +1,6 @@
 ---
 
-- name: "Install <htop>"
+- name: "[homebrew/pkg] Install <htop>"
   homebrew:
     package: htop
     state: latest

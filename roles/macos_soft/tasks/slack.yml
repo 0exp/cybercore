@@ -1,6 +1,6 @@
 ---
 
-- name: "Install <slack>"
+- name: "[homebrew/pkg] Install <slack>"
   homebrew_cask:
     package: slack
     state: latest

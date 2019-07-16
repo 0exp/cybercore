@@ -1,6 +1,6 @@
 ---
 
-- name: "Install <direnv>"
+- name: "[homebrew/pkg] Install <direnv>"
   homebrew:
     package: direnv
     state: latest

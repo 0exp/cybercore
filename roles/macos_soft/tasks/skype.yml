@@ -1,6 +1,6 @@
 ---
 
-- name: "Install <skype>"
+- name: "[homebrew/pkg] Install <skype>"
   homebrew_cask:
     package: skype
     state: latest

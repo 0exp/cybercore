@@ -1,6 +1,6 @@
 ---
 
-- name: "Install <shellcheck>"
+- name: "[homebrew/pkg] Install <shellcheck>"
   homebrew:
     package: shellcheck
     state: latest

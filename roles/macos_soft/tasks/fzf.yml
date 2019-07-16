@@ -1,6 +1,6 @@
 ---
 
-- name: "Install <fzf>"
+- name: "[homebrew/pkg] Install <fzf>"
   homebrew:
     package: fzf
     state: latest

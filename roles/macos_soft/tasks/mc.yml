@@ -1,6 +1,6 @@
 ---
 
-- name: "Install <mc>"
+- name: "[homebrew/pkg] Install <mc>"
   homebrew:
     package: mc
     state: latest

@@ -1,6 +1,6 @@
 ---
 
-- name: "Install <blueutil>"
+- name: "[homebrew/pkg] Install <blueutil>"
   homebrew:
     package: blueutil
     state: latest

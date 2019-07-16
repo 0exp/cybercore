@@ -1,6 +1,6 @@
 ---
 
-- name: "Install <dnsmasq>"
+- name: "[homebrew/pkg] Install <dnsmasq>"
   homebrew:
     package: dnsmasq
     state: latest

@@ -1,6 +1,6 @@
 ---
 
-- name: "Install <telnet>"
+- name: "[homebrew/pkg] Install <telnet>"
   homebrew:
     package: telnet
     state: latest

@@ -1,6 +1,6 @@
 ---
 
-- name: "Install <nmap>"
+- name: "[homebrew/pkg] Install <nmap>"
   homebrew:
     package: nmap
     state: latest

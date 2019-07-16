@@ -1,6 +1,6 @@
 ---
 
-- name: "Install <transmission>"
+- name: "[homebrew/pkg] Install <transmission>"
   homebrew_cask:
     package: transmission
     state: latest
