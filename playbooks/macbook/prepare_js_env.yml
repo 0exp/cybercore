@@ -5,14 +5,14 @@
   gather_facts: yes
 
   tasks:
-    - name: "[macOS/dev/js] NVM: remove old NVM"
+    - name: "[macOS/dev/js] Remove old NVM"
       become: yes
       become_user: "{{ macbook.home_user }}"
       file:
         path: "{{ macbook.development.js.nvm_path }}"
         state: absent
 
-    - name: "[macOS/dev/js] NVM: install NVM"
+    - name: "[macOS/dev/js] Install <nvm@{{ macbook.development.js.nvm_version }}>"
       become: yes
       become_user: "{{ macbook.home_user }}"
       git:
@@ -20,16 +20,17 @@
         dest: "{{ macbook.development.js.nvm_path }}"
         version: "{{ macbook.development.js.nvm_version }}"
 
-    - name: "[macOS/dev/js] NVM: install the latest nodejs"
+    - name: "[macOS/dev/js] Install <nodejs@{{ macbook.development.js.node_version }}>"
       become: yes
       become_user: "{{ macbook.home_user }}"
       shell: |
         source {{ macbook.development.js.nvm_path }}/nvm.sh
         nvm install {{ macbook.development.js.node_version }}
 
-    - name: "[macOS/dev/js] YARN: install yarn package manager"
+    - name: "[macOS/dev/js] Install <yarn@{{ macbook.development.js.yarn_version }}>"
       become: yes
       become_user: "{{ macbook.home_user }}"
       npm:
         name: yarn
+        version: "{{ macbook.development.js.yarn_version }}"
         global: yes
