@@ -1,0 +1,13 @@
+{
+  "clients": {
+    "ruby (solorgraph)": {
+      "command": ["/Users/DaiveR/.rbenv/shims/solargraph", "stdio"],
+      "enabled": true,
+      "env": {},
+      "languageId": "ruby",
+      "scopes": ["source.ruby"],
+      "settings": {},
+      "syntaxes": ["Packages/Ruby/Ruby.sublime-syntax"]
+    }
+  }
+}

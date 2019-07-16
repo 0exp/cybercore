@@ -1,0 +1,41 @@
+{
+  "additional_path_items":
+  [
+    "/Users/DaiveR/.kiex/elixirs/elixir-1.6.6/bin"
+  ],
+  "close_windows_when_empty": false,
+  "color_scheme": "Packages/Atomic Color Scheme/Atomic - Dark blue (Soft).tmTheme",
+  "draw_white_space": "all",
+  "ensure_newline_at_eof_on_save": true,
+  "font_face": "Fira Code",
+  "font_size": 12,
+  "highlight_line": true,
+  "ignored_packages":
+  [
+    "Vintage",
+    "SyncedSideBar",
+  ],
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
+  "folder_exclude_patterns":
+  [
+    "node_modules"
+  ],
+  "index_files": true,
+  "index_workers": 10,
+  "overlay_scroll_bars": "enabled",
+  "rulers":
+  [
+    100
+  ],
+  "show_encoding": true,
+  "show_line_endings": true,
+  "tab_size": 2,
+  "theme": "Adaptive.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": false
+}

@@ -1,0 +1,47 @@
+[user]
+  name = Rustam Ibragimov
+  email = iamdaiver@gmail.com
+  signingkey = 446071B01D1A9AB5
+[alias]
+  pl = pull origin
+  po = push origin
+  pof = push --force origin
+  pt = push --tags
+  aa = add -A
+  co = checkout
+  cm = commit -m
+  cb = checkout -b
+  st = status
+  bl = branch -l
+  bd = branch -D
+  bdr = push origin --delete
+  dfc = diff --cached
+  hist = log --pretty=format:\"(%C(cyan)%ad%C(reset)) %C(yellow)%h%C(reset) [%C(green)%an%C(reset)] %s%d\" --graph --date=relative
+  swipe = reset --soft HEAD^
+  aliases = config --get-regexp alias
+[core]
+  ignorecase = false
+  excludesfile = /Users/daiver/.gitignore
+  whitespace=-indent-with-non-tab,trailing-space,cr-at-eol
+[color]
+  ui = auto
+[color "branch"]
+  current = green
+  local = white
+  remote = cyan
+[color "diff"]
+  meta = white bold
+  frag = cyan
+  old = red
+  new = green
+  whitespace = red reverse
+[color "status"]
+  added = green
+  changed = red
+  untracked = red
+[commit]
+  gpgsign = false
+[pull]
+  rebase = true
+[merge]
+  conflictstyle = diff3
