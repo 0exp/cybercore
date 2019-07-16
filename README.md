@@ -1,6 +1,4 @@
-# Cybercore
+# Environment
 
-### Ansible
-
-- macOS environment
-  - install: `ansible-playbook ./playbooks/macbook.yml --verbose`
+Macbook env:
+  - `cd ./ansible && ansible-playbook ./playbooks/macbook.yml --verbose`
