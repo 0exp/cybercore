@@ -1,4 +1,4 @@
-# cybercore - my environments and configurations
+# cybercore
 
 > my environments and configurations
 
