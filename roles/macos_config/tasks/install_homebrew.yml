@@ -12,9 +12,14 @@
     path: /usr/local/bin/brew
   register: macos_homebrew_status
 
-- name: '[homebrew] Install homebrew'
-  command: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  when: not macos_homebrew_status.stat.exists
+- name: '[homebrew] Check and Install homebrew'
+  vars: { macos_homebrew_url: https://raw.githubusercontent.com/Homebrew/install/master/install }
+  block:
+    - stat:
+        path: /usr/local/bin/brew
+      register: macos_homebrew_status
+    - command: /usr/bin/ruby -e "$(curl -fsSL {{ macos_homebrew_url }})"
+      when: not macos_homebrew_status.stat.exists
 
 - name: '[homebrew] Update homebrew to the latest version'
   homebrew:
