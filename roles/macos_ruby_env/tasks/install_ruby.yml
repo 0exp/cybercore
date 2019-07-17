@@ -1,0 +1,9 @@
+---
+
+- name: "[dev/ruby] Check installed ruby versions"
+  shell: rbenv versions
+  register: macbook_rbenv_ruby_versions
+
+- name: "[dev/ruby] Install <ruby@{{ macbook.development.ruby.ruby_version }}>"
+  shell: rbenv install {{ macbook.development.ruby.ruby_version }}
+  when: macbook.development.ruby.ruby_version not in macbook_rbenv_ruby_versions.stdout

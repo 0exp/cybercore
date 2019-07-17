@@ -1,0 +1,6 @@
+---
+
+- name: "[dev/ruby] Set global ruby version to {{ macbook.development.ruby.ruby_version }}"
+  become: yes
+  become_user: "{{ macbook.home_user }}"
+  command: rbenv global {{ macbook.development.ruby.ruby_version }}

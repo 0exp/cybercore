@@ -1,0 +1,13 @@
+---
+
+- name: "[dev/ruby] Install <rbenv>"
+  homebrew:
+    package: rbenv
+    state: latest
+    update_homebrew: yes
+
+- name: "[dev/ruby] Install <ruby-build>"
+  homebrew:
+    package: ruby-build
+    state: latest
+    update_homebrew: yes

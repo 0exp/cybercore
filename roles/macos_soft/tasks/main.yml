@@ -20,7 +20,6 @@
     - gpg
     - wget
     - tree
-    - tree
     - pstree
     - blueutil
     - keka
