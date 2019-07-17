@@ -5,5 +5,5 @@
   hosts: macbook
   roles:
     # - macos_soft
-    # - macos_js_env
-    - macos_ruby_env
+    - macos_js_env
+    # - macos_ruby_env

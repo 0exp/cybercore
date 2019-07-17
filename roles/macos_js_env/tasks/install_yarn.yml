@@ -1,0 +1,9 @@
+---
+
+- name: "[dev/js] Install <yarn@{{ macbook.development.js.yarn_version }}>"
+  become: yes
+  become_user: "{{ macbook.home_user }}"
+  npm:
+    name: yarn
+    version: "{{ macbook.development.js.yarn_version }}"
+    global: yes

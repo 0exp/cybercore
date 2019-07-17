@@ -1,0 +1,16 @@
+---
+
+- name: "[dev/js] Remove old <nvm>"
+  become: yes
+  become_user: "{{ macbook.home_user }}"
+  file:
+    path: "{{ macbook.development.js.nvm_path }}"
+    state: absent
+
+- name: "[dev/js] Install <nvm@{{ macbook.development.js.nvm_version }}>"
+  become: yes
+  become_user: "{{ macbook.home_user }}"
+  git:
+    repo: https://github.com/nvm-sh/nvm
+    dest: "{{ macbook.development.js.nvm_path }}"
+    version: "{{ macbook.development.js.nvm_version }}"
