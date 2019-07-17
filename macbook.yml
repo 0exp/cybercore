@@ -6,10 +6,10 @@
   vars: { global_home_user: "{{ ansible_user_id }}" }
   vars_prompt:
     - name: global_rubygems_user
-      prompt: Enter your RubyGems user
+      prompt: '[ruby/RubyGems] Enter your RubyGems User'
       private: no
     - name: global_rubygems_password
-      prompt: Enter your RubyGems password
+      prompt: '[ruby/RubyGems] Enter your RubyGems Password'
       private: yes
   roles:
     - { role: macos_config, become: yes, become_user: "{{ global_home_user }}" }
