@@ -2,6 +2,8 @@
 
 > my development environments and system configurations
 
+---
+
 **(ansible)** macOS roles:
   - `macos_config` - apply basic macOS configs;
   - `macos_js_env` - setup JavaScript environment;
