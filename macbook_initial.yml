@@ -4,7 +4,7 @@
   gather_facts: yes
   hosts: macbook
   roles:
-    - macos_config
-    - macos_soft
-    - macos_js_env
-    - macos_ruby_env
+    - { role: macos_config, become: yes, become_user: "{{ macbook.home_user }}" }
+    - { role: macos_soft, become: yes, become_user: "{{ macbook.home_user }}" }
+    - { role: macos_js_env, become: yes, become_user: "{{ macbook.home_user }}" }
+    - { role: macos_ruby_env, become: yes, become_user: "{{ macbook.home_user }}" }

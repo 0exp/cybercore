@@ -1,8 +1,6 @@
 ---
 
 - name: "[homebrew] Prepare necessary directories for Homebrew"
-  become: yes
-  become_user: "{{ macbook.home_user }}"
   file:
     path: /usr/local/sbin # NOTE: can fail - run `sudo mkdir -p /usr/local/sbin` instead
     owner: "{{ macbook.home_user }}" # NOTE: chonw -R $(whoami) /usr/local/sbin
@@ -10,8 +8,6 @@
     recurse: yes
 
 - name: "[homebrew] Check Homebrew installation status"
-  become: yes
-  become_user: "{{ macbook.home_user }}"
   stat:
     path: /usr/local/bin/brew
   register: macos_homebrew_status
@@ -21,7 +17,5 @@
   when: not macos_homebrew_status.stat.exists
 
 - name: "[homebrew] Update homebrew to the latest version"
-  become: yes
-  become_user: "{{ macbook.home_user }}"
   homebrew:
     update_homebrew: yes

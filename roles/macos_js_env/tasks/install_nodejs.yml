@@ -1,8 +1,6 @@
 ---
 
 - name: "[dev/js] Install <nodejs@{{ macbook.development.js.node_version }}>"
-  become: yes
-  become_user: "{{ macbook.home_user }}"
   shell: |
     source {{ macbook.development.js.nvm_path }}/nvm.sh
     nvm install {{ macbook.development.js.node_version }}
