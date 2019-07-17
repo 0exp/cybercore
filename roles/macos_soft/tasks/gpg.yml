@@ -1,6 +1,6 @@
 ---
 
-- name: "[homebrew/pkg] Install <gpg>"
+- name: '[homebrew/pkg] Install <gpg>'
   homebrew:
     package: gpg
     state: latest

@@ -1,21 +1,21 @@
 ---
 
-- name: "[homebrew] Prepare necessary directories for Homebrew"
+- name: '[homebrew] Prepare necessary directories for Homebrew'
   file:
     path: /usr/local/sbin # NOTE: can fail - run `sudo mkdir -p /usr/local/sbin` instead
     owner: "{{ macbook.home_user }}" # NOTE: chonw -R $(whoami) /usr/local/sbin
     state: directory
     recurse: yes
 
-- name: "[homebrew] Check Homebrew installation status"
+- name: '[homebrew] Check Homebrew installation status'
   stat:
     path: /usr/local/bin/brew
   register: macos_homebrew_status
 
-- name: "[homebrew] Install homebrew"
+- name: '[homebrew] Install homebrew'
   command: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   when: not macos_homebrew_status.stat.exists
 
-- name: "[homebrew] Update homebrew to the latest version"
+- name: '[homebrew] Update homebrew to the latest version'
   homebrew:
     update_homebrew: yes

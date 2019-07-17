@@ -1,6 +1,6 @@
 ---
 
-- name: "[homebrew/pkg] Install <wget>"
+- name: '[homebrew/pkg] Install <wget>'
   homebrew:
     package: wget
     state: latest

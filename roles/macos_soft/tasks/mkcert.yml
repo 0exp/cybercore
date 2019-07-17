@@ -1,6 +1,6 @@
 ---
 
-- name: "[homebrew/pkg] Install <mkcert>"
+- name: '[homebrew/pkg] Install <mkcert>'
   homebrew:
     package: mkcert
     state: latest

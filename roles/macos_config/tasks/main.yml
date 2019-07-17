@@ -5,4 +5,4 @@
   with_items:
     - update_os
     - install_homebrew
-    - prepare_ansible_env
+    - setup_ansible_env

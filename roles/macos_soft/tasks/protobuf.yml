@@ -1,6 +1,6 @@
 ---
 
-- name: "[homebrew/pkg] Install <protobuf>"
+- name: '[homebrew/pkg] Install <protobuf>'
   homebrew:
     package: protobuf
     state: latest

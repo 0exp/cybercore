@@ -1,6 +1,6 @@
 ---
 
-- name: "[homebrew/pkg] Install <keka>"
+- name: '[homebrew/pkg] Install <keka>'
   homebrew_cask:
     package: keka
     state: latest

@@ -1,6 +1,6 @@
 ---
 
-- name: "Setup JavaScript environment"
+- name: 'Setup JavaScript environment'
   include_tasks: "{{ item }}.yml"
   with_items:
     - install_nvm

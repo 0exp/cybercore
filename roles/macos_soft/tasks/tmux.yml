@@ -1,6 +1,6 @@
 ---
 
-- name: "[homebrew/pkg] Install <tmux>"
+- name: '[homebrew/pkg] Install <tmux>'
   homebrew:
     package: tmux
     state: latest

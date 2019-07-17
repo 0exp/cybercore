@@ -1,6 +1,6 @@
 ---
 
-- name: "[ansible] Prepare ansible env"
+- name: '[ansible] Prepare artifacts directory'
   file:
     path: "{{ macbook.home_path }}/.ansible_artifacts"
     owner: "{{ macbook.home_user }}"

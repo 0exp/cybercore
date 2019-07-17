@@ -1,6 +1,6 @@
 ---
 
-- name: "[homebrew/pkg] Install <tree>"
+- name: '[homebrew/pkg] Install <tree>'
   homebrew:
     package: tree
     state: latest

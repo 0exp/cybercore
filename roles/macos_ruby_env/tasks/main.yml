@@ -1,6 +1,6 @@
 ---
 
-- name: "Setup Ruby environment"
+- name: 'Setup Ruby environment'
   include_tasks: "{{ item }}.yml"
   with_items:
     - install_rbenv

@@ -1,6 +1,6 @@
 ---
 
-- name: "[homebrew/pkg] Install <pstree>"
+- name: '[homebrew/pkg] Install <pstree>'
   homebrew:
     package: pstree
     state: latest

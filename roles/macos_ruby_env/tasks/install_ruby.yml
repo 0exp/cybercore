@@ -1,6 +1,6 @@
 ---
 
-- name: "[dev/ruby] Check installed ruby versions"
+- name: '[dev/ruby] Check installed ruby versions'
   shell: rbenv versions
   register: macbook_rbenv_ruby_versions
 

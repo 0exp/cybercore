@@ -1,6 +1,6 @@
 ---
 
-- name: "[homebrew/pkg] Install <iterm2>"
+- name: '[homebrew/pkg] Install <iterm2>'
   homebrew_cask:
     package: iterm2
     state: latest

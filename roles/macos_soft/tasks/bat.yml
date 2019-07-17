@@ -1,6 +1,6 @@
 ---
 
-- name: "[homebrew/pkg] Install <bat>"
+- name: '[homebrew/pkg] Install <bat>'
   homebrew:
     package: bat
     state: latest

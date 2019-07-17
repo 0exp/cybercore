@@ -1,6 +1,6 @@
 ---
 
-- name: "[dev/js] Remove old <nvm>"
+- name: '[dev/js] Remove old <nvm>'
   file:
     path: "{{ macbook.development.js.nvm_path }}"
     state: absent

@@ -1,4 +1,4 @@
 ---
 
-- name: "[macos] Update operating sytstem"
+- name: '[macos] Update operating sytstem'
   command: softwareupdate --install --all
