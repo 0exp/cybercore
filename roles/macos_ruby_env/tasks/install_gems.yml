@@ -3,7 +3,7 @@
 - name: "[dev/ruby] Install <bundler@{{ macbook.development.ruby.bundler_version }}>"
   become: yes
   become_user: "{{ macbook.home_user }}"
-  shell: |
+  shell: | # NOTE: if fails use: eval "$(rbenv init -)";
     rbenv init
     rbenv shell {{ macbook.development.ruby.ruby_version }}
     gem install bundler --version={{ macbook.development.ruby.bundler_version }}

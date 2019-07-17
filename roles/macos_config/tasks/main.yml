@@ -1,0 +1,8 @@
+---
+
+- name: 'Initial macOS system configuration'
+  include_tasks: "{{ item }}.yml"
+  with_items:
+    - update_os
+    - install_homebrew
+    - prepare_ansible_env

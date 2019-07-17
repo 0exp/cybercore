@@ -1,0 +1,6 @@
+---
+
+- name: "[macos] Update operating sytstem"
+  become: yes
+  become_user: "{{ macbook.home_user }}"
+  command: softwareupdate --install --all

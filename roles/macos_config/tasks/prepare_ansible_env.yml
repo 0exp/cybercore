@@ -1,7 +1,7 @@
 ---
 
-- name: 'macos_shared: Prepare ansible env'
+- name: "[ansible] Prepare ansible env"
   file:
     path: "{{ macbook.home_path }}/.ansible_artifacts"
     owner: "{{ macbook.home_user }}"
-    state: dictionary
+    state: directory
