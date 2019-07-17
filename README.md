@@ -1,6 +1,7 @@
 # cybercore
 
 > my development environments and system configurations
+> dotfiles: `roles/macos_post_config/files`
 
 (ansible) macOS roles:
   - `macos_config` - apply basic macOS configs;
@@ -12,3 +13,5 @@
 ```shell
 ansible-playbook macbook.yml -v
 ```
+
+(sublime) [package list](roles/macos_post_config/files/sublime/packages)
