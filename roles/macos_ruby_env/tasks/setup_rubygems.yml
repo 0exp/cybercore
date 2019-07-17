@@ -1,0 +1,27 @@
+---
+
+- name: '[dev/ruby] Remove existing rubygems credentials'
+  file:
+    path: "{{ macos_ruby_env.rubygems_creds_file }}"
+    state: absent
+
+- name: '[dev/ruby] Fetch rubygems api token'
+  uri:
+    url: https://rubygems.org/api/v1/api_key.yaml
+    method: GET
+    user: "{{ global_rubygems_user }}"
+    password: "{{ global_rubygems_password }}"
+    force_basic_auth: yes
+    return_content: yes
+  register: rubygems_api_token_data
+
+- name: '[dev/ruby] Setup rubygems account integration'
+  block:
+    - file:
+        path: "{{ macos_ruby_env.rubygems_creds_file }}"
+        mode: '0666'
+        state: touch
+    - lineinfile:
+        path: "{{ macos_ruby_env.rubygems_creds_file }}"
+        line: "{{ rubygems_api_token_data.content }}"
+        create: yes

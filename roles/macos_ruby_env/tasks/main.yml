@@ -6,4 +6,5 @@
     - install_rbenv
     - install_ruby
     - configure_ruby
+    - setup_rubygems
     - install_gems
