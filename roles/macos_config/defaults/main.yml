@@ -1,0 +1,6 @@
+---
+
+macos_config:
+  home_user: "{{ ansible_user_id }}"
+  home_path: "{{ ansible_env.HOME }}"
+  artifacts_path: "{{ ansible_env.HOME }}/.ansible_artifacts"

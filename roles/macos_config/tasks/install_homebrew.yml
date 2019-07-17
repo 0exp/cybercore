@@ -3,7 +3,7 @@
 - name: '[homebrew] Prepare necessary directories for Homebrew'
   file:
     path: /usr/local/sbin # NOTE: can fail - run `sudo mkdir -p /usr/local/sbin` instead
-    owner: "{{ macbook.home_user }}" # NOTE: chonw -R $(whoami) /usr/local/sbin
+    owner: "{{ macos_config.home_user }}" # NOTE: chonw -R $(whoami) /usr/local/sbin
     state: directory
     recurse: yes
 

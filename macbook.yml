@@ -3,8 +3,10 @@
 - name: 'Initial MacBook configuration'
   gather_facts: yes
   hosts: macbook
+  vars: { global_home_user: "{{ ansible_user_id }}" }
   roles:
-    - { role: macos_config, become: yes, become_user: "{{ macbook.home_user }}" }
-    - { role: macos_soft, become: yes, become_user: "{{ macbook.home_user }}" }
-    - { role: macos_js_env, become: yes, become_user: "{{ macbook.home_user }}" }
-    - { role: macos_ruby_env, become: yes, become_user: "{{ macbook.home_user }}" }
+    - { role: macos_config, become: yes, become_user: "{{ global_home_user }}" }
+    - { role: macos_soft, become: yes, become_user: "{{ global_home_user }}" }
+    - { role: macos_js_env, become: yes, become_user: "{{ global_home_user }}" }
+    - { role: macos_ruby_env, become: yes, become_user: "{{ global_home_user }}" }
+    - { role: macos_post_config, become: yes, become_user: "{{ global_home_user }}" }

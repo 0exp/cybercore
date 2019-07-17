@@ -1,4 +1,4 @@
 ---
 
-- name: "[dev/ruby] Set global ruby version to {{ macbook.development.ruby.ruby_version }}"
-  command: rbenv global {{ macbook.development.ruby.ruby_version }}
+- name: "[dev/ruby] Set global ruby version to {{ macos_ruby_env.ruby_version }}"
+  command: rbenv global {{ macos_ruby_env.ruby_version }}

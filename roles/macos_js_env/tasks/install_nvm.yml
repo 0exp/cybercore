@@ -2,11 +2,11 @@
 
 - name: '[dev/js] Remove old <nvm>'
   file:
-    path: "{{ macbook.development.js.nvm_path }}"
+    path: "{{ macoss_js_env.nvm_path }}"
     state: absent
 
-- name: "[dev/js] Install <nvm@{{ macbook.development.js.nvm_version }}>"
+- name: "[dev/js] Install <nvm@{{ macoss_js_env.nvm_version }}>"
   git:
     repo: https://github.com/nvm-sh/nvm
-    dest: "{{ macbook.development.js.nvm_path }}"
-    version: "{{ macbook.development.js.nvm_version }}"
+    dest: "{{ macoss_js_env.nvm_path }}"
+    version: "{{ macoss_js_env.nvm_version }}"

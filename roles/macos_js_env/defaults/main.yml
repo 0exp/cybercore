@@ -1,0 +1,7 @@
+---
+
+macoss_js_env:
+  nvm_path: "{{ ansible_env.HOME }}/.nvm"
+  nvm_version: v0.34.0
+  node_version: node
+  yarn_version: '1.17.3'

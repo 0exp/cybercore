@@ -1,7 +1,7 @@
 ---
 
-- name: "[dev/ruby] Install <bundler@{{ macbook.development.ruby.bundler_version }}>"
+- name: "[dev/ruby] Install <bundler@{{ macos_ruby_env.bundler_version }}>"
   shell: | # NOTE: if fails use: eval "$(rbenv init -)";
     rbenv init
-    rbenv shell {{ macbook.development.ruby.ruby_version }}
-    gem install bundler --version={{ macbook.development.ruby.bundler_version }}
+    rbenv shell {{ macos_ruby_env.ruby_version }}
+    gem install bundler --version={{ macos_ruby_env.bundler_version }}
