@@ -1,9 +1,14 @@
 # environment
 
-Setup macOS environment: `ansible-playbook macbook.yml -v`
+> my environments and configurations
 
-### TODO
+(ansible) macOS roles:
+  - `macos_config` - apply basic macOS configs;
+  - `macos_js_env` - setup JavaScript environment;
+  - `macos_ruby_env` - setup Ruby environment;
+  - `macos_soft` - install neccessary sofwtare;
 
-- publish ansible role to `ansible-galaxy`;
-- pre-installation configuration readme;
-- ci;
+(ansible) setup macOS:
+```shell
+ansible-playbook macbook.yml -v
+```
