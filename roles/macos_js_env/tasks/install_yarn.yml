@@ -1,7 +1,7 @@
 ---
 
-- name: "[dev/js] Install <yarn@{{ macoss_js_env.yarn_version }}>"
+- name: "[dev/js] Install <yarn@{{ macos_js_env.yarn_version }}>"
   npm:
     name: yarn
-    version: "{{ macoss_js_env.yarn_version }}"
+    version: "{{ macos_js_env.yarn_version }}"
     global: yes

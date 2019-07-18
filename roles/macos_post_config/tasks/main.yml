@@ -1,0 +1,6 @@
+---
+
+- name: 'Post-configurations for macOS environment'
+  include_tasks: "{{ item }}.yml"
+  with_items:
+    - copy_dotfiles

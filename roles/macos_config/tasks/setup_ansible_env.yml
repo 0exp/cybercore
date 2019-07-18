@@ -2,6 +2,6 @@
 
 - name: '[ansible] Prepare artifacts directory'
   file:
-    path: "{{ macos_config.artifacts_path }}"
-    owner: "{{ macos_config.home_user }}"
+    path: "{{ macos_config.ansible_artifacts_path }}"
+    owner: "{{ macbook.home_user }}"
     state: directory

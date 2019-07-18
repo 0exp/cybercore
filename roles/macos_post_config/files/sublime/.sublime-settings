@@ -1,8 +1,4 @@
 {
-  "additional_path_items":
-  [
-    "/Users/DaiveR/.kiex/elixirs/elixir-1.6.6/bin"
-  ],
   "close_windows_when_empty": false,
   "color_scheme": "Packages/Atomic Color Scheme/Atomic - Dark blue (Soft).tmTheme",
   "draw_white_space": "all",

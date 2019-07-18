@@ -1,6 +1,6 @@
 ---
 
-- name: "[dev/js] Install <nodejs@{{ macoss_js_env.node_version }}>"
+- name: "[dev/js] Install <nodejs@{{ macos_js_env.node_version }}>"
   shell: |
-    source {{ macoss_js_env.nvm_path }}/nvm.sh
-    nvm install {{ macoss_js_env.node_version }}
+    source {{ macos_js_env.nvm_path }}/nvm.sh
+    nvm install {{ macos_js_env.node_version }}
