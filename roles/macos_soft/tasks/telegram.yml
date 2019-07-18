@@ -1,0 +1,6 @@
+---
+
+- name: '[homebrew/pkg] Install <telegram>'
+  homebrew:
+    package: telegram
+    state: latest
