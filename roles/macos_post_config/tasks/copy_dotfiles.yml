@@ -14,5 +14,6 @@
     - .tmux.conf
     - .vimrc
     - .zshrc
+    - .ruby-version
   loop_control:
     loop_var: dotfile
