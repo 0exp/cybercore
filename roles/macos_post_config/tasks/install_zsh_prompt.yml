@@ -15,7 +15,7 @@
         package: spaceship-prompt
         global: yes
     - git:
-        repo: "{{ prompt_repo_url }}"
+        repo: "{{ repo_url }}"
         dest: "{{ clone_path }}"
     - file:
         src: "{{ cloned_theme_path }}"
