@@ -1,0 +1,18 @@
+---
+
+- name: '[macos/dots] Copy dotfiles'
+  copy:
+    src: "{{ dotfile }}"
+    dest: "{{ macbook.home_path }}/{{ dotfile }}"
+    owner: "{{ macbook.home_user }}"
+  loop:
+    - .gitconfig
+    - .gitignore
+    - .nvmrc
+    - .pryrc
+    - .psqlrc
+    - .tmux.conf
+    - .vimrc
+    - .zshrc
+  loop_control:
+    loop_var: dotfile

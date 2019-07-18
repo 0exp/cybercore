@@ -9,6 +9,7 @@
   - `macos_js_env` - setup JavaScript environment;
   - `macos_ruby_env` - setup Ruby environment;
   - `macos_soft` - install neccessary sofwtare;
+  - `macos_post_config` - apply post macOS configs (copy dotfiles, etc);
 
 **(ansible)** setup macOS:
 ```shell
