@@ -1,0 +1,17 @@
+---
+
+- name: '[macOS] Remove old <oh-my-zsh>'
+  file:
+    path: "{{ macbook.home_path }}/{{ oh_my_zsh_file }}"
+    state: absent
+  loop:
+    - .oh-my-zsh
+    - .zshrc
+  loop_control:
+    loop_var: oh_my_zsh_file
+
+- name: '[macOS] Install <oh-my-zsh>'
+  vars: { macos_oh_my_zsh_url: https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh }
+  shell: sh -c "$(curl -fsSL {{ macos_oh_my_zsh_url }})"
+  args:
+    warn: no

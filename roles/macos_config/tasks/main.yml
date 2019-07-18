@@ -6,3 +6,4 @@
     - update_os
     - install_homebrew
     - setup_ansible_env
+    - install_oh_my_zsh
