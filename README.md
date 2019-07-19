@@ -20,3 +20,9 @@ ansible-playbook macbook.yml -v
 
 - [sublime package list](roles/macos_post_config/files/sublime/packages.md)
 - [dotfiles](roles/macos_post_config/files)
+
+---
+
+### TODO:
+
+- `brew cleanup` should be invoked by ansible's `handlers`;
