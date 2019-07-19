@@ -1,0 +1,19 @@
+---
+
+- name: '[dev/ruby] Update <rbenv>'
+  homebrew:
+    package: rbenv
+    state: latest
+    update_homebrew: yes
+  tags:
+    - update_rbenv
+    - update_languages
+
+- name: '[dev/ruby] Update <ruby-build>'
+  homebrew:
+    package: ruby-build
+    state: latest
+    update_homebrew: yes
+  tags:
+    - update_rbenv
+    - update_languages

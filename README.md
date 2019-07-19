@@ -17,10 +17,24 @@
 ansible-playbook macbook.yml -v
 ```
 
----
-
 - [sublime package list](roles/macos_post_config/files/sublime/packages.md)
 - [dotfiles](roles/macos_post_config/files)
+
+---
+
+**(ansible)** macOS daily tasks:
+
+```shell
+ansible-playbook macbook_daily.yml --list-tasks
+```
+
+- [update rbenv](#update-rbenv)
+
+#### update rbenv
+
+```shell
+ansible-playbook macbook_daily.yml --tags update_rbenv
+```
 
 ---
 

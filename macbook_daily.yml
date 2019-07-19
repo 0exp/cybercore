@@ -1,0 +1,11 @@
+---
+
+- name: 'Daily MacBook tasks'
+  hosts: macbook
+  gather_facts: yes
+
+  become: yes
+  become_user: "{{ macbook.home_user }}"
+
+  roles:
+    - macos_daily
