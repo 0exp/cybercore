@@ -1,0 +1,13 @@
+---
+
+- name: "[dev/ruby] Install required gems"
+  shell: | # NOTE: if fails use: eval "$(rbenv init -)";
+    eval "$(rbenv init -)"
+    rbenv global {{ macos_ruby_env.ruby_version }}
+    gem install {{ required_gem }}
+  loop:
+    - "bundler --version={{ macos_ruby_env.bundler_version }}"
+    - solargraph
+    - travis
+  loop_control:
+    loop_var: required_gem

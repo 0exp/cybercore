@@ -1,0 +1,4 @@
+
+# # rust aliases
+# alias rustdoc="rustup doc"
+# alias rustupdate="rustup update"

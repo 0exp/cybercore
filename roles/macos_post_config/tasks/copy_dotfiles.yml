@@ -13,6 +13,7 @@
     - .psqlrc
     - .tmux.conf
     - .vimrc
+    - .zsh/
     - .zshrc
     - .ruby-version
   loop_control:

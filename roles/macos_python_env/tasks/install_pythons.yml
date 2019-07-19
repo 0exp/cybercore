@@ -1,7 +1,12 @@
 ---
 
+- name: '[dev/python] Check installed python versions'
+  shell: pyenv versions
+  register: installed_python_versions
+
 - name: '[dev/python] Install pythons'
   shell: "pyenv install {{ python_version }}"
   loop: "{{ macos_python_env.python_versions }}"
   loop_control:
     loop_var: python_version
+  when: python_version not in installed_python_versions.stdout
