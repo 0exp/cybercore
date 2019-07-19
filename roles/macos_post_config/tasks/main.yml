@@ -3,6 +3,6 @@
 - name: 'Post-configurations for macOS environment'
   include_tasks: "{{ item }}.yml"
   with_items:
-    - setup_fire_code_font
+    - setup_fira_code_font
     - install_zsh_prompt
     - copy_dotfiles
