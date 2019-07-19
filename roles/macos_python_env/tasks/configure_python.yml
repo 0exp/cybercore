@@ -2,3 +2,8 @@
 
 - name: "[dev/python] Set global python version to {{ macos_python_env.main_python_version }}"
   command: "pyenv global {{ macos_python_env.main_python_version }}"
+
+- name: "[dev/python] Upgrade pip to the latest version"
+  shell: |
+    pyenv shell {{ macos_python_env.main_python_version }}
+    pip install --upgrade pip
