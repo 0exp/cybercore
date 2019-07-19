@@ -1,0 +1,8 @@
+---
+
+- name: 'Setup Python environment'
+  include_tasks: "{{ item }}.yml"
+  with_items:
+    - install_pyenv
+    - install_pythons
+    - configure_python

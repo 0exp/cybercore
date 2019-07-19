@@ -1,0 +1,7 @@
+---
+
+- name: '[dev/python] Install pythons'
+  shell: "pyenv install {{ python_version }}"
+  loop: "{{ macos_python_env.python_versions }}"
+  loop_control:
+    loop_var: python_version

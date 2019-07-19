@@ -161,6 +161,9 @@ alias nvm-install="curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.
 # initialize FZF tool (fuzzy finder)
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# initialize python env
+eval "$(pyenv init -)"
+
 # initialize rust lang environment
 source $HOME/.cargo/env
 # rust aliases

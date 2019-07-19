@@ -5,5 +5,5 @@
   register: macbook_rbenv_ruby_versions
 
 - name: "[dev/ruby] Install <ruby@{{ macos_ruby_env.ruby_version }}>"
-  shell: rbenv install {{ macos_ruby_env.ruby_version }}
+  shell: "rbenv install {{ macos_ruby_env.ruby_version }}"
   when: macos_ruby_env.ruby_version not in macbook_rbenv_ruby_versions.stdout

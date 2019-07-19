@@ -1,0 +1,7 @@
+---
+
+- name: '[dev/python] Install <pyenv>'
+  homebrew:
+    package: pyenv
+    state: latest
+    update_homebrew: yes
