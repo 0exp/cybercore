@@ -1,16 +1,4 @@
 ---
 
 - name: "[dev/python] Set global python version to {{ macos_python_env.main_python_version }}"
-  vars:
-    python_version_file_path: "{{ macbook.home_path }}/.python-version"
-  block:
-    - file:
-        path: "{{ python_version_file_path }}"
-        state: absent
-    - file:
-        path: "{{ python_version_file_path }}"
-        state: touch
-    - lineinfile:
-        path: "{{ python_version_file_path }}"
-        line: "{{ macos_python_env.main_python_version }}"
-        create: yes
+  command: "pyenv global {{ macos_python_env.main_python_version }}"
