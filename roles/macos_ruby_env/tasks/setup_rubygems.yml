@@ -19,7 +19,7 @@
   block:
     - file:
         path: "{{ macos_ruby_env.rubygems_creds_file }}"
-        mode: '0666'
+        mode: '0600'
         state: touch
     - lineinfile:
         path: "{{ macos_ruby_env.rubygems_creds_file }}"
