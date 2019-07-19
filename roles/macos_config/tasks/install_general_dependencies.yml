@@ -1,0 +1,15 @@
+---
+
+- name: '[macOS] Install general system-wide dependencies'
+  homebrew:
+    package: "{{ dependency }}"
+    state: present
+    update_homebrew: yes
+  loop:
+    - openssl
+    - readline
+    - sqlite3
+    - xz
+    - zlib
+  loop_control:
+    loop_var: dependency
