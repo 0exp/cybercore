@@ -1,5 +1,5 @@
 ---
 
 macbook:
-  home_user: "{{ ansible_user_id }}"
-  home_path: "{{ ansible_env.HOME }}"
+  home_user: daiver
+  home_path: /Users/daiver
