@@ -4,6 +4,6 @@
   include_tasks: "{{ item }}.yml"
   with_items:
     - setup_fira_code_font
-    - install_zsh_prompt
+    - install_spaceship_prompt
     - configure_vim
     - copy_dotfiles

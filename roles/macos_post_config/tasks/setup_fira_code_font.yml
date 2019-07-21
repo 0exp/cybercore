@@ -3,7 +3,7 @@
 - name: '[macOS] Setup FiraCode font'
   vars: { fonts_path: "{{ macbook.home_path }}/Library/Fonts" }
   copy:
-    src: "fonts/{{ font_file }}"
+    src: "dotfiles/fonts/{{ font_file }}"
     dest: "{{ fonts_path }}/{{ font_file }}"
     owner: "{{ macbook.home_user}}"
   loop:

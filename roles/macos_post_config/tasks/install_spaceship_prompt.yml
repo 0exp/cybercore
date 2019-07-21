@@ -1,6 +1,6 @@
 ---
 
-- name: '[macOS] Install zsh prompt <space-ship-prompt>'
+- name: '[macOS] Install shell prompt <spaceship-prompt>'
   vars:
     repo_url: https://github.com/denysdovhan/spaceship-prompt.git
     clone_path: "{{ macos_post_config.oh_my_zsh_path }}/themes/spaceship-prompt"

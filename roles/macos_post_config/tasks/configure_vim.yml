@@ -1,3 +1,4 @@
 ---
 
 - name: '[macOS] Configure vim'
+  command: echo "TODO :)"

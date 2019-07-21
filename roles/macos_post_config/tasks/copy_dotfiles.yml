@@ -2,7 +2,7 @@
 
 - name: '[macos/dots] Copy dotfiles'
   copy:
-    src: "{{ dotfile }}"
+    src: "dotfiles/{{ dotfile }}"
     dest: "{{ macbook.home_path }}/{{ dotfile }}"
     owner: "{{ macbook.home_user }}"
   loop:

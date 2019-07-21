@@ -1,6 +1,9 @@
 ---
 
 - name: '[macOS] Update dotfiles'
+  import_role:
+    name: macos_post_config
+    tasks_from: copy_dotfiles
   tags:
     - update_dotfiles
     - update_env

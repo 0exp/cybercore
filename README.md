@@ -20,8 +20,8 @@
 ansible-playbook macbook_setup.yml -v
 ```
 
-- [sublime package list](roles/macos_post_config/files/sublime/packages.md)
-- [dotfiles](roles/macos_post_config/files)
+- [sublime package list](dotfiles/sublime/packages.md)
+- [dotfiles](dotfiles)
 
 ---
 
@@ -32,8 +32,9 @@ ansible-playbook macbook_daily.yml --list-tasks
 ```
 
 - **Environment**:
-  - update language environments: (`--tags update_languages`)
+  - actualzie **dotfiles**: (`--tags update_dotfiles`)
   - update **spasechip-prompt**: (`--tags update_spaceship`)
+  - update language environments: (`--tags update_languages`)
 - **Languages**:
   - update **rbenv**: (`--tags update_rbenv`)
   - update **rust**: (`--tags update_rust`)
