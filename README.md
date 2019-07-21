@@ -11,7 +11,7 @@
   - `macos_ruby_env` - setup **Ruby** environment;
   - `macos_rust_env` - setup **Rust** environment;
   - `macos_soft` - install neccessary sofwtare;
-  - `macos_post_config` - apply post macOS configs (copy dotfiles, etc);
+  - `macos_post_config` - apply post macOS configs (copy dotfiles, setup system fonts, etc);
 
 **(ansible)** setup macOS:
 ```shell
