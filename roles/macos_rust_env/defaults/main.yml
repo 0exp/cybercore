@@ -1,0 +1,5 @@
+---
+
+macos_rust_env:
+  cargo_path: "{{ macbook.home_path }}/.cargo"
+  rust_version: '1.36.0'

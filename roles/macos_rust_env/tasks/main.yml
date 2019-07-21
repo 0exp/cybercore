@@ -1,0 +1,8 @@
+---
+
+- name: '[dev/rust] Install <rustup>'
+  shell: "curl https://sh.rustup.rs -sSf | sh -s -- -y"
+  warn: no
+
+- name: '[dev/rust] Setup rust toolchain'
+  shell: "{{ macos_rust_env.cargo_path }}/bin/rustup toolchain install {{ macos_rust_env.rust_version }}"

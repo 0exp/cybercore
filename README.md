@@ -6,9 +6,10 @@
 
 **(ansible)** macOS roles:
   - `macos_config` - apply basic macOS configs;
-  - `macos_pyton_env` - setup Python environment;
-  - `macos_js_env` - setup JavaScript environment;
-  - `macos_ruby_env` - setup Ruby environment;
+  - `macos_pyton_env` - setup **Python** environment;
+  - `macos_js_env` - setup **JavaScript** environment;
+  - `macos_ruby_env` - setup **Ruby** environment;
+  - `macos_rust_env` - setup **Rust** environment;
   - `macos_soft` - install neccessary sofwtare;
   - `macos_post_config` - apply post macOS configs (copy dotfiles, etc);
 
