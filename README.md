@@ -61,7 +61,7 @@ ansible-playbook macbook_daily.yml --tags update_rust
 ansible-playbook macbook_daily.yml --tags update_nvm
 ```
 
-#### update spaseship-prompt
+#### update spaceship-prompt
 
 ```shell
 ansible-playbook macbook_daily.yml --tags update_spaceship
