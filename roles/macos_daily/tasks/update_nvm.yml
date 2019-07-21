@@ -1,1 +1,6 @@
-# alias nvm-install="curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash"
+---
+
+- name: '[dev/js] Update <nvm>'
+  import_role:
+    name: macos_js_env
+    tasks_from: install_nvm

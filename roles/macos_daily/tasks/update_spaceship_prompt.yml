@@ -1,0 +1,10 @@
+---
+
+- name: "[macOS] Update <spaseship-prompt>"
+  npm:
+    name: spaceship-prompt
+    global: yes
+    version: latest
+  tags:
+    - update_spaceship
+    - update_env

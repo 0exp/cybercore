@@ -1,4 +1,7 @@
+---
 
-# # rust aliases
-# alias rustdoc="rustup doc"
-# alias rustupdate="rustup update"
+- name: '[dev/rust] Update <rust>'
+  shell: rustup update
+  tags:
+    - update_rust
+    - update_languages

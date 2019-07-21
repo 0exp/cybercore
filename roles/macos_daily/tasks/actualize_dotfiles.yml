@@ -1,0 +1,6 @@
+---
+
+- name: '[macOS] Update dotfiles'
+  tags:
+    - update_dotfiles
+    - update_env
