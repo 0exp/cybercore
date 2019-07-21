@@ -7,19 +7,19 @@
   become: yes
   become_user: "{{ macbook.home_user }}"
 
-  # vars_prompt:
-  #   - name: global_rubygems_user
-  #     prompt: 'RUBYGEMS > Enter your RubyGems User'
-  #     private: no
-  #   - name: global_rubygems_password
-  #     prompt: 'RUBYGEMS > Enter your RubyGems Password'
-  #     private: yes
+  vars_prompt:
+    - name: global_rubygems_user
+      prompt: 'RUBYGEMS > Enter your RubyGems User'
+      private: no
+    - name: global_rubygems_password
+      prompt: 'RUBYGEMS > Enter your RubyGems Password'
+      private: yes
 
   roles:
-    # - { role: macos_config }
-    # - { role: macos_soft, environment: { HOMEBREW_CASK_OPTS: '--appdir=/Applications' } }
-    # - { role: macos_python_env }
-    # - { role: macos_js_env }
-    # - { role: macos_ruby_env }
-    # - { role: macos_rust_env }
+    - { role: macos_config }
+    - { role: macos_soft, environment: { HOMEBREW_CASK_OPTS: '--appdir=/Applications' } }
+    - { role: macos_python_env }
+    - { role: macos_js_env }
+    - { role: macos_ruby_env }
+    - { role: macos_rust_env }
     - { role: macos_post_config }
