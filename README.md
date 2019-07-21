@@ -4,6 +4,8 @@
 
 ---
 
+### Macbook Setup
+
 **(ansible)** macOS roles:
   - `macos_config` - apply basic macOS configs;
   - `macos_pyton_env` - setup **Python** environment;
@@ -15,13 +17,15 @@
 
 **(ansible)** setup macOS:
 ```shell
-ansible-playbook macbook.yml -v
+ansible-playbook macbook_setup.yml -v
 ```
 
 - [sublime package list](roles/macos_post_config/files/sublime/packages.md)
 - [dotfiles](roles/macos_post_config/files)
 
 ---
+
+### Daily Tasks
 
 **(ansible)** macOS daily tasks:
 
