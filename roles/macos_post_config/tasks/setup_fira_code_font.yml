@@ -1,4 +1,16 @@
 ---
 
 - name: '[macOS] Setup FiraCode font'
-  command: echo "kek"
+  vars: { fonts_path: "{{ macbook.home_path }}/Library/Fonts" }
+  copy:
+    src: "fonts/{{ font_file }}"
+    dest: "{{ fonts_path }}/{{ font_file }}"
+    owner: "{{ macbook.home_user}}"
+  loop:
+    - FiraCode-Bold.ttf
+    - FiraCode-Light.ttf
+    - FiraCode-Medium.ttf
+    - FiraCode-Regular.ttf
+    - FiraCode-Retina.ttf
+  loop_control:
+    loop_var: font_file
