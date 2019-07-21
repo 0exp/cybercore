@@ -7,3 +7,4 @@
     - install_spaceship_prompt
     - configure_vim
     - copy_dotfiles
+    - copy_all_my_projects

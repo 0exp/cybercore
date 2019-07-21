@@ -1,0 +1,37 @@
+---
+
+- name: '[dev/all] Prepare ~/Projects directory'
+  file:
+    path: "{{ macbook.home_path }}/Projects"
+    state: directory
+
+- name: '[dev/all] Clone projects'
+  vars:
+    github_url: "https://github.com/0exp"
+    clone_path: "{{ macbook.home_path }}/Projects"
+  git:
+    repo: "{{ github_url }/{{ repo_name }}"
+    dest: "{{ clone_path }}/{{ repo_name }}"
+  loop:
+    - cybercore
+    - cv
+    - qonfig
+    - any_cache
+    - armitage
+    - jaina-js
+    - jaina
+    - smart_core
+    - symbiont-ruby
+    - rabbit_matcher
+    - sidekiq-portal
+    - recipes
+    - trinity
+    - evil_events
+    - 0exp.github.io
+    - nova_crystallis
+    - blast_wave
+    - sync_hole
+    - reforged
+    - contributions
+  loop_control:
+    loop_var: repo_name
