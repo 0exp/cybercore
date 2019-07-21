@@ -30,11 +30,32 @@ ansible-playbook macbook_daily.yml --list-tasks
 ```
 
 - [update rbenv](#update-rbenv)
+- [update rust](#update-rust)
+- [update nvm](#update-nvm)
+- [update spasechip-prompt](#update-spaceship-prompt)
 
 #### update rbenv
 
 ```shell
 ansible-playbook macbook_daily.yml --tags update_rbenv
+```
+
+#### update rust
+
+```shell
+ansible-playbook macbook_daily.yml --tags update_rust
+```
+
+#### update nvm
+
+```shell
+ansible-playbook macbook_daily.yml --tags update_nvm
+```
+
+#### update spaseship-prompt
+
+```shell
+ansible-playbook macbook_daily.yml --tags update_spaceship
 ```
 
 ---
