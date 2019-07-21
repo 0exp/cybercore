@@ -29,43 +29,13 @@ ansible-playbook macbook.yml -v
 ansible-playbook macbook_daily.yml --list-tasks
 ```
 
-- Environment:
-  - [update language environments](#update-language-environments)
-  - [update spasechip-prompt](#update-spaceship-prompt)
-- Languages:
-  - [update rbenv](#update-rbenv)
-  - [update rust](#update-rust)
-  - [update nvm](#update-nvm)
-
-#### update language environments
-
-```shell
-ansible-playbook macbook_daily.yml --tags update_languages
-```
-
-#### update rbenv
-
-```shell
-ansible-playbook macbook_daily.yml --tags update_rbenv
-```
-
-#### update rust
-
-```shell
-ansible-playbook macbook_daily.yml --tags update_rust
-```
-
-#### update nvm
-
-```shell
-ansible-playbook macbook_daily.yml --tags update_nvm
-```
-
-#### update spaceship-prompt
-
-```shell
-ansible-playbook macbook_daily.yml --tags update_spaceship
-```
+- **Environment**:
+  - update language environments: (`--tags update_languages`)
+  - update **spasechip-prompt**: (`--tags update_spaceship`)
+- **Languages**:
+  - update **rbenv**: (`--tags update_rbenv`)
+  - update **rust**: (`--tags update_rust`)
+  - update **nvm**: (`--tags update_nvm`)
 
 ---
 
