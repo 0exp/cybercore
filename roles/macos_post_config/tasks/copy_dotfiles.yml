@@ -3,7 +3,7 @@
 - name: '[macos/dots] Copy dotfiles'
   block:
     - file:
-        src: "{{ macbook.home_path }}/.zsh/"
+        path: "{{ macbook.home_path }}/.zsh/"
         state: absent
     - copy:
         src: "dotfiles/{{ dotfile }}"

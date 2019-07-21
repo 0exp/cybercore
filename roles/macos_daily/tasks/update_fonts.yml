@@ -3,7 +3,7 @@
 - name: '[macOS] Update fonts (FiraCode)'
   import_role:
     name: macos_post_config
-    tasks_from: setup_fira_code
+    tasks_from: setup_fira_code_font
   tags:
     - update_fonts
     - update_env
