@@ -19,3 +19,4 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/rust.sh
 . ~/.zsh/travis.sh
 . ~/.zsh/zsh.sh
+. ~/.zsh/prompt.sh
