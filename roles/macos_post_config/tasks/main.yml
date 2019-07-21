@@ -5,4 +5,5 @@
   with_items:
     - setup_fira_code_font
     - install_zsh_prompt
+    - configure_vim
     - copy_dotfiles
