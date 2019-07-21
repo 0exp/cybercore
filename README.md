@@ -27,8 +27,6 @@ ansible-playbook macbook_setup.yml -v
 
 ### Daily Tasks
 
-**(ansible)** macOS daily tasks:
-
 ```shell
 ansible-playbook macbook_daily.yml --list-tasks
 ```
