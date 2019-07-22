@@ -13,7 +13,6 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/git.sh
 . ~/.zsh/gpg.sh
 . ~/.zsh/nvm.sh
-. ~/.zsh/project_aliases.sh
 . ~/.zsh/pyenv.sh
 . ~/.zsh/rbenv.sh
 . ~/.zsh/rust.sh
