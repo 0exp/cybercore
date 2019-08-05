@@ -1,0 +1,6 @@
+---
+
+- name: '[homebrew/pkg] Install <metasploit>'
+  homebrew_cask:
+    package: metasploit
+    state: latest
