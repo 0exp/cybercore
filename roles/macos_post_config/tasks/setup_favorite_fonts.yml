@@ -12,9 +12,5 @@
     - FiraCode-Medium.ttf
     - FiraCode-Regular.ttf
     - FiraCode-Retina.ttf
-    - Monoid-Bold.ttf
-    - Monoid-Italic.ttf
-    - Monoid-Regular.ttf
-    - Monoid-Retina.ttf
   loop_control:
     loop_var: font_file
