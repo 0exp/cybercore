@@ -46,3 +46,4 @@ ansible-playbook macbook_daily.yml --list-tasks
 ### TODO:
 
 - `brew cleanup` should be invoked by ansible's `handlers`;
+- move credential prompts to ansible-vault;
