@@ -1,6 +1,0 @@
----
-
-- name: '[homebrew/pkg] Install <jetbrains-toolbox>'
-  homebrew_cask:
-    package: jetbrains-toolbox
-    state: latest

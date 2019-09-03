@@ -1,6 +1,0 @@
----
-
-- name: '[homebrew/pkg] Install <dropbox>'
-  homebrew_cask:
-    package: dropbox
-    state: latest
