@@ -2,3 +2,4 @@
 
 macos_config:
   ansible_artifacts_path: "{{ ansible_env.HOME }}/.ansible_artifacts"
+  user_related_bin_dir: "{{ ansible_env.HOME }}/.local/bin"

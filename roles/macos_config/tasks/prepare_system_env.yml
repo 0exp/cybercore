@@ -1,0 +1,7 @@
+---
+
+- name: '[macOS/sytemEnv] User-related bin direcotry'
+  file:
+    path: "{{ macos_config.user_related_bin_dir }}"
+    owner: "{{ macbook.home_user }}"
+    state: directory
