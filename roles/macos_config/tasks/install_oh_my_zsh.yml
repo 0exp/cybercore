@@ -15,3 +15,6 @@
   shell: sh -c "$(curl -fsSL {{ macos_oh_my_zsh_url }})"
   args:
     warn: no
+
+- name: '[macOS] Set oh-my-zsh as default shell'
+  shell: chsh -s $(which zsh)
