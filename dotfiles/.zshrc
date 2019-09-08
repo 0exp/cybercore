@@ -20,3 +20,4 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/travis.sh
 . ~/.zsh/zsh.sh
 . ~/.zsh/prompt.sh
+. ~/.zsh/ansible.sh
