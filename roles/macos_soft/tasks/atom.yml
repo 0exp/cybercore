@@ -1,6 +1,0 @@
----
-
-- name: '[homebrew/pkg] Install <atom-nightly>'
-  homebrew_cask:
-    package: atom-nightly
-    state: latest

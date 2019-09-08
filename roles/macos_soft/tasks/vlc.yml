@@ -1,6 +1,0 @@
----
-
-- name: '[homebrew/pkg] Install <vlc>'
-  homebrew_cask:
-    package: vlc
-    state: latest

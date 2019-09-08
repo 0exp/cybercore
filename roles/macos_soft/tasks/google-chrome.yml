@@ -1,6 +1,0 @@
----
-
-- name: '[homebrew/pkg] Install <google-chrome>'
-  homebrew_cask:
-    package: google-chrome
-    state: latest

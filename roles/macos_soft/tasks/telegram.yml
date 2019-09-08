@@ -1,7 +1,0 @@
----
-
-- name: '[homebrew/pkg] Install <telegram>'
-  homebrew_cask:
-    package: telegram
-    state: latest
-  ignore_errors: yes

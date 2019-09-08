@@ -1,4 +1,0 @@
----
-
-- name: '[homebrew] Cleanup homebrew'
-  command: brew cleanup && brew cask cleanup

@@ -1,6 +1,0 @@
----
-
-- name: '[homebrew/pkg] Install <DashDoc>'
-  homebrew_cask:
-    package: dash
-    state: latest

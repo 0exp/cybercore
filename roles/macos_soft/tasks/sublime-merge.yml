@@ -1,6 +1,0 @@
----
-
-- name: '[homebrew/pkg] Install <sublime-text>'
-  homebrew_cask:
-    package: sublime-merge
-    state: latest
