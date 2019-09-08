@@ -4,3 +4,4 @@
   homebrew:
     package: mkcert
     state: latest
+  notify: brew_pkg_intalled

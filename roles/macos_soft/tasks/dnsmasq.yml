@@ -4,3 +4,4 @@
   homebrew:
     package: dnsmasq
     state: latest
+  notify: brew_pkg_intalled

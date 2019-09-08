@@ -4,3 +4,4 @@
   homebrew:
     package: ripgrep
     state: latest
+  notify: brew_pkg_intalled

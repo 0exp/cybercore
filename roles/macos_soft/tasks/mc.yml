@@ -4,3 +4,4 @@
   homebrew:
     package: mc
     state: latest
+  notify: brew_pkg_intalled

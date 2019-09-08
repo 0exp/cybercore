@@ -4,3 +4,4 @@
   homebrew:
     package: tmux
     state: latest
+  notify: brew_pkg_intalled

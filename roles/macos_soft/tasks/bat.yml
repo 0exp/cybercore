@@ -4,3 +4,4 @@
   homebrew:
     package: bat
     state: latest
+  notify: brew_pkg_intalled

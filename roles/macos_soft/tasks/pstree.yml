@@ -4,3 +4,4 @@
   homebrew:
     package: pstree
     state: latest
+  notify: brew_pkg_intalled

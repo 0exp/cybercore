@@ -4,3 +4,4 @@
   homebrew:
     package: gpg
     state: latest
+  notify: brew_pkg_intalled

@@ -4,3 +4,4 @@
   homebrew:
     package: tree
     state: latest
+  notify: brew_pkg_intalled

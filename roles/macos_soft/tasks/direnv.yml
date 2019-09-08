@@ -4,3 +4,4 @@
   homebrew:
     package: direnv
     state: latest
+  notify: brew_pkg_intalled

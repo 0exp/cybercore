@@ -1,0 +1,5 @@
+---
+
+- name: brew_pkg_intalled
+  shell: brew cleanup
+
