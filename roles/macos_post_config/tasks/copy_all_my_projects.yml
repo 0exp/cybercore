@@ -10,7 +10,7 @@
     github_url: "https://github.com/0exp"
     clone_path: "{{ macbook.home_path }}/Projects"
   git:
-    repo: "{{ github_url }/{{ repo_name }}"
+    repo: "{{ github_url }}/{{ repo_name }}"
     dest: "{{ clone_path }}/{{ repo_name }}"
   loop:
     - cybercore
@@ -25,7 +25,7 @@
     - rabbit_matcher
     - sidekiq-portal
     - recipes
-    - trinity
+    - meduza
     - evil_events
     - 0exp.github.io
     - nova_crystallis
