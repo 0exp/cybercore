@@ -1,8 +1,0 @@
-// GitGutter Settings - User
-{
-  "show_status_bar_text": false,
-  "line_annotation_ruler": false,
-  "line_annotation_ignore_whitespace": true,
-  "debounce_delay": 100,
-  "git_gutter_enable": false,
-}
