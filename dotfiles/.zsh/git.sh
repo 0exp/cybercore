@@ -54,4 +54,5 @@ alias ggnored="st ~/.gitignore"
 alias gdfstat="git diff --stat master"
 alias glas="git config --get-regexp alias"
 alias gitmans="git shortlog --summary --numbered"
+alias gcurr="git rev-parse --abbrev-ref HEAD"
 alias grkn='git commit --amend --author="Rustam Ibragimov <iamdaiver@icloud.com>'
