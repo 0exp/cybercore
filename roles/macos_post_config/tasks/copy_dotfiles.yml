@@ -10,15 +10,17 @@
         dest: "{{ macbook.home_path }}/{{ dotfile }}"
         owner: "{{ macbook.home_user }}"
       loop:
+        - .bash_profile
         - .gitconfig
         - .gitignore
         - .nvmrc
         - .pryrc
         - .psqlrc
+        - .python-version
+        - .ruby-version
         - .tmux.conf
         - .vimrc
         - .zsh/
         - .zshrc
-        - .ruby-version
       loop_control:
         loop_var: dotfile
