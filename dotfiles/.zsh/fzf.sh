@@ -11,3 +11,6 @@ fi
 # Key bindings
 # ------------
 source "/usr/local/opt/fzf/shell/key-bindings.zsh"
+
+# show preview in bat :)
+alias fzfz="fzf --preview 'bat {}'"
