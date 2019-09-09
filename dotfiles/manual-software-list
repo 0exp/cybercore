@@ -9,3 +9,42 @@
 - rabbitmq
 - memcached
 - redis
+
+---
+
+POSTGRESQL
+
+To migrate existing data from a previous major version of PostgreSQL run:
+  brew postgresql-upgrade-database
+
+To have launchd start postgresql now and restart at login:
+  brew services start postgresql
+Or, if you don't want/need a background service you can just run:
+  pg_ctl -D /usr/local/var/postgres start
+
+
+RABBITMQ
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+To have launchd start rabbitmq now and restart at login:
+  brew services start rabbitmq
+Or, if you don't want/need a background service you can just run:
+  rabbitmq-server
+
+MEMCACHED
+
+To have launchd start memcached now and restart at login:
+  brew services start memcached
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/memcached/bin/memcached
+
+
+REDIS
+
+
+To have launchd start redis now and restart at login:
+  brew services start redis
+Or, if you don't want/need a background service you can just run:
+  redis-server /usr/local/etc/redis.conf
