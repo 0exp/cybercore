@@ -5,3 +5,7 @@
 - sublime-merge
 - telegram
 - uTorrent Web
+- postgresql
+- rabbitmq
+- memcached
+- redis
