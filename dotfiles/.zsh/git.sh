@@ -57,3 +57,4 @@ alias glas="git config --get-regexp alias"
 alias gitmans="git shortlog --summary --numbered"
 alias gcurr="git rev-parse --abbrev-ref HEAD"
 alias grkn='git commit --amend --author="Rustam Ibragimov <iamdaiver@icloud.com>'
+alias gempty="git commit --allow-empty -m 'empty-commit'"
