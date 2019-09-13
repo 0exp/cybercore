@@ -41,7 +41,7 @@ ansible-playbook macbook_daily.yml --list-tasks
   - update **rust**: (`--tags update_rust`)
   - update **nvm**: (`--tags update_nvm`)
 - **Software**:
-  - install soft: (`--tags install_soft`)
+  - update soft: (`--tags update_soft`)
 
 ---
 
