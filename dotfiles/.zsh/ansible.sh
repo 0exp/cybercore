@@ -4,3 +4,4 @@ alias update-prompt="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --t
 alias update-langs="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_languages"
 alias update-rbenv="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_rbenv"
 alias update-nvm="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_nvm"
+alias install-soft="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags install_soft"

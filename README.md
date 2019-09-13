@@ -36,10 +36,12 @@ ansible-playbook macbook_daily.yml --list-tasks
   - actualize custom fonts (`--tags update_fonts`)
   - update **spasechip-prompt**: (`--tags update_spaceship`)
   - update language environments: (`--tags update_languages`)
-- **Languages**:
+- **Programming languages**:
   - update **rbenv**: (`--tags update_rbenv`)
   - update **rust**: (`--tags update_rust`)
   - update **nvm**: (`--tags update_nvm`)
+- **Software**:
+  - install soft: (`--tags install_soft`)
 
 ---
 

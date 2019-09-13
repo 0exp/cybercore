@@ -1,0 +1,8 @@
+---
+
+- name: '[macOS] Install soft'
+  import_role:
+    name: macos_soft
+  tags:
+    - install_soft
+    - update_env
