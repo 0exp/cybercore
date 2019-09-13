@@ -22,5 +22,6 @@
         - .vimrc
         - .zsh/
         - .zshrc
+        - .ansible.cfg
       loop_control:
         loop_var: dotfile
