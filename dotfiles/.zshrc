@@ -22,3 +22,4 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/zsh.sh
 . ~/.zsh/prompt.sh
 . ~/.zsh/ansible.sh
+. ~/.zsh/functions.sh
