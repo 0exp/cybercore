@@ -9,5 +9,6 @@
 - rabbitmq
 - memcached
 - redis
+- torBrowser
 - ansible (sudo pip install ansible)
 - ansible-lint (pip install ansible-lint)
