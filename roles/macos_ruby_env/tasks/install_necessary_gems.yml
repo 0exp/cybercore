@@ -1,7 +1,7 @@
 ---
 
-- name: "[dev/ruby] Install required gems"
-  shell: | # NOTE: if fails use: eval "$(rbenv init -)";
+- name: "[dev/ruby] Install required gems" # NOTE: if fails use: eval "$(rbenv init -)";
+  shell: |
     eval "$(rbenv init -)"
     rbenv global {{ macos_ruby_env.ruby_version }}
     gem install {{ required_gem }}

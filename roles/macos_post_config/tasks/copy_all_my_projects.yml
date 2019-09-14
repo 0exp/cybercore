@@ -12,6 +12,7 @@
   git:
     repo: "{{ github_url }}/{{ repo_name }}"
     dest: "{{ clone_path }}/{{ repo_name }}"
+    version: 'HEAD'
   loop:
     - cybercore
     - cv

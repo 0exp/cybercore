@@ -2,5 +2,6 @@
 
 - name: "[dev/js] Install <nodejs@{{ macos_js_env.node_version }}>"
   shell: |
+    set -o pipefail
     source {{ macos_js_env.nvm_path }}/nvm.sh
     nvm install {{ macos_js_env.node_version }}

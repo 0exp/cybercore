@@ -2,10 +2,12 @@
 
 - name: '[macos/dots] Copy dotfiles'
   block:
-    - file:
+    - name: '[macos/dots] drop old .zsh/ directory'
+      file:
         path: "{{ macbook.home_path }}/.zsh/"
         state: absent
-    - copy:
+    - name: '[macos/dots] copy dot-files and .zsh/-directory'
+      copy:
         src: "dotfiles/{{ dotfile }}"
         dest: "{{ macbook.home_path }}/{{ dotfile }}"
         owner: "{{ macbook.home_user }}"

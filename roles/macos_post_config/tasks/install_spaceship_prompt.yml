@@ -7,17 +7,22 @@
     cloned_theme_path: "{{ macos_post_config.oh_my_zsh_path }}/themes/spaceship-prompt/spaceship.zsh-theme"
     final_theme_path: "{{ macos_post_config.oh_my_zsh_path }}/themes/spaceship.zsh-theme"
   block:
-    - npm: # NOTE: remove already installed version
+    - name: '[spaceship-prompt] remove already installed version'
+      npm:
         name: spaceship-prompt
         global: yes
         state: absent
-    - npm: # NOTE: install new version
+    - name: '[spaceship-prompt] install new version'
+      npm:
         name: spaceship-prompt
         global: yes
-    - git:
+    - name: '[spaceship-prompt] clone originals'
+      git:
         repo: "{{ repo_url }}"
         dest: "{{ clone_path }}"
-    - file:
+        version: 'HEAD'
+    - name: '[spaceship-prompt] link zsh theme'
+      file:
         src: "{{ cloned_theme_path }}"
         dest: "{{ final_theme_path }}"
         state: link

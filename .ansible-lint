@@ -1,0 +1,44 @@
+exclude_paths:
+  - ./dotfiles
+  - ./retry-files
+quiet: true
+parseable: true # parseable console output
+verbosity: 1 # show progress log
+use_default_rules: true
+tags:
+  - '101' # Deprecated always_run
+  - '102' # No Jinja2 in when
+  - '103' # Deprecated sudo
+  - '104' # Using bare variables is deprecated
+  - '105' # Deprecated module
+  - '201' # Trailing whitespace
+  - '202' # Octal file permissions must contain leading zero or be a string
+  - '203' # Most files should not contain tabs
+  - '204' # Lines should be no longer than 160 chars
+  - '205' # Use ”.yml” or ”.yaml” playbook extension
+  - '206' # Variables should have spaces before and after: {{ var_name }}
+  - '301' # Commands should not change things if nothing needs doing
+  - '302' # Using command rather than an argument to e.g. file
+  - '303' # Using command rather than module
+  - '304' # Environment variables don’t work as part of command
+  - '305' # Use shell only when shell functionality is required
+  - '306' # Shells that use pipes should set the pipefail option
+  - '401' # Git checkouts must contain explicit version
+  - '402' # Mercurial checkouts must contain explicit revision
+  - '403' # Package installs should not use latest
+  - '404' # Doesn’t need a relative path in role
+  - '501' # become_user requires become to work as expected
+  - '502' # All tasks should be named
+  - '503' # Tasks that run when changed should likely be handlers
+  - '504' # Do not use ‘local_action’, use ‘delegate_to: localhost’
+  - '601' # Don’t compare to literal True/False
+  - '602' # Don’t compare to empty string
+  - '701' # meta/main.yml should contain relevant info
+  - '702' # Tags must contain lowercase letters and digits only
+  - '703' # meta/main.yml default values should be changed
+  - '704' # meta/main.yml video_links should be formatted correctly
+skip_list:
+  - '401' # (explicit git version) i want to use 'HEAD'
+  - '403' # (package installs should not use latest) => (but i want to use it)
+  - '305' # useless
+  - '301' # useless

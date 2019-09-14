@@ -17,11 +17,13 @@
 
 - name: '[dev/ruby] Setup rubygems account integration'
   block:
-    - file:
+    - name: '[rubygems-integration] create credentials file'
+      file:
         path: "{{ macos_ruby_env.rubygems_creds_file }}"
         mode: '0600'
         state: touch
-    - lineinfile:
+    - name: '[rubygems-integration] write credentials token to credentials file'
+      lineinfile:
         path: "{{ macos_ruby_env.rubygems_creds_file }}"
         line: "{{ rubygems_api_token_data.content }}"
         create: yes
