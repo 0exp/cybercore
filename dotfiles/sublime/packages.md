@@ -38,3 +38,4 @@
 - [Swift](https://github.com/quiqueg/Swift-Sublime-Package)
 - [Toml](https://github.com/jasonwilliams/sublime_toml_highlighting)
 - [INI](https://github.com/clintberry/sublime-text-2-ini)
+- [Pretty YAML](https://github.com/aukaost/SublimePrettyYAML)
