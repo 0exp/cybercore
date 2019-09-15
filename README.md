@@ -2,6 +2,11 @@
 
 > my development environments and system configurations
 
+- [Macbook Setup](#macbook-setup)
+- [Daily Tasks](#daily-tasks)
+- [(CI) Build Script](#ci-build-script)
+- [TODO](#todo)
+
 ---
 
 ### Macbook Setup
@@ -46,7 +51,7 @@ ansible-playbook macbook_daily.yml --list-tasks
 
 ---
 
-### Build-script
+### (CI) Build Script
 
 ```shell
 yamllint --strict $(git ls-files '*.yaml' '*.yml')
