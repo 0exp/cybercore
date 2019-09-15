@@ -1,6 +1,7 @@
 # cybercore &middot; [![Build Status](https://travis-ci.org/0exp/cybercore.svg?branch=master)](https://travis-ci.org/0exp/cybercore)
 
-> my development environments and system configurations (ansible@2.8.4)
+> my development environments and system configurations
+> ansible@2.8.4
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
