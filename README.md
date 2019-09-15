@@ -1,6 +1,6 @@
 # cybercore &middot; [![Build Status](https://travis-ci.org/0exp/cybercore.svg?branch=master)](https://travis-ci.org/0exp/cybercore)
 
-> my development environments and system configurations
+> my development environments and system configurations (ansible@2.8.4)
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
@@ -52,6 +52,7 @@ ansible-playbook macbook_daily.yml --list-tasks
 ### (CI) Build Script
 
 ```shell
+pip install -r requirements.txt
 yamllint --strict $(git ls-files '*.yaml' '*.yml')
 ansible-lint *.yml
 ```

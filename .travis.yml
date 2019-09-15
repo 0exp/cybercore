@@ -3,7 +3,7 @@ python: "3.7.4"
 sudo: false
 matrix:
   include:
-  - before_script: pip install yamllint
+  - before_script: pip install yamllint==1.17.0
     script: yamllint --strict $(git ls-files '*.yaml' '*.yml')
-  - before_script: pip install ansible-lint
+  - before_script: pip install ansible-lint==4.1.0
     script: ansible-lint macbook_setup.yml macbook_daily.yml
