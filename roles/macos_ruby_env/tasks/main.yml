@@ -8,3 +8,4 @@
     - configure_ruby
     - setup_rubygems
     - install_necessary_gems
+    - install_solargraph

@@ -1,0 +1,9 @@
+---
+
+- name: '[macOS] Actualize solargraph'
+  import_role:
+    name: macos_ruby_env
+    tasks_from: install_solargraph
+  tags:
+    - update_solargraph
+    - update_env

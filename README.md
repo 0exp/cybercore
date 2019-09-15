@@ -34,6 +34,7 @@ ansible-playbook macbook_daily.yml --list-tasks
 - **Environment**:
   - actualzie **dotfiles**: (`--tags update_dotfiles`)
   - actualize custom fonts (`--tags update_fonts`)
+  - actualize **solargraph** (`--tags update_solargraph`)
   - update **spasechip-prompt**: (`--tags update_spaceship`)
   - update language environments: (`--tags update_languages`)
 - **Programming languages**:
@@ -42,6 +43,15 @@ ansible-playbook macbook_daily.yml --list-tasks
   - update **nvm**: (`--tags update_nvm`)
 - **Software**:
   - update soft: (`--tags update_soft`)
+
+---
+
+### Build-script
+
+```shell
+yamllint --strict $(git ls-files '*.yaml' '*.yml')
+ansible-lint *.yml
+```
 
 ---
 

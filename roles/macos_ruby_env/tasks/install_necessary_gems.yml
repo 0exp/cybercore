@@ -7,7 +7,6 @@
     gem install {{ required_gem }}
   loop:
     - "bundler --version={{ macos_ruby_env.bundler_version }}"
-    - solargraph
     - travis
   loop_control:
     loop_var: required_gem

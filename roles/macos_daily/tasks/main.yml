@@ -7,3 +7,4 @@
 - import_tasks: update_spaceship_prompt.yml
 - import_tasks: update_fonts.yml
 - import_tasks: update_software.yml
+- import_tasks: actualize_solargraph.yml
