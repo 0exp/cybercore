@@ -4,4 +4,5 @@
   { "keys": ["super+shift+k"], "command": "goto_definition" },
   { "keys": ["super+shift+j"], "command": "view_in_browser", "args": { "browser": "safari" } },
   { "keys": ["super+shift+'"], "command": "change_quotes" },
+  { "keys": ["super+shift+l"], "command": "lsp_symbol_definition" }
 ]

@@ -64,3 +64,4 @@ ansible-lint *.yml
 ### TODO:
 
 - move credential prompts to ansible-vault;
+- clone sublime packages (and use `Package Control: Satisfy Dependencies`)
