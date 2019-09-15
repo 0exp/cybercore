@@ -5,5 +5,6 @@ before_script:
 - pip install yamllint
 - pip install ansible-lint
 matrix:
+  include:
   - script: yamllint --strict $(git ls-files '*.yaml' '*.yml')
   - script: ansible-lint macbook_setup.yml macbook_daily.yml
