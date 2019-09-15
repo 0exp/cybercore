@@ -13,7 +13,7 @@
   register: macos_homebrew_status
 
 - name: '[homebrew] Check and Install homebrew'
-  vars: { macos_homebrew_url: https://raw.githubusercontent.com/Homebrew/install/master/install }
+  vars: { macos_homebrew_url: 'https://raw.githubusercontent.com/Homebrew/install/master/install' }
   block:
     - name: '[gather-homebrew-existence]'
       stat:
