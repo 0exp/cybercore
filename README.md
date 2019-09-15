@@ -4,8 +4,6 @@
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
-- [(CI) Build Script](#ci-build-script)
-- [TODO](#todo)
 
 ---
 
