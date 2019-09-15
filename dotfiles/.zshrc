@@ -9,7 +9,7 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/aliases.sh
 . ~/.zsh/services.sh
 . ~/.zsh/ssh.sh
-. ~/.zsh/bundler.sh
+. ~/.zsh/programming.sh
 . ~/.zsh/editor.sh
 . ~/.zsh/fzf.sh
 . ~/.zsh/git.sh

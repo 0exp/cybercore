@@ -10,3 +10,6 @@ alias brout="bundle outdated"
 alias brake="bundle exec rake"
 alias brails="bundle exec rails"
 alias brc="bundle exec rails c"
+
+alias yamcop="yamllint --strict $(git ls-files '*.yaml' '*.yml')"
+alias ansicop="ansible-lint *.yml"
