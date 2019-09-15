@@ -1,0 +1,9 @@
+language: python
+python: "3.7.4"
+sudo: false
+before_script:
+- pip install yamllint
+- pip install ansible-lint
+matrix:
+  - script: yamllint --strict $(git ls-files '*.yaml' '*.yml')
+  - script: ansible-lint macbook_setup.yml macbook_daily.yml
