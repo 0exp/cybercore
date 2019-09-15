@@ -1,3 +1,6 @@
+alias solar-doc="solargraph bundle"
+alias solardoc="solar-doc"
+
 alias be="bundle exec"
 alias bi="bundle install"
 alias bu="bundle update"
