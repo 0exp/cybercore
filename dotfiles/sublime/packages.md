@@ -39,3 +39,4 @@
 - [Toml](https://github.com/jasonwilliams/sublime_toml_highlighting)
 - [INI](https://github.com/clintberry/sublime-text-2-ini)
 - [Pretty YAML](https://github.com/aukaost/SublimePrettyYAML)
+- [GoSublime](https://github.com/DisposaBoy/GoSublime)
