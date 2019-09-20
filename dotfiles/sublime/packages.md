@@ -1,5 +1,7 @@
-- [A File Icon](https://github.com/ihodev/a-file-icon)
-- [AtomicColorScheme](https://github.com/gerardbm/atomic)
+**My package directory path**: `/Users/daiver/Library/Application Support/Sublime Text 3/Packages`
+
+- [A File Icon](https://github.com/SublimeText/AFileIcon)
+- [AtomicColorScheme](https://github.com/gerardbm/sublime-atomic-scheme)
 - [Babel](https://github.com/babel/babel-sublime)
 - [Better CoffeeScript](https://github.com/aponxi/sublime-better-coffeescript)
 - [Bracketeer](https://github.com/colinta/SublimeBracketeer)
