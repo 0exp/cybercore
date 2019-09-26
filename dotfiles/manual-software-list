@@ -16,3 +16,4 @@
 - ansible (sudo pip install ansible)
 - ansible-lint (pip install ansible-lint)
 - polyglot (safari extension)
+- firefox developer edition
