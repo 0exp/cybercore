@@ -1,5 +1,7 @@
 alias clr="clear"
 
+alias goto0exp="cd ~/Projects/0exp.github.io"
+alias gotodaiver="cd ~/Projects/0exp.github.io"
 alias gotocybercore="cd ~/Projects/cybercore && clear"
 alias gotoblastwave="cd ~/Projects/blast_wave && clear"
 alias gotoarmitage="cd ~/Projects/armitage && clear"
