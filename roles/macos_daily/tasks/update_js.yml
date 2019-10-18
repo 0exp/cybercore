@@ -1,0 +1,8 @@
+---
+
+- name: '[dev/js] Update <js>'
+  import_role:
+    name: macos_js_env
+  tags:
+    - update_js
+    - update_languages

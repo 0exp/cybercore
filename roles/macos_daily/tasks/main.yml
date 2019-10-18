@@ -1,7 +1,7 @@
 ---
 
 - import_tasks: update_rbenv.yml
-- import_tasks: update_nvm.yml
+- import_tasks: update_js.yml
 - import_tasks: update_rust.yml
 - import_tasks: actualize_dotfiles.yml
 - import_tasks: update_spaceship_prompt.yml

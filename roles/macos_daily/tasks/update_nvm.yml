@@ -1,9 +1,0 @@
----
-
-- name: '[dev/js] Update <nvm>'
-  import_role:
-    name: macos_js_env
-    tasks_from: install_nvm
-  tags:
-    - update_nvm
-    - update_languages

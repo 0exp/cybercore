@@ -3,6 +3,6 @@ alias update-fonts="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --ta
 alias update-prompt="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_spaceship"
 alias update-langs="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_languages"
 alias update-rbenv="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_rbenv"
-alias update-nvm="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_nvm"
+alias update-js="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_nvm"
 alias update-soft="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_soft"
 alias update-solargraph="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_solargraph"

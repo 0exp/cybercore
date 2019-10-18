@@ -45,7 +45,7 @@ ansible-playbook macbook_daily.yml --list-tasks
 - **Programming languages**:
   - update **rbenv**: (`--tags update_rbenv`)
   - update **rust**: (`--tags update_rust`)
-  - update **nvm**: (`--tags update_nvm`)
+  - update **js**: (`--tags update_js`) (updates `nvm`, `node` and `yarn`)
 - **Software**:
   - update soft: (`--tags update_soft`)
 
