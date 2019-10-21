@@ -7,3 +7,4 @@ macos_ruby_env:
   rubygems_creds_file: "{{ macbook.home_path }}/.gem/credentials"
   solargraph_version: '0.37.2'
   solargraph_core: '2.6.1'
+  seeing_is_believing_version: '3.6.1'

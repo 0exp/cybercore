@@ -9,3 +9,4 @@
     - setup_rubygems
     - install_necessary_gems
     - install_solargraph
+    - install_seeing_is_believing_version

@@ -1,0 +1,10 @@
+---
+
+- name: '[dev/ruby] Install <seeing_is_believing>'
+  block:
+    - name: '[dev/ruby] seeing_is_believing: install gem'
+      shell: |
+        set -o pipefail
+        eval "$(rbenv init -)"
+        rbenv global {{ macos_ruby_env.ruby_version }}
+        gem install seeing_is_believing -v {{ macos_ruby_env.seeing_is_believing_version }}
