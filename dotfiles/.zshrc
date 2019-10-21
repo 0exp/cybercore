@@ -3,6 +3,7 @@ export ZSH=/Users/DaiveR/.oh-my-zsh
 ZSH_THEME="spaceship"
 DISABLE_UPDATE_PROMPT=true
 DISABLE_AUTO_UPDATE=true
+PROMPT_EOL_MARK=''
 plugins=(sublime osx docker postgres gpg-agent)
 source $ZSH/oh-my-zsh.sh
 
