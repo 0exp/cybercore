@@ -42,3 +42,4 @@
 - [INI](https://github.com/clintberry/sublime-text-2-ini)
 - [Pretty YAML](https://github.com/aukaost/SublimePrettyYAML)
 - [GoSublime](https://github.com/DisposaBoy/GoSublime)
+- [Seeing is Believing](https://github.com/JoshCheek/sublime-text-2-and-3-seeing-is-believing)
