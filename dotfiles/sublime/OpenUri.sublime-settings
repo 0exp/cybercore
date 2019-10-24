@@ -16,7 +16,7 @@
     "popup": "#fa8c00",
   },
   "draw_uri_regions": {
-    "enabled": "always",
+    "enabled": "never",
     "scope": "string",
     "icon": "",
     "flags": 802,
