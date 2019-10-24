@@ -1,0 +1,52 @@
+{
+  "log_level": "INFO",
+  "browser": "",
+  "show_open_button": "always",
+  "show_open_button_fallback": "hover",
+  "large_file_threshold": 1000000, // 1MB
+  "typing_period": 250,
+  "renderer_interval": 500,
+  "popup_text_html": "<span>Open this URI</span>",
+  "image_files": {
+    "phantom": "Packages/${package_name}/images/FontAwesome/external-link-square.png",
+    "popup": "Packages/${package_name}/images/FontAwesome/share-square.png",
+  },
+  "image_colors": {
+    "phantom": "#fa8c00",
+    "popup": "#fa8c00",
+  },
+  "draw_uri_regions": {
+    "enabled": "always",
+    "scope": "string",
+    "icon": "bookmark",
+    "flags": 802,
+  },
+  "detect_schemes": {
+    // basic
+    "file://": {"enabled": false, "path_regex": "@default"},
+    "ftp://": {"enabled": true, "path_regex": "@default"},
+    "ftps://": {"enabled": true, "path_regex": "@default"},
+    "http://": {"enabled": true, "path_regex": "@default"},
+    "https://": {"enabled": true, "path_regex": "@default"},
+    "mailto:": {"enabled": true, "path_regex": "@default"},
+    // server
+    "sftp://": {"enabled": false, "path_regex": "@default"},
+    "ssh://": {"enabled": false, "path_regex": "@default"},
+    "telnet://": {"enabled": false, "path_regex": "@default"},
+    // P2P
+    "ed2k://": {"enabled": false, "path_regex": "@default"},
+    "freenet://": {"enabled": false, "path_regex": "@default"},
+    "magnet:?": {"enabled": false, "path_regex": "@default"},
+    // messenger
+    "irc://": {"enabled": false, "path_regex": "@default"},
+    "line://": {"enabled": false, "path_regex": "@default"},
+    "skype:": {"enabled": false, "path_regex": "@default"},
+    "tencent://": {"enabled": false, "path_regex": "@default"},
+    "tg://": {"enabled": true, "path_regex": "@default"},
+  },
+  "uri_path_regexes": {
+    "@default": "(?:[^\\s()\\[\\]{}<>`^*'\"“”‘’]|\\((?![/\\\\])[^\\s)]*\\)|\\[(?![/\\\\])[^\\s\\]]*\\]|\\{(?![/\\\\])[^\\s}]*\\})+(?<![:.,!?¡¿，。！？])",
+    "ascii_only": "[a-z0-9@~_+\\-*/&=#%|:.,!?]+(?<=[a-z0-9@~_+\\-*/&=#%|])",
+  },
+  "uri_search_radius": 200
+}
