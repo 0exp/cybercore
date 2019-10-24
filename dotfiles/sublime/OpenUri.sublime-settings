@@ -18,7 +18,7 @@
   "draw_uri_regions": {
     "enabled": "always",
     "scope": "string",
-    "icon": "bookmark",
+    "icon": "",
     "flags": 802,
   },
   "detect_schemes": {
