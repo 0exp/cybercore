@@ -51,6 +51,23 @@ ansible-playbook macbook_daily.yml --list-tasks
 
 ---
 
+---
+
+### Crazy Tips
+
+- open dahsdoc documentation about Ruby's `attr_reader` or `Kernel` module:
+  ```shell
+    rubydash attr_reader
+  ```
+  ```shell
+    rubydash Kernel
+  ```
+
+- open dashdoc documentation for Docker:
+  ```shell
+    dashdoc docker:
+  ```
+
 ### (CI) Build Script
 
 ```shell
