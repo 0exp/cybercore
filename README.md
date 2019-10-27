@@ -6,6 +6,8 @@
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
+- [Crazy Tips](#crazy-tips)
+- [(CI) Build Script](#ci-build-script)
 
 ---
 
@@ -51,8 +53,6 @@ ansible-playbook macbook_daily.yml --list-tasks
 
 ---
 
----
-
 ### Crazy Tips
 
 - open dahsdoc documentation about Ruby's `attr_reader` or `Kernel` module:
@@ -67,6 +67,8 @@ ansible-playbook macbook_daily.yml --list-tasks
   ```shell
     dashdoc docker:
   ```
+
+---
 
 ### (CI) Build Script
 
