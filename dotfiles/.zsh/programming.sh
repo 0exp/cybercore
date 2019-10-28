@@ -1,5 +1,4 @@
-alias solar-doc="solargraph bundle"
-alias solardoc="solar-doc"
+alias solardoc="solargraph bundle"
 
 alias be="bundle exec"
 alias bi="bundle install"
