@@ -8,6 +8,7 @@
 - [Daily Tasks](#daily-tasks)
 - [Crazy Tips](#crazy-tips)
 - [(CI) Build Script](#ci-build-script)
+- ([dotfiles](dotfiles))
 
 ---
 
