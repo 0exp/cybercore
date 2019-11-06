@@ -16,6 +16,7 @@
   loop:
     - cybercore
     - cv
+    - diablo-ruby
     - qonfig
     - any_cache
     - armitage
