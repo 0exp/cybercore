@@ -43,7 +43,7 @@ ansible-playbook macbook_daily.yml --list-tasks
   - actualzie **dotfiles**: (`--tags update_dotfiles`)
   - actualize custom fonts (`--tags update_fonts`)
   - actualize **solargraph** (`--tags update_solargraph`)
-  - update **spasechip-prompt**: (`--tags update_spaceship`)
+  - update **spaceship-prompt**: (`--tags update_spaceship`)
   - update language environments: (`--tags update_languages`)
 - **Programming languages**:
   - update **rbenv**: (`--tags update_rbenv`)
