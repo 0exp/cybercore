@@ -16,6 +16,7 @@
   loop:
     - cybercore
     - cv
+    - armonica
     - diablo-ruby
     - qonfig
     - any_cache
