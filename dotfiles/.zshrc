@@ -25,3 +25,4 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/prompt.sh
 . ~/.zsh/ansible.sh
 . ~/.zsh/functions.sh
+. ~/.zsh/asdf.sh

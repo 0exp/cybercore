@@ -4,4 +4,4 @@
   homebrew:
     package: telnet
     state: latest
-  notify: brew_pkg_intalled
+  notify: brew_pkg_installed

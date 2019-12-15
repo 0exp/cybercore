@@ -1,0 +1,20 @@
+---
+
+- name: '[dev/elixir] Install erlang plugin'
+  shell: |
+    set -o pipefail
+    asdf plugin-add erlang
+  ignore_errors: true # it happens only if the erlang plugin is already installed
+
+- name: '[dev/elixir] Check installed erlang versions'
+  shell: |
+    set -o pipefail
+    asdf list erlang
+  register: installed_erlang_versions
+  ignore_errors: true
+
+- name: "[dev/elixir] Install <erlang@{{ macos_elixir_env.erlang_version }}>"
+  shell: |
+    set -o pipefail
+    asdf install erlang {{ macos_elixir_env.erlang_version }}
+  when: macos_elixir_env.erlang_version not in installed_erlang_versions

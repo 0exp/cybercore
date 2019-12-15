@@ -1,0 +1,9 @@
+---
+
+- name: '[dev/elixir] Update <elixir>'
+  import_role:
+    name: macos_elixir_env
+    tasks_from: install_elixir
+  tags:
+    - update_elixir
+    - update_languages

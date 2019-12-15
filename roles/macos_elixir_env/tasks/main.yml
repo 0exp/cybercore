@@ -1,0 +1,8 @@
+---
+
+- name: 'Setup Elixir environment'
+  include_tasks: "{{ item }}.yml"
+  with_items:
+    - install_asdf
+    - install_erlang
+    - install_elixir
