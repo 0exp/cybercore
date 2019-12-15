@@ -1,0 +1,12 @@
+--database=postgresql
+--skip-action-mailer
+--skip-action-mailbox
+--skip-action-text
+--skip-active-record
+--skip-active-storage
+--skip-sprockets
+--skip-javascript
+--skip-turbolinks
+--skip-test
+--skip-system-test
+--api
