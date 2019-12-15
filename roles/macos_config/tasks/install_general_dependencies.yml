@@ -6,10 +6,19 @@
     state: present
     update_homebrew: yes
   loop:
+    - automake
+    - autoconf
     - openssl
     - readline
     - sqlite3
     - xz
     - zlib
+    - libxslt
+    - libtool
+    - libyaml
+    - unixodbc
+    - unzip
+    - curl
+    - fop
   loop_control:
     loop_var: dependency

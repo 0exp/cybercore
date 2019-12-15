@@ -7,6 +7,6 @@
 
 - name: "[dev/js] Install <nvm@{{ macos_js_env.nvm_version }}>"
   git:
-    repo: https://github.com/nvm-sh/nvm
+    repo: "{{ macos_js_env.nvm_repo }}"
     dest: "{{ macos_js_env.nvm_path }}"
     version: "{{ macos_js_env.nvm_version }}"

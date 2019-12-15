@@ -25,5 +25,8 @@
         - .zsh/
         - .zshrc
         - .ansible.cfg
+        - .asdfrc
+        - .tool-versions
+        - .railsrc
       loop_control:
         loop_var: dotfile

@@ -20,6 +20,7 @@
   - `macos_js_env` - setup **JavaScript** environment;
   - `macos_ruby_env` - setup **Ruby** environment;
   - `macos_rust_env` - setup **Rust** environment;
+  - `macos_elixir_env` - setup **Elixir** environment;
   - `macos_soft` - install neccessary sofwtare;
   - `macos_post_config` - apply post macOS configs (copy dotfiles, setup system fonts, clone projects, etc);
 
@@ -49,6 +50,7 @@ ansible-playbook macbook_daily.yml --list-tasks
   - update **rbenv**: (`--tags update_rbenv`)
   - update **rust**: (`--tags update_rust`)
   - update **js**: (`--tags update_js`) (updates `nvm`, `node` and `yarn`)
+  - update **elixir**: (`--tags update_elixir`)
 - **Software**:
   - update soft: (`--tags update_soft`)
 

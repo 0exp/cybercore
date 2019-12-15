@@ -4,4 +4,4 @@
   homebrew:
     package: shellcheck
     state: latest
-  notify: brew_pkg_intalled
+  notify: brew_pkg_installed
