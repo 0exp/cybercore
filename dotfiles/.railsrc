@@ -5,6 +5,7 @@
 --skip-active-record
 --skip-active-storage
 --skip-sprockets
+--skip-spring
 --skip-javascript
 --skip-turbolinks
 --skip-test
