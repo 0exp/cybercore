@@ -1,10 +1,7 @@
 ---
 
-- name: '[dev/rust] Install <rustup>'
-  shell: |
-    set -o pipefail
-    curl https://sh.rustup.rs -sSf | sh -s -- -y
-  warn: no
-
-- name: '[dev/rust] Setup rust toolchain'
-  shell: "{{ macos_rust_env.cargo_path }}/bin/rustup toolchain install {{ macos_rust_env.rust_version }}"
+- name: 'Setup Rust Environment'
+  include_tasks: "{{ item }}.yml"
+  with_items:
+    - install_rustup
+    - setup_rust_toolchain

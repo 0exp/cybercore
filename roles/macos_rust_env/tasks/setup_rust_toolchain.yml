@@ -1,0 +1,4 @@
+---
+
+- name: '[dev/rust] Setup rust toolchain'
+  shell: "{{ macos_rust_env.cargo_path }}/bin/rustup toolchain install {{ macos_rust_env.rust_version }}"
