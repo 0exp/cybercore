@@ -10,3 +10,5 @@
     repo: "{{ macos_elixir_env.asdf_repo }}"
     dest: "{{ macos_elixir_env.asdf_path }}"
     version: "{{ macos_elixir_env.asdf_version }}"
+
+# TODO: добавить вызов asdf.sh-скриптов для работы с asdf в текущей сэссии ansibla (там всякие фнукции поставятся)

@@ -1,5 +1,5 @@
 export PATH="$PATH:/Users/daiver/.local/bin"
-export ZSH=/Users/DaiveR/.oh-my-zsh
+export ZSH=/Users/daiver/.oh-my-zsh
 ZSH_THEME="spaceship"
 DISABLE_UPDATE_PROMPT=true
 DISABLE_AUTO_UPDATE=true

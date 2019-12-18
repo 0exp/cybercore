@@ -15,26 +15,19 @@
     version: 'HEAD'
   loop:
     - cybercore
-    - cv
     - armonica
     - diablo-ruby
     - qonfig
     - any_cache
     - armitage
-    - jaina-js
     - jaina
     - smart_core
     - symbiont-ruby
     - rabbit_matcher
     - sidekiq-portal
     - recipes
-    - meduza
     - evil_events
     - 0exp.github.io
-    - nova_crystallis
     - blast_wave
-    - sync_hole
-    - reforged
-    - contributions
   loop_control:
     loop_var: repo_name
