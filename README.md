@@ -3,6 +3,7 @@
 > my development environments and system configurations
 
 > ansible@2.9.2
+> pip3
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
@@ -86,7 +87,7 @@ ansible-playbook macbook_daily.yml --list-tasks
 ### (CI) Build Script
 
 ```shell
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 yamllint --strict $(git ls-files '*.yaml' '*.yml')
 ansible-lint *.yml
 ```
