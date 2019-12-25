@@ -2,7 +2,8 @@
 
 > my development environments and system configurations
 
-> ansible@2.8.4
+> ansible@2.9.2
+> pip3
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
@@ -41,18 +42,30 @@ ansible-playbook macbook_daily.yml --list-tasks
 ```
 
 - **Environment**:
-  - actualzie **dotfiles**: (`--tags update_dotfiles`)
-  - actualize custom fonts (`--tags update_fonts`)
-  - actualize **solargraph** (`--tags update_solargraph`)
-  - update **spaceship-prompt**: (`--tags update_spaceship`)
-  - update language environments: (`--tags update_languages`)
+  - actualzie **dotfiles**:
+    `ansible-playbook macbook_daily.yml --tags update_dotfiles`
+  - actualize custom fonts
+    `ansible-playbook macbook_daily.yml --tags update_fonts`
+  - actualize **solargraph**
+    `ansible-playbook macbook_daily.yml --tags update_solargraph`
+  - update **spaceship-prompt**:
+    `ansible-playbook macbook_daily.yml --tags update_spaceship`
+  - update language environments:
+    `ansible-playbook macbook_daily.yml --tags update_languages`
 - **Programming languages**:
-  - update **rbenv**: (`--tags update_rbenv`)
-  - update **rust**: (`--tags update_rust`)
-  - update **js**: (`--tags update_js`) (updates `nvm`, `node` and `yarn`)
-  - update **elixir**: (`--tags update_elixir`)
+  - update **rbenv**:
+    `ansible-playbook macbook_daily.yml --tags update_rbenv`
+  - update **pyenv**:
+    `ansible-playbook macbook_daily.yml --tags update_pyenv`
+  - update **rust**:
+    `ansible-playbook macbook_daily.yml --tags update_rust`
+  - update **js** (updates `nvm`, `node` and `yarn`):
+    `ansible-playbook macbook_daily.yml --tags update_js`
+  - update **elixir**:
+    `ansible-playbook macbook_daily.yml --tags update_elixir`
 - **Software**:
-  - update soft: (`--tags update_soft`)
+  - update soft:
+    `ansible-playbook macbook_daily.yml --tags update_soft`
 
 ---
 
@@ -76,7 +89,7 @@ ansible-playbook macbook_daily.yml --list-tasks
 ### (CI) Build Script
 
 ```shell
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 yamllint --strict $(git ls-files '*.yaml' '*.yml')
 ansible-lint *.yml
 ```

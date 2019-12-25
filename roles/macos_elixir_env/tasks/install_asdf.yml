@@ -1,6 +1,6 @@
 ---
 
-- name: "[dev/elixir] Remove old <asdf>"
+- name: '[dev/elixir] Remove old <asdf>'
   file:
     path: "{{ macos_elixir_env.asdf_path }}"
     state: absent

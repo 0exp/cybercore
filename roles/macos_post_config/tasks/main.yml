@@ -8,4 +8,3 @@
     - configure_vim
     - copy_dotfiles
     - copy_all_my_projects
-    - install_solargraph

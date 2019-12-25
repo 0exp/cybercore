@@ -1,0 +1,10 @@
+---
+
+- name: '[dev/ruby] Update <pyenv>'
+  homebrew:
+    package: pyenv
+    state: latest
+    update_homebrew: yes
+  tags:
+    - update_pyenv
+    - update_languages

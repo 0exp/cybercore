@@ -7,6 +7,7 @@
         set -o pipefail
         eval "$(rbenv init -)"
         rbenv global {{ macos_ruby_env.ruby_version }}
+        rbenv rehash
         gem install solargraph -v {{ macos_ruby_env.solargraph_version }}
     - name: '[dev/ruby] solargraph: configure'
       shell: solargraph download-core {{ macos_ruby_env.solargraph_core }}

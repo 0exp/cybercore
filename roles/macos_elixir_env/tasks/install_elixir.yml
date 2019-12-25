@@ -3,12 +3,14 @@
 - name: '[dev/elixir] Install elixir plugin'
   shell: |
     set -o pipefail
+    sh {{ macos_elixir_env.asdf_path }}/asdf.sh
     asdf plugin-add elixir
   ignore_errors: true # it happens only if the elixir plugin is already installed
 
 - name: '[dev/elixir] Check installed elixir versions'
   shell: |
     set -o pipefail
+    sh {{ macos_elixir_env.asdf_path }}/asdf.sh
     asdf list elixir
   register: installed_elixir_versions
   ignore_errors: true
@@ -16,5 +18,6 @@
 - name: "[dev/elixir] Install <elixir@{{ macos_elixir_env.elixir_version }}>"
   shell: |
     set -o pipefail
+    sh {{ macos_elixir_env.asdf_path }}/asdf.sh
     asdf install elixir {{ macos_elixir_env.elixir_version }}
   when: macos_elixir_env.elixir_version not in installed_elixir_versions
