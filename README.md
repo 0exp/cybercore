@@ -56,7 +56,7 @@ ansible-playbook macbook_daily.yml --list-tasks
   - update **rbenv**:
     `ansible-playbook macbook_daily.yml --tags update_rbenv`
   - update **pyenv**:
-    `ansible-playbook macbook_daily.yml --tags update_pyenv
+    `ansible-playbook macbook_daily.yml --tags update_pyenv`
   - update **rust**:
     `ansible-playbook macbook_daily.yml --tags update_rust`
   - update **js** (updates `nvm`, `node` and `yarn`):
