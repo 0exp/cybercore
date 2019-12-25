@@ -1,23 +1,24 @@
 {
   "close_windows_when_empty": false,
-  "color_scheme": "Packages/Atomic Color Scheme/Atomic - Dark blue (Soft).tmTheme",
+  "color_scheme": "Packages/Atomic Color Scheme/Atomic - Dark cyan (Soft).tmTheme",
   "draw_white_space": "all",
   "ensure_newline_at_eof_on_save": true,
+  "folder_exclude_patterns":
+  [
+    "node_modules"
+  ],
   "font_face": "Fira Code",
   "font_size": 12,
   "highlight_line": true,
   "ignored_packages":
   [
     "Vintage",
+    "OpenUri"
   ],
   "indent_guide_options":
   [
     "draw_normal",
     "draw_active"
-  ],
-  "folder_exclude_patterns":
-  [
-    "node_modules"
   ],
   "index_files": true,
   "index_workers": 10,
