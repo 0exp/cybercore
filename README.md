@@ -3,13 +3,20 @@
 > my development environments and system configurations
 
 > ansible@2.9.2
-> pip3
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
 - [Crazy Tips](#crazy-tips)
 - [(CI) Build Script](#ci-build-script)
 - ([dotfiles](dotfiles))
+
+---
+
+- **ruby** (2.6.5)
+- **rust** (1.40.0)
+- **python** (3.8.0) / **python** (2.7.16)
+- **nodejs** (latest) / **yarn** (1.21.1)
+- **elixir** (1.9.4) / **erlang** (22.2)
 
 ---
 
