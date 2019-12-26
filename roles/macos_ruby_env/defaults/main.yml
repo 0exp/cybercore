@@ -3,7 +3,7 @@
 macos_ruby_env:
   rbenv_path: "{{ macbook.home_path }}/.rbenv"
   ruby_version: '2.7.0'
-  bundler_version: '2.1.0'
+  bundler_version: '2.1.2'
   rubygems_creds_file: "{{ macbook.home_path }}/.gem/credentials"
   solargraph_version: '0.38.0'
   solargraph_core: '2.6.1'
