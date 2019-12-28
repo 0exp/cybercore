@@ -26,3 +26,4 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/ansible.sh
 . ~/.zsh/functions.sh
 . ~/.zsh/asdf.sh
+. ~/.zsh/rubymotion.sh
