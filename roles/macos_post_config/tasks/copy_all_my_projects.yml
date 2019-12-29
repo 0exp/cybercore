@@ -24,7 +24,7 @@
     - smart_core
     - symbiont-ruby
     - rabbit_matcher
-    - sidekiq-portal
+    - sidekiq_portal
     - recipes
     - evil_events
     - 0exp.github.io
