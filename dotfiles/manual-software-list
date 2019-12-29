@@ -6,6 +6,11 @@
 - iterm2
 - sublime-text
 - sublime-merge
+  (
+    after installation process:
+    1) ln -s "/Applications/Sublime Merge.app/Contents/SharedSupport/bin/smerge" ~/.local/bin/smerge
+    2) use `sm` alias
+  )
 - telegram
 - uTorrent Web
 - postgresql

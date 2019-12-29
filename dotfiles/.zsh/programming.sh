@@ -15,3 +15,5 @@ alias brc="bundle exec rails c"
 
 alias yamcop="yamllint --strict \$(git ls-files '*.yaml' '*.yml')"
 alias ansicop="ansible-lint *.yml"
+
+alias sm="smerge"
