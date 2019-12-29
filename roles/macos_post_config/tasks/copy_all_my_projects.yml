@@ -29,5 +29,6 @@
     - evil_events
     - 0exp.github.io
     - blast_wave
+    - siege
   loop_control:
     loop_var: repo_name
