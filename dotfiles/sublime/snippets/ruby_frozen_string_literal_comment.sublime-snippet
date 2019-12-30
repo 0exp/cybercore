@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>fsl</tabTrigger>
+  <description>Frozen String Literal Comment</description>
+  <scope>source.ruby</scope>
+  <content><![CDATA[
+# frozen_string_literal: true
+
+${1:}
+]]></content>
+</snippet>
