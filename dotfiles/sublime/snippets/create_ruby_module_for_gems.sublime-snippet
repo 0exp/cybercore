@@ -1,0 +1,15 @@
+<snippet>
+  <tabTrigger>gcrm</tabTrigger>
+  <description>Ruby Module Template for Gems</description>
+  <scope>source.ruby</scope>
+  <content><![CDATA[
+# frozen_string_literal: true
+
+# @api ${1:public}
+# @since ${2:}
+module ${3:}
+  ${4:}
+end
+
+]]></content>
+</snippet>

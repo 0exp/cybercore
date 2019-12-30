@@ -1,0 +1,13 @@
+<snippet>
+  <tabTrigger>crs</tabTrigger>
+  <description>Ruby Class Template</description>
+  <scope>source.ruby</scope>
+  <content><![CDATA[
+# frozen_string_literal: true
+
+class ${1:}
+  ${2:}
+end
+
+]]></content>
+</snippet>

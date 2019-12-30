@@ -1,0 +1,13 @@
+<snippet>
+  <tabTrigger>crm</tabTrigger>
+  <description>Ruby Module Template</description>
+  <scope>source.ruby</scope>
+  <content><![CDATA[
+# frozen_string_literal: true
+
+module ${1:}
+  ${2:}
+end
+
+]]></content>
+</snippet>

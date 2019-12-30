@@ -1,0 +1,15 @@
+<snippet>
+  <tabTrigger>gcrs</tabTrigger>
+  <description>Ruby Class Template for Gems</description>
+  <scope>source.ruby</scope>
+  <content><![CDATA[
+# frozen_string_literal: true
+
+# @api ${1:public}
+# @since ${2:}
+class ${3:}
+  ${4:}
+end
+
+]]></content>
+</snippet>
