@@ -46,4 +46,3 @@
 - [OpenUri](https://github.com/jfcherng/Sublime-OpenUri/)
 - [SQLTools](https://github.com/mtxr/SublimeText-SQLTools)
 - [AutoFileName](https://github.com/BoundInCode/AutoFileName)
-- [gruvbox](https://github.com/Briles/gruvbox)
