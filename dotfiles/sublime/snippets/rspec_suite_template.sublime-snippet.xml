@@ -1,0 +1,13 @@
+<snippet>
+  <tabTrigger>rsp</tabTrigger>
+  <description>RSpec Suite Template</description>
+  <scope>source.ruby</scope>
+  <content><![CDATA[
+# frozen_string_literal: true
+
+RSpec.describe '${1:}' do
+  ${2:}
+end
+
+]]></content>
+</snippet>
