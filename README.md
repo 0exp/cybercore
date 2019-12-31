@@ -99,6 +99,12 @@ ansible-playbook macbook_daily.yml --list-tasks
 
 ---
 
+### Additional instructions
+
+- iterm2 profile: [dotfiles/iterm/exclusive.json](blob/master/dotfiles/iterm/exclusive.json)
+
+---
+
 ### Crazy Tips
 
 - open dahsdoc documentation about Ruby's `attr_reader` or `Kernel` module:
