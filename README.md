@@ -101,7 +101,7 @@ ansible-playbook macbook_daily.yml --list-tasks
 
 ### Additional instructions
 
-- iterm2 profile: [dotfiles/iterm/exclusive.json](blob/master/dotfiles/iterm/exclusive.json)
+- iterm2 profile: [dotfiles/iterm/exclusive.json](dotfiles/iterm/exclusive.json)
 
 ---
 
