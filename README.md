@@ -6,6 +6,7 @@
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
+- [Additional instructions](#additional-instructions)
 - [Crazy Tips](#crazy-tips)
 - [(CI) Build Script](#ci-build-script)
 - ([dotfiles](dotfiles))
