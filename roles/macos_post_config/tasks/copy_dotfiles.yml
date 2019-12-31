@@ -6,6 +6,10 @@
       file:
         path: "{{ macbook.home_path }}/.zsh/"
         state: absent
+    - name: '[macos/dots] drop old Midnight Commander settings'
+      file:
+        path: "{{ macos_post_config.midnight_commander_path }}/ini"
+        state: absent
     - name: '[macos/dots] copy dot-files and .zsh/-directory'
       copy:
         src: "dotfiles/{{ dotfile }}"
@@ -30,3 +34,8 @@
         - .railsrc
       loop_control:
         loop_var: dotfile
+    - name: '[macos/dots] Copy Midnight Commander Configs'
+      copy:
+        src: "dotfiles/midnight_commander/ini"
+        dest: "{{ macos_post_config.midnight_commander_path }}/ini"
+        owner: "{{ macbook.home_user }}"
