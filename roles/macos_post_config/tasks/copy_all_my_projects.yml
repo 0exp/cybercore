@@ -30,5 +30,6 @@
     - 0exp.github.io
     - blast_wave
     - siege
+    - gem_template
   loop_control:
     loop_var: repo_name
