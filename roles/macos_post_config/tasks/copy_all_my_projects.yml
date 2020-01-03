@@ -33,3 +33,15 @@
     - gem_template
   loop_control:
     loop_var: repo_name
+
+- name: '[dev/all] Clone SmartCore projects'
+  vars:
+    github_url: "https://github.com/smart-rb"
+    clone_path: "{{ macbook.home_path }}/Projects"
+  git:
+    repo: "{{ github_url }}/{{ repo_name }}"
+    dest: "{{ clone_path }}/{{ repo_name }}"
+    version: 'HEAD'
+  loop:
+    - smart_engine
+    - smart_container
