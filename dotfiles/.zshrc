@@ -28,3 +28,4 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/asdf.sh
 . ~/.zsh/rubymotion.sh
 . ~/.zsh/solargraph.sh
+. ~/.zsh/sublime.sh
