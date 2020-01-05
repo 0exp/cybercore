@@ -5,6 +5,7 @@ macos_ruby_env:
   ruby_version: '2.7.0'
   bundler_version: '2.1.2'
   rubygems_creds_file: "{{ macbook.home_path }}/.gem/credentials"
-  solargraph_version: '0.38.0'
+  solargraph_version: '0.38.1'
   solargraph_core: '2.6.1'
-  seeing_is_believing_version: '3.6.1'
+  solargraph_cache_path: "{{ macbook.home_path }}/.solargraph/cache"
+  seeing_is_believing_version: '3.6.2'

@@ -1,5 +1,3 @@
-alias solardoc="solargraph bundle"
-
 alias be="bundle exec"
 alias bi="bundle install"
 alias bu="bundle update"
@@ -15,5 +13,3 @@ alias brc="bundle exec rails c"
 
 alias yamcop="yamllint --strict \$(git ls-files '*.yaml' '*.yml')"
 alias ansicop="ansible-lint *.yml"
-
-alias sm="smerge"

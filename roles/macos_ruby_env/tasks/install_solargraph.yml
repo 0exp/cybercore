@@ -2,12 +2,21 @@
 
 - name: '[dev/ruby] Install <solargraph>'
   block:
-    - name: '[dev/ruby] solargraph: install gem'
+    - name: '[dev/ruby] solargraph: remove existing solargraph cache'
+      file:
+        path: "{{ macos_ruby_env.solargraph_cache_path }}"
+        state: absent
+    - name: "[dev/ruby] solargraph: install ({{ macos_ruby_env.solargraph_version }})"
       shell: |
         set -o pipefail
         eval "$(rbenv init -)"
         rbenv global {{ macos_ruby_env.ruby_version }}
         rbenv rehash
         gem install solargraph -v {{ macos_ruby_env.solargraph_version }}
+    - name: "[dev/ruby] solargraph: prepare cache directory"
+      file:
+        path: "{{ macos_ruby_env.solargraph_cache_path }}"
+        owner: "{{ macbook.home_user }}"
+        state: directory
     - name: '[dev/ruby] solargraph: configure'
       shell: solargraph download-core {{ macos_ruby_env.solargraph_core }}

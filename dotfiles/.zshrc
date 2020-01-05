@@ -11,7 +11,7 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/dashdoc.sh
 . ~/.zsh/services.sh
 . ~/.zsh/ssh.sh
-. ~/.zsh/programming.sh
+. ~/.zsh/ruby.sh
 . ~/.zsh/editor.sh
 . ~/.zsh/fzf.sh
 . ~/.zsh/git.sh
@@ -27,3 +27,4 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/functions.sh
 . ~/.zsh/asdf.sh
 . ~/.zsh/rubymotion.sh
+. ~/.zsh/solargraph.sh
