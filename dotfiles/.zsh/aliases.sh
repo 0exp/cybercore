@@ -32,3 +32,6 @@ alias gotosiege="cd ~/Projects/siege"
 alias gotogemtemplate="cd ~/Projects/gem_template"
 alias gotosmartengine="cd ~/Projects/smart_engine"
 alias gotosmartcontainer="cd ~/Projects/smart_container"
+
+alias killme="sudo shutdown -h now"
+alias dropme="sudo shutdown -r now"
