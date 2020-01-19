@@ -12,5 +12,13 @@
     - FiraCode-Medium.ttf
     - FiraCode-Regular.ttf
     - FiraCode-Retina.ttf
+    - JetBrainsMono-Bold-Italic.ttf
+    - JetBrainsMono-Medium-Italic.ttf
+    - JetBrainsMono-Bold.ttf
+    - JetBrainsMono-Medium.ttf
+    - JetBrainsMono-ExtraBold-Italic.ttf
+    - JetBrainsMono-Regular.ttf
+    - JetBrainsMono-ExtraBold.ttf
+    - JetBrainsMono-Italic.ttf
   loop_control:
     loop_var: font_file

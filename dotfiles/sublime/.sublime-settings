@@ -1,19 +1,16 @@
 {
   "close_windows_when_empty": false,
-  "color_scheme": "Packages/Atomic Color Scheme/Atomic - Dark cyan (Soft).tmTheme",
+  "color_scheme": "Packages/Atomic Color Scheme/Atomic - Dark blue (Soft).tmTheme",
   "draw_white_space": "all",
   "ensure_newline_at_eof_on_save": true,
-  "folder_exclude_patterns":
-  [
-    "node_modules"
-  ],
-  "font_face": "Fira Code",
+  "folder_exclude_patterns": [],
+  "font_face": "JetBrains Mono",
   "font_size": 12,
   "highlight_line": true,
   "ignored_packages":
   [
-    "Vintage",
-    "OpenUri"
+    "OpenUri",
+    "Vintage"
   ],
   "indent_guide_options":
   [
@@ -21,12 +18,15 @@
     "draw_active"
   ],
   "index_files": true,
-  "index_workers": 10,
+  "index_workers": 5,
+  "index_exclude_patterns": ["node_modules"],
   "overlay_scroll_bars": "enabled",
   "rulers":
   [
     100
   ],
+  "line_padding_bottom": 1,
+  "line_padding_top": 1,
   "show_encoding": true,
   "show_line_endings": true,
   "tab_size": 2,
