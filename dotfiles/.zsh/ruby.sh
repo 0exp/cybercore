@@ -11,6 +11,8 @@ alias brake="bundle exec rake"
 alias brails="bundle exec rails"
 alias brc="bundle exec rails c"
 alias birdoc="bundle install && bundle exec yard gems"
+alias gmb="gem build"
+alias gmp="gem push"
 
 alias yamcop="yamllint --strict \$(git ls-files '*.yaml' '*.yml')"
 alias ansicop="ansible-lint *.yml"
