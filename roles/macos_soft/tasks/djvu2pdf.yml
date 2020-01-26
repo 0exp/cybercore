@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <djvu2pdf>'
+  homebrew:
+    package: djvu2pdf
+    state: latest
+  notify: brew_pkg_installed
