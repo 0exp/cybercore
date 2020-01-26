@@ -1,5 +1,11 @@
 ---
 
+### Sublime Text Sidebar Navigation
+
+ctrl+0 => arrow keys
+
+---
+
 ### Sublime Text 3 Snippets Location (macOS)
 
 ```shell
