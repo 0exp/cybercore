@@ -6,3 +6,4 @@ alias update-rbenv="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --ta
 alias update-js="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_js"
 alias update-soft="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_soft"
 alias update-solargraph="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_solargraph"
+alias update-elixir="ansible-playbook ~/Projects/cybercore/macbook_daily --tags update_elixir"
