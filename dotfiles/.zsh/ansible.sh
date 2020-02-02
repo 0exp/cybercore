@@ -7,3 +7,4 @@ alias update-js="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags 
 alias update-soft="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_soft"
 alias update-solargraph="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_solargraph"
 alias update-elixir="ansible-playbook ~/Projects/cybercore/macbook_daily --tags update_elixir"
+alias update-rust=="ansible-playbook ~/Projects/cybercore/macbook_daily --tags update_rust"
