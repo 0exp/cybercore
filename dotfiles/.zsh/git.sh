@@ -1,6 +1,6 @@
 alias gblank='touch blank-file && git add blank-file && git commit -m "add-blank-file-for-empty-commit" && git revert HEAD -n && git commit -m "remove-blank-file-from-empty-commit"'
 alias grv="git revert"
-alias grvh="git rever HEAD"
+alias grvh="git revert HEAD"
 alias gtf='git log --reverse --date=short --pretty=format:"(%ad) [%an] %s" | head -1'
 alias gbd="git branch -D"
 alias gbl="git branch -l"
