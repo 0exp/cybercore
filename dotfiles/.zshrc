@@ -8,6 +8,7 @@ plugins=(sublime osx docker postgres gpg-agent)
 source $ZSH/oh-my-zsh.sh
 
 . ~/.zsh/aliases.sh
+. ~/.zsh/brew.sh
 . ~/.zsh/dashdoc.sh
 . ~/.zsh/services.sh
 . ~/.zsh/ssh.sh
