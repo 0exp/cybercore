@@ -17,6 +17,11 @@
 
 - name: '[dev/ruby] Setup rubygems account integration'
   block:
+    - name: '[rubygems-integration] create .gem directory'
+      file:
+        path: "{{ macos_ruby_env.rubygems_directory_path }}"
+        state: directory
+        mode: '0755'
     - name: '[rubygems-integration] create credentials file'
       file:
         path: "{{ macos_ruby_env.rubygems_creds_file }}"
