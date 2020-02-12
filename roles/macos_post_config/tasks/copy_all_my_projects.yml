@@ -45,5 +45,6 @@
   loop:
     - smart_engine
     - smart_container
+    - smart_types
   loop_control:
     loop_var: repo_name
