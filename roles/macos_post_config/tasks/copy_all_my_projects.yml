@@ -47,5 +47,6 @@
     - smart_container
     - smart_types
     - smart_initializer
+    - smart_operation
   loop_control:
     loop_var: repo_name
