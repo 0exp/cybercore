@@ -48,5 +48,6 @@
     - smart_types
     - smart_initializer
     - smart_operation
+    - smart_dsl
   loop_control:
     loop_var: repo_name
