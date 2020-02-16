@@ -49,5 +49,6 @@
     - smart_initializer
     - smart_operation
     - smart_dsl
+    - smart_injection
   loop_control:
     loop_var: repo_name
