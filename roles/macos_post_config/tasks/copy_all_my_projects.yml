@@ -50,5 +50,6 @@
     - smart_operation
     - smart_dsl
     - smart_injection
+    - smart_validator
   loop_control:
     loop_var: repo_name
