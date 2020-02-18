@@ -5,4 +5,4 @@ macos_elixir_env:
   asdf_path: "{{ macbook.home_path }}/.asdf"
   asdf_repo: https://github.com/asdf-vm/asdf.git
   erlang_version: '22.2'
-  elixir_version: '1.10.0'
+  elixir_version: '1.10.1'
