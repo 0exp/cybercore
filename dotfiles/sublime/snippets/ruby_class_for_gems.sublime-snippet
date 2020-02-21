@@ -1,5 +1,5 @@
 <snippet>
-  <tabTrigger>gcrs</tabTrigger>
+  <tabTrigger>rcfg</tabTrigger>
   <description>Ruby Class Template for Gems</description>
   <scope>source.ruby</scope>
   <content><![CDATA[
