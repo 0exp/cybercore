@@ -1,6 +1,6 @@
 <snippet>
-  <tabTrigger>rst</tabTrigger>
-  <description>RSpec Suite Template</description>
+  <tabTrigger>rsd</tabTrigger>
+  <description>RSpec Describe Template</description>
   <scope>source.ruby</scope>
   <content><![CDATA[
 # frozen_string_literal: true
