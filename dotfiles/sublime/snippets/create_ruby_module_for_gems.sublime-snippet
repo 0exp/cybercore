@@ -1,5 +1,5 @@
 <snippet>
-  <tabTrigger>gcrm</tabTrigger>
+  <tabTrigger>rmg</tabTrigger>
   <description>Ruby Module Template for Gems</description>
   <scope>source.ruby</scope>
   <content><![CDATA[

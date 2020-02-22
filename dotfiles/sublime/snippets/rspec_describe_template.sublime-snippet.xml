@@ -1,5 +1,5 @@
 <snippet>
-  <tabTrigger>rsd</tabTrigger>
+  <tabTrigger>rsp</tabTrigger>
   <description>RSpec Describe Template</description>
   <scope>source.ruby</scope>
   <content><![CDATA[
