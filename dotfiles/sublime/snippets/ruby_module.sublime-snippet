@@ -1,5 +1,5 @@
 <snippet>
-  <tabTrigger>crm</tabTrigger>
+  <tabTrigger>rm</tabTrigger>
   <description>Ruby Module Template</description>
   <scope>source.ruby</scope>
   <content><![CDATA[
