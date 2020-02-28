@@ -5,6 +5,7 @@ alias gtf='git log --reverse --date=short --pretty=format:"(%ad) [%an] %s" | hea
 alias gbd="git branch -D"
 alias gbl="git branch -l"
 alias gbr="git branch -r"
+alias gbcurr="git rev-parse --abbrev-ref HEAD"
 alias gbrc="git symbolic-ref --quiet --short HEAD || git rev-parse --short HEAD" # show current branch name
 alias gba="git branch -a"
 alias gbrn="git branch -m"
@@ -61,6 +62,5 @@ alias ggnored="st ~/.gitignore"
 alias gdfstat="git diff --stat master"
 alias glas="git config --get-regexp alias"
 alias gitmans="git shortlog --summary --numbered"
-alias gcurr="git rev-parse --abbrev-ref HEAD"
 alias grkn='git commit --amend --author="Rustam Ibragimov <iamdaiver@icloud.com>'
 alias gempty="git commit --allow-empty -m 'empty-commit'"
