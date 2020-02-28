@@ -6,7 +6,6 @@ alias gbd="git branch -D"
 alias gbl="git branch -l"
 alias gbr="git branch -r"
 alias gbcurr="git rev-parse --abbrev-ref HEAD"
-alias gbrc="git symbolic-ref --quiet --short HEAD || git rev-parse --short HEAD" # show current branch name
 alias gba="git branch -a"
 alias gbrn="git branch -m"
 alias gblr="git for-each-ref --sort=-committerdate refs/remotes/ --format=\"%(objectname:short) (%(committerdate:short)) [%(authorname)] %(refname:short)\""
