@@ -4,6 +4,7 @@
   include_tasks: "{{ item }}.yml"
   with_items:
     - protobuf
+    - mitmproxy
     - overmind
     - ripgrep
     - tmux

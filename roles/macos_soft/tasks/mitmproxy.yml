@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <mitmproxy>'
+  homebrew:
+    package: mitmproxy
+    state: latest
+  notify: brew_pkg_installed
