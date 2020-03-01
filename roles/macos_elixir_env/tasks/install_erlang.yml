@@ -5,7 +5,7 @@
     set -o pipefail
     sh {{ macos_elixir_env.asdf_path }}/asdf.sh
     asdf plugin-add erlang
-  ignore_errors: true # it happens only if the erlang plugin is already installed
+  ignore_errors: true # it happens only when the erlang plugin is already installed
 
 - name: '[dev/elixir] Check installed erlang versions'
   shell: |

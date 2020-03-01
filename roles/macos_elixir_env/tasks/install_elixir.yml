@@ -5,7 +5,7 @@
     set -o pipefail
     sh {{ macos_elixir_env.asdf_path }}/asdf.sh
     asdf plugin-add elixir
-  ignore_errors: true # it happens only if the elixir plugin is already installed
+  ignore_errors: true # it happens only when the elixir plugin is already installed
 
 - name: '[dev/elixir] Check installed elixir versions'
   shell: |
