@@ -1,9 +1,9 @@
 language: python
-python: "3.8.0"
+python: "3.8.1"
 sudo: false
 matrix:
   include:
-  - before_script: pip install yamllint==1.19.0
+  - before_script: pip install yamllint==1.20.0
     script: yamllint --strict $(git ls-files '*.yaml' '*.yml')
   - before_script: pip install ansible-lint==4.2.0
     script: ansible-lint macbook_setup.yml macbook_daily.yml
