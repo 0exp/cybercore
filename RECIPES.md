@@ -1,5 +1,13 @@
 ---
 
+### MacOS Window Group Navigation
+
+```shell
+super+`
+```
+
+---
+
 ### Sublime Text Sidebar Navigation
 
 ctrl+0 => arrow keys
