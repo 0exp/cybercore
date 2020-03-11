@@ -1,5 +1,3 @@
----
-
 ### MacOS Window Group Navigation
 
 ```shell
