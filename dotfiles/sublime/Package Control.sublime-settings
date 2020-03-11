@@ -6,6 +6,7 @@
   "installed_packages":
   [
     "A File Icon",
+    "AddRemoveFolder",
     "Ansible",
     "Atomic Color Scheme",
     "AutoFileName",
@@ -22,6 +23,7 @@
     "File Rename",
     "Fix Mac Path",
     "Git",
+    "HTMLBeautify",
     "INI",
     "Local History",
     "LSP",
