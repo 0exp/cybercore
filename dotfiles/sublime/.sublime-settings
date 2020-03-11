@@ -3,7 +3,9 @@
   "color_scheme": "Packages/Atomic Color Scheme/Atomic - Dark blue (Soft).tmTheme",
   "draw_white_space": "all",
   "ensure_newline_at_eof_on_save": true,
-  "folder_exclude_patterns": [],
+  "folder_exclude_patterns":
+  [
+  ],
   "font_face": "JetBrains Mono",
   "font_size": 12,
   "highlight_line": true,
@@ -17,15 +19,18 @@
     "draw_normal",
     "draw_active"
   ],
+  "index_exclude_patterns":
+  [
+    "node_modules"
+  ],
   "index_files": true,
   "index_workers": 5,
-  "index_exclude_patterns": ["node_modules"],
+  "line_padding_bottom": 0,
   "overlay_scroll_bars": "enabled",
   "rulers":
   [
     100
   ],
-  "line_padding_bottom": 1,
   "show_encoding": true,
   "show_line_endings": true,
   "tab_size": 2,
