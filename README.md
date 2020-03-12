@@ -134,5 +134,6 @@ ansible-lint *.yml
 
 ### TODO:
 
+- `macbook.user` as a customizable runtime setting;
 - move credential prompts to ansible-vault;
 - clone sublime packages (and use `Package Control: Satisfy Dependencies`)
