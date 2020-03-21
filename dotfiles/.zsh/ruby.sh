@@ -16,6 +16,7 @@ alias birdoc="bundle install && bundle exec yard gems"
 alias gmb="gem build"
 alias gmp="gem push"
 alias bircap="bundle exec cap"
+alias bdsm="bundle pristine"
 
 alias yamcop="yamllint --strict \$(git ls-files '*.yaml' '*.yml')"
 alias ansicop="ansible-lint *.yml"
