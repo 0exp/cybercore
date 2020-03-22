@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <watchman>'
+  homebrew:
+    package: watchman
+    state: latest
+  notify: brew_pkg_installed
