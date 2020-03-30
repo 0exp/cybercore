@@ -35,6 +35,3 @@ alias gotosmartcontainer="cd ~/Projects/smart_container"
 alias gotosmarttypes="cd ~/Projects/smart_types"
 alias gotosmartinitializer="cd ~/Projects/smart_initializer"
 alias gotosmartoperation="cd ~/Projects/smart_operation"
-
-alias killme="sudo shutdown -h now"
-alias redown="sudo shutdown -r now"
