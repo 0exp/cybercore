@@ -15,7 +15,7 @@
 
 - **ruby** (2.7.1)
 - **rust** (1.42.0)
-- **python** (3.8.1) / **python** (2.7.16)
+- **python** (3.8.2) / **python** (2.7.17)
 - **nodejs** (latest) / **yarn** (1.21.1)
 - **elixir** (1.10.2) / **erlang** (22.2)
 
