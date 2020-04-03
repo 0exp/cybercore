@@ -49,53 +49,58 @@ ansible-playbook macbook_setup.yml -v
 ansible-playbook macbook_daily.yml --list-tasks
 ```
 
-- **Environment**:
-  - actualzie **dotfiles** (`update-dots`):
-    ```shell
-    ansible-playbook macbook_daily.yml --tags update_dotfiles
-    ````
-  - actualize custom fonts (`update-fonts`):
-    ```shell
-    ansible-playbook macbook_daily.yml --tags update_fonts
-    ```
-  - actualize **solargraph** (`update-solargraph`):
-    ```shell
-    ansible-playbook macbook_daily.yml --tags update_solargraph
-    ```
-  - update **spaceship-prompt** (`update-prompt`):
-    ```shell
-    ansible-playbook macbook_daily.yml --tags update_spaceship
-    ```
-  - update language environments (`update-langs`):
-    ```shell
-    ansible-playbook macbook_daily.yml --tags update_languages
-    ```
-- **Programming languages**:
-  - update **rbenv** (`update-rbenv`):
-    ```shell
-    ansible-playbook macbook_daily.yml --tags update_rbenv
-    ```
-  - update **pyenv**:
-    ```shell
-    ansible-playbook macbook_daily.yml --tags update_pyenv
-    ```
-  - update **rust**:
-    ```shell
-    ansible-playbook macbook_daily.yml --tags update_rust
-    ```
-  - update **js** (updates `nvm`, `node` and `yarn`) (`update-js`):
-    ```shell
-    ansible-playbook macbook_daily.yml --tags update_js
-    ```
-  - update **elixir**:
-    ```shell
-    ansible-playbook macbook_daily.yml --tags update_elixir
-    ```
-- **Software**:
-  - update soft (`update-soft`):
-    ```shell
-    ansible-playbook macbook_daily.yml --tags update_soft
-    ```
+### Environment
+
+- actualzie **dotfiles** (`update-dots`):
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_dotfiles
+  ````
+- actualize custom fonts (`update-fonts`):
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_fonts
+  ```
+- actualize **solargraph** (`update-solargraph`):
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_solargraph
+  ```
+- update **spaceship-prompt** (`update-prompt`):
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_spaceship
+  ```
+- update language environments (`update-langs`):
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_languages
+  ```
+
+### Programming languages**
+
+- update **rbenv** (`update-rbenv`):
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_rbenv
+  ```
+- update **pyenv**:
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_pyenv
+  ```
+- update **rust**:
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_rust
+  ```
+- update **js** (updates `nvm`, `node` and `yarn`) (`update-js`):
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_js
+  ```
+- update **elixir**:
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_elixir
+  ```
+
+### Software
+
+- update soft (`update-soft`):
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_soft
+  ```
 
 ---
 
