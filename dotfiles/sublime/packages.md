@@ -47,3 +47,4 @@
 - [SQLTools](https://github.com/mtxr/SublimeText-SQLTools)
 - [AutoFileName](https://github.com/BoundInCode/AutoFileName)
 - [HTMLBeautify](https://github.com/rareyman/HTMLBeautify)
+- [PrettyShell](https://github.com/aerobounce/Sublime-Pretty-Shell)

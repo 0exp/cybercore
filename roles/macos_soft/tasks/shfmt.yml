@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <shfmt>'
+  homebrew:
+    package: shfmt
+    state: latest
+  notify: brew_pkg_installed
