@@ -1,7 +1,7 @@
 {
   "clients": {
     "ruby (solorgraph)": {
-      "command": ["/Users/DaiveR/.rbenv/shims/solargraph", "stdio"],
+      "command": ["/Users/exclusive/.rbenv/shims/solargraph", "stdio"],
       "enabled": true,
       "env": {},
       "languageId": "ruby",

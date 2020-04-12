@@ -1,4 +1,4 @@
-**My package directory path**: `/Users/daiver/Library/Application Support/Sublime Text 3/Packages`
+**My package directory path**: `/Users/exclusive/Library/Application Support/Sublime Text 3/Packages`
 
 - [A File Icon](https://github.com/SublimeText/AFileIcon)
 - [AtomicColorScheme](https://github.com/gerardbm/sublime-atomic-scheme)

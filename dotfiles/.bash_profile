@@ -5,7 +5,7 @@ eval "$(rbenv init -)"
 eval "$(pyenv init -)"
 
 # additional paths
-export PATH="$PATH:/Users/daiver/.local/bin"
+export PATH="$PATH:/Users/exclusive/.local/bin"
 
 # enable fzf
 if [[ ! "$PATH" == */usr/local/opt/fzf/bin* ]]; then

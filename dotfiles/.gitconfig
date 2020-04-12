@@ -20,7 +20,7 @@
   aliases = config --get-regexp alias
 [core]
   ignorecase = false
-  excludesfile = /Users/daiver/.gitignore
+  excludesfile = /Users/exclusive/.gitignore
   whitespace=-indent-with-non-tab,trailing-space,cr-at-eol
 [color]
   ui = auto

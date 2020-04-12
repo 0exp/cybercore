@@ -11,7 +11,7 @@ alias asdf-update="asdf update --head"
 # ------------------------------------------------------------------------------------------
 
 export ASDF_DIR
-ASDF_DIR=/Users/daiver/.asdf # NOTE: my change
+ASDF_DIR=/Users/exclusive/.asdf # NOTE: my change
 
 ASDF_BIN="${ASDF_DIR}/bin"
 ASDF_USER_SHIMS="${ASDF_DATA_DIR:-$HOME/.asdf}/shims"
