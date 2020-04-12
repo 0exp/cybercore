@@ -39,6 +39,7 @@ ansible-playbook macbook_setup.yml -v
 ```
 
 - [sublime package list](dotfiles/sublime/packages.md)
+- [sublime snippets](dotfiles/sublime/snippets.md)
 - [dotfiles](dotfiles)
 
 ---
@@ -90,7 +91,7 @@ ansible-playbook macbook_daily.yml --list-tasks
   ```shell
   ansible-playbook macbook_daily.yml --tags update_js
   ```
-- update **elixir**:
+- update **elixir** (`update-elixir):
   ```shell
   ansible-playbook macbook_daily.yml --tags update_elixir
   ```
