@@ -34,8 +34,3 @@
         - .railsrc
       loop_control:
         loop_var: dotfile
-    - name: '[macos/dots] Copy Midnight Commander Configs'
-      copy:
-        src: "dotfiles/midnight_commander/ini"
-        dest: "{{ macos_post_config.midnight_commander_path }}/ini"
-        owner: "{{ macbook.home_user }}"
