@@ -73,7 +73,7 @@ ansible-playbook macbook_daily.yml --list-tasks
   ansible-playbook macbook_daily.yml --tags update_languages
   ```
 
-### Programming languages**
+### Programming languages
 
 - update **rbenv** (`update-rbenv`):
   ```shell
