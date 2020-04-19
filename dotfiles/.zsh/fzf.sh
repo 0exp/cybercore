@@ -1,5 +1,9 @@
 # Setup fzf
 # ---------
+
+# show colorized preview in bat :)
+export FZF_DEFAULT_OPTS="fzf --preview 'bat --style=numbers --color=always {}'"
+
 if [[ ! "$PATH" == */usr/local/opt/fzf/bin* ]]; then
   export PATH="${PATH:+${PATH}:}/usr/local/opt/fzf/bin"
 fi
@@ -11,6 +15,3 @@ fi
 # Key bindings
 # ------------
 source "/usr/local/opt/fzf/shell/key-bindings.zsh"
-
-# show preview in bat :)
-alias fzfz="fzf --preview 'bat {}'"
