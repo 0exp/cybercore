@@ -48,3 +48,4 @@
 - [AutoFileName](https://github.com/BoundInCode/AutoFileName)
 - [HTMLBeautify](https://github.com/rareyman/HTMLBeautify)
 - [PrettyShell](https://github.com/aerobounce/Sublime-Pretty-Shell)
+- [Rust Enhanced](https://github.com/rust-lang/rust-enhanced)
