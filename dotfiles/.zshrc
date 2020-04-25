@@ -30,3 +30,7 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/rubymotion.sh
 . ~/.zsh/solargraph.sh
 . ~/.zsh/sublime.sh
+
+if [ -r /Users/exclusive/.workspace.sh ]; then
+  . /Users/exclusive/.workspace.sh
+fi
