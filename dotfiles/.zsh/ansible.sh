@@ -8,3 +8,4 @@ alias update-soft="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tag
 alias update-solargraph="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_solargraph"
 alias update-elixir="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_elixir"
 alias update-rust="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_rust"
+alias update-pyenv="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_pyenv"

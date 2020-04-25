@@ -79,11 +79,11 @@ ansible-playbook macbook_daily.yml --list-tasks
   ```shell
   ansible-playbook macbook_daily.yml --tags update_rbenv
   ```
-- update **pyenv**:
+- update **pyenv** (`update-pyenv`):
   ```shell
   ansible-playbook macbook_daily.yml --tags update_pyenv
   ```
-- update **rust**:
+- update **rust** (`update-rust`):
   ```shell
   ansible-playbook macbook_daily.yml --tags update_rust
   ```
