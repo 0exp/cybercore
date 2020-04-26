@@ -2,7 +2,7 @@
 # ---------
 
 # show colorized preview in bat :)
-export FZF_DEFAULT_OPTS="fzf --preview 'bat --style=numbers --color=always {}'"
+export FZF_DEFAULT_OPTS="--preview 'bat --style=numbers --color=always {}'"
 
 if [[ ! "$PATH" == */usr/local/opt/fzf/bin* ]]; then
   export PATH="${PATH:+${PATH}:}/usr/local/opt/fzf/bin"
