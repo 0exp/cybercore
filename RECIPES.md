@@ -1,7 +1,7 @@
 ### MacOS system’s maxfiles config
 
 ```
-/Library/LaunchDaemons/limit.maxfiles.plist
+/Library/LaunchDaemons/limit.maxfiles.plist # create new file
 ```
 
 ```xml
@@ -35,7 +35,7 @@ sudo chown root:wheel /Library/LaunchDaemons/limit.maxfiles.plist
 ...rebot...
 
 ```shell
-ulimit -n
+ulimit -n # check new value
 ```
 
 ### MacOS Window Group Navigation
