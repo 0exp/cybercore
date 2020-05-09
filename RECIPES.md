@@ -38,6 +38,8 @@ sudo chown root:wheel /Library/LaunchDaemons/limit.maxfiles.plist
 ulimit -n # check new value
 ```
 
+---
+
 ### MacOS Window Group Navigation
 
 ```shell
