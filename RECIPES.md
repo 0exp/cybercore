@@ -17,8 +17,8 @@
       <string>launchctl</string>
       <string>limit</string>
       <string>maxfiles</string>
-      <string>524288</string>
-      <string>524288</string>
+      <string>524288</string> <!-- YOUR CHANGE IS HERE -->
+      <string>524288</string> <!-- YOUR CHANGE IS HERE -->
     </array>
     <key>RunAtLoad</key>
     <true/>
