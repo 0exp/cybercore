@@ -18,6 +18,7 @@ alias gmp="gem push"
 alias bircap="bundle exec cap"
 alias bdsm="bundle pristine"
 alias burndown="bundle install --redownload" # i moli nokogiri ne podorvat tvoi popkins :)
+alias bobo='bundle exec rubocop; bundle exec rspec'
 
 alias yamcop="yamllint --strict \$(git ls-files '*.yaml' '*.yml')"
 alias ansicop="ansible-lint *.yml"
