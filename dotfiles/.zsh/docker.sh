@@ -1,0 +1,5 @@
+alias dps="docker ps"
+alias ddf="docker diff"
+alias dlg="docker logs"
+alias dck-show-exited="docker ps -aq -f status=exited"
+alias dck-stop-exited="docker rm -v $(docker ps -aq -f status=exited)"
