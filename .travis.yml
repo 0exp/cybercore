@@ -1,7 +1,7 @@
 language: python
 os: linux
 dist: xenial
-python: "3.8.2"
+python: "3.8.3"
 jobs:
   include:
   - before_script: pip install yamllint==1.20.0
