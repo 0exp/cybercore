@@ -1,3 +1,7 @@
+### Ansible executables path
+
+`pyenv + pip install --user ansible` => `~/.local/bin/`
+
 ### MacOS system’s maxfiles config
 
 ```
@@ -32,7 +36,7 @@
 sudo chown root:wheel /Library/LaunchDaemons/limit.maxfiles.plist
 ```
 
-...rebot...
+...reboot...
 
 ```shell
 ulimit -n # check new value
