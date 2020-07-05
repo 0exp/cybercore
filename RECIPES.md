@@ -1,3 +1,7 @@
+### Ansible upgrade
+
+`pip3 install --user --upgrade ansible` :|
+
 ### Ansible executables path
 
 `pyenv + pip install --user ansible` => `~/.local/bin/`
