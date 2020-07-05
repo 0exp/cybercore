@@ -2,7 +2,7 @@
 
 > my development environments and system configurations
 
-> ansible@2.9.6
+> ansible@2.9.10
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
