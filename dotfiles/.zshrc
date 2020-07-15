@@ -31,6 +31,7 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/solargraph.sh
 . ~/.zsh/sublime.sh
 . ~/.zsh/docker.sh
+. ~/.zsh/mc.sh
 
 if [ -r /Users/exclusive/.workspace.sh ]; then
   . /Users/exclusive/.workspace.sh
