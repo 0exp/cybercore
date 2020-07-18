@@ -140,7 +140,6 @@ ansible-lint *.yml
 
 ### TODO:
 
-- configure strongSwan Management UI (https://github.com/strongswan/strongMan)
 - `macbook.user` as a customizable runtime setting;
 - move credential prompts to ansible-vault;
 - clone sublime packages (and use `Package Control: Satisfy Dependencies`)

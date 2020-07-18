@@ -1,7 +1,0 @@
----
-
-- name: '[homebrew/pkg] Install <strongswan>'
-  homebrew:
-    package: strongswan
-    state: latest
-  notify: brew_pkg_installed
