@@ -114,27 +114,26 @@ ansible-playbook macbook_daily.yml --list-tasks
 ### Crazy Tips
 
 - open dahsdoc documentation about Ruby's `attr_reader` or `Kernel` module:
-  ```shell
-    rubydash attr_reader
-  ```
-  ```shell
-    rubydash Kernel
-  ```
+```shell
+  rubydash attr_reader
+```
+```shell
+  rubydash Kernel
+```
 
 - open dashdoc documentation for Docker:
-  ```shell
-    dashdoc docker:
-  ```
+```shell
+  dashdoc docker:
+```
 
 - tranlsate any text (copy any text to a clipboard and type `trs` in console shell):
-  ```shell
-  exclusive => ~/Projects
-  ➜ trs
-  Did you mean: starcraft
-  стар Крафт
-  exclusive => ~/Projects
-  ➜
-  ```
+```shell
+exclusive => ~/Projects
+➜ trs
+Sorbet - это быстрый и мощный тип проверки, разработанный для Ruby.
+exclusive => ~/Projects
+➜
+ ```
 
 ---
 
