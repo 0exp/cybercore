@@ -126,6 +126,16 @@ ansible-playbook macbook_daily.yml --list-tasks
     dashdoc docker:
   ```
 
+- tranlsate any text (copy any text to a clipboard and type `trs` in console shell):
+  ```shell
+  exclusive => ~/Projects
+  ➜ trs
+  Did you mean: starcraft
+  стар Крафт
+  exclusive => ~/Projects
+  ➜
+  ```
+
 ---
 
 ### (CI) Build Script
