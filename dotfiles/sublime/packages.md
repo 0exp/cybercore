@@ -49,3 +49,6 @@
 - [HTMLBeautify](https://github.com/rareyman/HTMLBeautify)
 - [PrettyShell](https://github.com/aerobounce/Sublime-Pretty-Shell)
 - [Rust Enhanced](https://github.com/rust-lang/rust-enhanced)
+- [PostgreSQL Syntax Higlighting](https://github.com/tkopets/sublime-postgresql-syntax)
+- [rainbow_csv](https://github.com/mechatroner/sublime_rainbow_csv)
+- [Scala Syntax](https://github.com/gwenzek/scalaSublimeSyntax)
