@@ -32,6 +32,7 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/sublime.sh
 . ~/.zsh/docker.sh
 . ~/.zsh/mc.sh
+. ~/.zsh/postgresql.sh
 . ~/.zsh/daily.sh
 
 if [ -r /Users/exclusive/.workspace.sh ]; then
