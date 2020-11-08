@@ -28,5 +28,6 @@
         - .asdfrc
         - .tool-versions
         - .railsrc
+        - .hushlogin
       loop_control:
         loop_var: dotfile
