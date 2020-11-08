@@ -25,7 +25,7 @@
 - [SimpleCov](https://github.com/sentience/SublimeSimpleCov)
 - [Skins](https://github.com/deathaxe/sublime-skins/)
 - [SqlBeautifier](https://github.com/zsong/SqlBeautifier)
-- [TerminalView](https://github.com/Wramberg/TerminalView)
+- [Terminus](https://github.com/randy3k/Terminus)
 - [TodoReview](https://github.com/jonathandelgado/SublimeTodoReview)
 - [VAlign](https://github.com/jarod2d/sublime_valign)
 - [Tmux Syntax Highlight](https://github.com/kei-q/sublime-tmux-syntax-highlight)
