@@ -33,6 +33,7 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/docker.sh
 . ~/.zsh/mc.sh
 . ~/.zsh/postgresql.sh
+. ~/.zsh/scala.sh
 . ~/.zsh/daily.sh
 
 if [ -r /Users/exclusive/.workspace.sh ]; then

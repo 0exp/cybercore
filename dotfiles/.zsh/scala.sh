@@ -1,0 +1,1 @@
+alias scala-repl="amm"

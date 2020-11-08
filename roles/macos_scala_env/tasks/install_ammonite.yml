@@ -1,0 +1,7 @@
+---
+
+- name: "[dev/scala] Install Scala REPL <ammonite>"
+  homebrew:
+    package: ammonite-repl
+    state: latest
+  notify: brew_pkg_installed

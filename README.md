@@ -98,7 +98,7 @@ ansible-playbook macbook_daily.yml --list-tasks
   ```shell
   ansible-playbook macbook_daily.yml --tags update_elixir
   ```
-- update **scala** (`update-scala`):
+- update **scala** (updates `scala`, `sbt` and `amonite-repl`) (`update-scala`):
   ```shell
   ansible-playbook macbook_daily.yml --tags update_scala
   ```

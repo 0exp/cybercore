@@ -5,3 +5,4 @@
   with_items:
     - install_sbt
     - install_scala
+    - install_ammonite
