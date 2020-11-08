@@ -1,0 +1,7 @@
+---
+
+- name: "[dev/scala] Install <scala>"
+  homebrew:
+    package: scala
+    state: latest
+  notify: brew_pkg_installed

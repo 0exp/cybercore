@@ -1,0 +1,7 @@
+---
+
+- name: 'Setup Scala Environment'
+  include_tasks: "{{ item }}.yml"
+  with_items:
+    - install_sbt
+    - install_scala

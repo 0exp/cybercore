@@ -1,0 +1,7 @@
+---
+
+- name: "[dev/scala] Install <sbt>"
+  homebrew:
+    package: sbt
+    state: latest
+  notify: brew_pkg_installed

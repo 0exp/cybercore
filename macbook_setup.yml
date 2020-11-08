@@ -23,4 +23,5 @@
     - { role: macos_ruby_env }
     - { role: macos_rust_env }
     - { role: macos_elixir_env }
+    - { role: macos_scala_env }
     - { role: macos_post_config }

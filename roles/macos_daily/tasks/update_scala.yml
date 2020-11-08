@@ -1,0 +1,9 @@
+---
+
+- name: '[dev/scala] Update <scala>'
+  import_role:
+    name: macos_scala_env
+    tasks_from: install_scala
+  tags:
+    - update_scala
+    - update_languages

@@ -3,6 +3,7 @@
 > my development environments and system configurations
 
 > ansible@2.10.3
+> JavaSE@15.0.1
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
@@ -18,6 +19,7 @@
 - **python** (3.9.0) / **python** (2.7.18)
 - **nodejs** (latest) / **yarn** (1.22.4)
 - **elixir** (1.11.2) / **erlang** (23.1)
+- **scala** (latest) / **sbt** (latest)
 
 ---
 
@@ -30,6 +32,7 @@
   - `macos_ruby_env` - setup **Ruby** environment;
   - `macos_rust_env` - setup **Rust** environment;
   - `macos_elixir_env` - setup **Elixir** environment;
+  - `macos_scala_env` - setup **Scala** environment;
   - `macos_soft` - install neccessary sofwtare;
   - `macos_post_config` - apply post macOS configs (copy dotfiles, setup system fonts, clone projects, etc);
 
@@ -94,6 +97,10 @@ ansible-playbook macbook_daily.yml --list-tasks
 - update **elixir** (`update-elixir`):
   ```shell
   ansible-playbook macbook_daily.yml --tags update_elixir
+  ```
+- update **scala** (`update-scala`):
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_scala
   ```
 
 ### Software

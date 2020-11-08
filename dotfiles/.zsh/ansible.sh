@@ -9,3 +9,4 @@ alias update-solargraph="ansible-playbook ~/Projects/cybercore/macbook_daily.yml
 alias update-elixir="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_elixir"
 alias update-rust="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_rust"
 alias update-pyenv="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_pyenv"
+alias update-scala="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_scala"
