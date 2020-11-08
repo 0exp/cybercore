@@ -2,8 +2,7 @@
 
 > my development environments and system configurations
 
-> ansible@2.10.3
-> JavaSE@15.0.1
+> ansible@2.10.3 / JavaSE@15.0.1
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
