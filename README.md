@@ -2,7 +2,7 @@
 
 > my development environments and system configurations
 
-> ansible@2.9.10
+> ansible@2.10.3
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
@@ -13,11 +13,11 @@
 
 ---
 
-- **ruby** (2.7.1)
+- **ruby** (2.7.2)
 - **rust** (1.44.1)
-- **python** (3.8.3) / **python** (2.7.18)
+- **python** (3.9.0) / **python** (2.7.18)
 - **nodejs** (latest) / **yarn** (1.22.4)
-- **elixir** (1.10.3) / **erlang** (23.0)
+- **elixir** (1.11.2) / **erlang** (23.1)
 
 ---
 

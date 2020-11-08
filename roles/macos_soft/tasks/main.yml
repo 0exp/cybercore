@@ -28,4 +28,4 @@
     - mas
     - watchman
     - shfmt
-    - translate-shell
+    - translate_shell

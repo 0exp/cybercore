@@ -21,7 +21,6 @@
     - any_cache
     - armitage
     - jaina
-    - smart_core
     - symbiont-ruby
     - rabbit_matcher
     - sidekiq_portal
@@ -32,6 +31,7 @@
     - siege
     - gem_template
     - click_home
+    - meta_struct
   loop_control:
     loop_var: repo_name
 
@@ -49,8 +49,8 @@
     - smart_types
     - smart_initializer
     - smart_operation
-    - smart_dsl
     - smart_injection
-    - smart_validator
+    - smart_schema
+    - smart_value-object
   loop_control:
     loop_var: repo_name

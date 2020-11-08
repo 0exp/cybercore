@@ -8,17 +8,25 @@
     owner: "{{ macbook.home_user }}"
   loop:
     - FiraCode-Bold.ttf
+    - FiraCode-SemiBold.ttf
     - FiraCode-Light.ttf
     - FiraCode-Medium.ttf
     - FiraCode-Regular.ttf
     - FiraCode-Retina.ttf
-    - JetBrainsMono-Bold-Italic.ttf
-    - JetBrainsMono-Medium-Italic.ttf
+    - FiraCode-VF.ttf
     - JetBrainsMono-Bold.ttf
+    - JetBrainsMono-Bold-Italic.ttf
     - JetBrainsMono-Medium.ttf
+    - JetBrainsMono-Medium-Italic.ttf
+    - JetBrainsMono-ExtraBold.ttf
     - JetBrainsMono-ExtraBold-Italic.ttf
     - JetBrainsMono-Regular.ttf
-    - JetBrainsMono-ExtraBold.ttf
     - JetBrainsMono-Italic.ttf
+    - JetBrainsMono-Light.ttf
+    - JetBrainsMono-Light-Italic.ttf
+    - JetBrainsMono-SemiLight.ttf
+    - JetBrainsMono-SemiLight-Italic.ttf
+    - JetBrainsMono-ExtraLight.ttf
+    - JetBrainsMono-ExtraLight-Italic.ttf
   loop_control:
     loop_var: font_file
