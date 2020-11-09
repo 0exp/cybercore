@@ -4,7 +4,7 @@ dist: xenial
 python: "3.9.0"
 jobs:
   include:
-  - before_script: pip install ansible=2.10.3
+  - before_script: pip install ansible==2.10.3
     script: ansible-playbook --syntax-check macbook_daily.yml
   - before_script: pip install ansible=2.10.3
     script: ansible-playbook --syntax-check macbook_setup.yml
