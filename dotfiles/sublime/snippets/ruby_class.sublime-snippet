@@ -1,5 +1,5 @@
 <snippet>
-  <tabTrigger>rc</tabTrigger>
+  <tabTrigger>rcl</tabTrigger>
   <description>Ruby Class Template</description>
   <scope>source.ruby</scope>
   <content><![CDATA[

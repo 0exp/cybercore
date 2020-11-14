@@ -1,5 +1,5 @@
 <snippet>
-  <tabTrigger>rm</tabTrigger>
+  <tabTrigger>rmd</tabTrigger>
   <description>Ruby Module Template</description>
   <scope>source.ruby</scope>
   <content><![CDATA[
