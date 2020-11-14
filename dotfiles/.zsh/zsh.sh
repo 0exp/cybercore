@@ -1,5 +1,5 @@
 alias zshreload="source ~/.zshrc && clear"
 alias zshedit="st ~/.zshrc"
-alias zshupgrade="upgrade_oh_my_zsh"
-alias zhsupdate="upgrade_oh_my_zsh"
+alias zshupgrade="omz update"
+alias zhsupdate="omz update"
 alias zshcleanup="rm ~/.zcompdump*"
