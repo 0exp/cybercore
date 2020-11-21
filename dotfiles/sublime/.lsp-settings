@@ -2,12 +2,10 @@
   "clients": {
     "ruby (solorgraph)": {
       "command": ["/Users/exclusive/.rbenv/shims/solargraph", "stdio"],
-      "enabled": true,
       "env": {},
-      "languageId": "ruby",
-      "scopes": ["source.ruby"],
+      "enabled": true,
+      "selector": "source.ruby",
       "settings": {},
-      "syntaxes": ["Packages/Ruby/Ruby.sublime-syntax"]
     }
   }
 }
