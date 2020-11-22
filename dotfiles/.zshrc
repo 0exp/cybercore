@@ -7,7 +7,7 @@ PROMPT_EOL_MARK=""
 plugins=(sublime osx docker postgres gpg-agent)
 source $ZSH/oh-my-zsh.sh
 
-. ~/.zsh/aliases.sh
+. ~/.zsh/projects.sh
 . ~/.zsh/brew.sh
 . ~/.zsh/dashdoc.sh
 . ~/.zsh/services.sh
