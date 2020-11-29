@@ -23,3 +23,6 @@ alias bobo='bundle exec rubocop; bundle exec rspec'
 
 alias yamcop="yamllint --strict \$(git ls-files '*.yaml' '*.yml')"
 alias ansicop="ansible-lint *.yml"
+
+alias rbtime="time -l ruby --disable-gems" # TODO: use native rube instead of rbenv
+alias timerb="time -l ruby --disable-gems" # TODO: use native rube instead of rbenv
