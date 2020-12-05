@@ -29,4 +29,3 @@
     - watchman
     - shfmt
     - translate_shell
-    - pandoc

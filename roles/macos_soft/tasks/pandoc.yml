@@ -1,7 +1,0 @@
----
-
-- name: '[homebrew/pkg] Install <pandoc>'
-  homebrew:
-    package: pandoc
-    state: latest
-  notify: brew_pkg_installed
