@@ -2,11 +2,11 @@
 
 macos_ruby_env:
   rbenv_path: "{{ macbook.home_path }}/.rbenv"
-  ruby_version: '2.7.2'
-  bundler_version: '2.1.4'
+  ruby_version: '3.0.0'
+  bundler_version: '2.2.3'
   rubygems_directory_path: "{{ macbook.home_path }}/.gem"
   rubygems_creds_file: "{{ macbook.home_path }}/.gem/credentials"
-  solargraph_version: '0.39.17'
-  solargraph_core: '2.7.1'
+  solargraph_version: '0.40.0'
+  solargraph_core: '2.7.2'
   solargraph_cache_path: "{{ macbook.home_path }}/.solargraph/cache"
   seeing_is_believing_version: '4.0.0'
