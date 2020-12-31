@@ -10,3 +10,4 @@
     - install_necessary_gems
     - install_solargraph
     - install_seeing_is_believing_version
+    - install_ruby_type_checkers
