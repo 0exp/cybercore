@@ -1,5 +1,17 @@
+# My used workflows
+
 Workflow files: *.alfredworkflow (just simply open these files to install)
+
+
+## Git Repost (workflow)
+
 Settings: `settings.json` (type `reposettings` in alfred and replace opened config with settings.json content);
+
+Useful commands:
+
+- `reposettings` - open settings;
+- `reposupdate` - update internal repo list and cache;
+- `reposhelp` - open Git Repos
 
 Used settings:
 
@@ -21,3 +33,5 @@ Used settings:
   ]
 }
 ```
+
+---
