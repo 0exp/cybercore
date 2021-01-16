@@ -9,7 +9,7 @@ Workflow files: `*.alfredworkflow` (just simply open these files to install)
 - `Package Managres` - use commonly used package managers to search packages from Alfred (`gems`, `homebrew` and etc);
   - sample: `yarn babel` - search `babel` packages in `npm`;
   - sample: `gems rails` - seaerch `rails` gems in `rubygems`;
-- `Gh Repos` - naviagte over GitHub repos by Alfred;
+- `Gh Repos` - naviagte over *GitHub* repos by Alfred;
   - `gh-token` - generate github token (necessary step);
   - `gh-login` - login to github from Alfred's Workflow (necessary step);
   - sample: `gh 0exp/cybercore` - open my `cybercore` git repository;
@@ -19,7 +19,7 @@ Workflow files: `*.alfredworkflow` (just simply open these files to install)
   - sample: `dash ruby2_keywords` - open `ruby2_keywords` documentation in Dash;
 
 
-## Git Repost (workflow)
+## Git Repos (workflow)
 
 Settings: `settings.json` (type `reposettings` in alfred and replace opened config with settings.json content);
 
@@ -27,7 +27,7 @@ Useful commands:
 
 - `reposettings` - open settings;
 - `reposupdate` - update internal repo list and cache;
-- `reposhelp` - open Git Repos
+- `reposhelp` - open Git Repos help page in browser;
 
 Used settings:
 
