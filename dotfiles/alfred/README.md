@@ -1,6 +1,11 @@
 # My used workflows
 
-Workflow files: *.alfredworkflow (just simply open these files to install)
+Workflow files: `*.alfredworkflow` (just simply open these files to install)
+
+- `Git Repos` - search and open local repo directories in your favorite app (iTerm, Sublime Text, Sublime Merge);
+- `Package Managres` - use commonly used package managers to search packages from Alfred (`gems`, `homebrew` and etc);
+- `Gh Repos` - naviagte over GitHub repos by Alfred;
+- `Dash` - jump to Dash's appropriated documentation from Alfred;
 
 
 ## Git Repost (workflow)
