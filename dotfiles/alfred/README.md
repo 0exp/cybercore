@@ -7,8 +7,8 @@ Workflow files: `*.alfredworkflow` (just simply open these files to install)
   - sample: `repos qonfig` + `ctrl+enter` - open qonfig folder both in Sublime Text and iTerm;
   - sample: `repos smart_type` + `fn+enter` - open smrt_types folder in Sublime Merge
 - `Package Managres` - use commonly used package managers to search packages from Alfred (`gems`, `homebrew` and etc);
-  - `yarn babel` - search `babel` packages in `npm`;
-  - `gems rails` - seaerch `rails` gems in `rubygems`;
+  - sample: `yarn babel` - search `babel` packages in `npm`;
+  - sample: `gems rails` - seaerch `rails` gems in `rubygems`;
 - `Gh Repos` - naviagte over GitHub repos by Alfred;
   - `gh-token` - generate github token (necessary step);
   - `gh-login` - login to github from Alfred's Workflow (necessary step);
