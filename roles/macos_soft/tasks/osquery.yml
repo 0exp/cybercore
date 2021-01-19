@@ -4,4 +4,4 @@
   shell: |
     set -o pipefail
     brew reinstall --cask osquery
-    brew cleanup
+  notify: brew_pkg_installed
