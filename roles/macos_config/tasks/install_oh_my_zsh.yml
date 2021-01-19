@@ -16,5 +16,14 @@
   args:
     warn: no
 
+- name: '[macOS] Instlal <zsh-autosuggestions>'
+  vars:
+    repo_url: https://github.com/zsh-users/zsh-autosuggestions
+    clone_path: "{{ macbook.home_path }}/.oh-my-zsh/custom/plugins/zsh-autosuggestions"
+  git:
+    repo: "{{ repo_url }}"
+    dest: "{{ clone_path }}"
+    version: HEAD
+
 - name: '[macOS] Set oh-my-zsh as default shell'
   shell: chsh -s $(which zsh)
