@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/cask/pkg] Install <osquery>'
+  shell: |
+    set -o pipefail
+    brew reinstall --cask osquery
+    brew cleanup
