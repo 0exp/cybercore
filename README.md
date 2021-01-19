@@ -155,6 +155,7 @@ ansible-lint *.yml
 
 ### TODO:
 
+- migrate to Github Actions CI;
 - `macbook.user` as a customizable runtime setting;
-- move credential prompts to ansible-vault;
+- clone ohmyzsh and ohmyzsh-related plugins to my repository;
 - clone sublime packages (and use `Package Control: Satisfy Dependencies`)
