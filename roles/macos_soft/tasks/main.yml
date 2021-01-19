@@ -30,3 +30,4 @@
     - shfmt
     - translate_shell
     - osquery
+    - gping

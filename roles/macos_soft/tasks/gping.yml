@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <gping>'
+  homebrew:
+    package: gping
+    state: latest
+  notify: brew_pkg_installed
