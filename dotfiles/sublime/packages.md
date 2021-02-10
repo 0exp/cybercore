@@ -54,6 +54,7 @@
 - [Scala Syntax](https://github.com/gwenzek/scalaSublimeSyntax)
 - [Graphql](https://github.com/dncrews/GraphQL-SublimeText3)
 - [DotENV](https://github.com/zaynali53/DotENV)
+- [SSH Config](https://github.com/robballou/sublimetext-sshconfig)
 - [Pretty Shell](https://github.com/aerobounce/Sublime-Pretty-Shell)
   - (requires `shfmt` console utility)
 - [LSP-dockerfile](https://github.com/sublimelsp/LSP-dockerfile)
