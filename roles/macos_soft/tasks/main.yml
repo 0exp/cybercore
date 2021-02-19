@@ -29,5 +29,6 @@
     - watchman
     - shfmt
     - translate_shell
-    - osquery
+    # - osquery (temporary disabled; TODO: enable it)
     - gping
+    - terraform

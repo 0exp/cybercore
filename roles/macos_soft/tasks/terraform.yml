@@ -1,0 +1,18 @@
+---
+
+- name: '[homebrew/pkg] Install <terraform>'
+  block:
+    - name: '[brew/tap] Add hashicorp repository'
+      homebrew_tap:
+        name: hashicorp/tap
+        state: present
+      notify: brew_pkg_installed
+    - name: '[brew/install] Install <terraform>'
+      homebrew:
+        package: hashicorp/tap/terraform
+        state: latest
+      notify: brew_pkg_installed
+    - name: '[terraform] Enable autocompletion commands'
+      shell: |
+        set -o pipefail
+        terraform -install-autocomplete
