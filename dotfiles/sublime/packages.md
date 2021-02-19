@@ -59,3 +59,4 @@
   - (requires `shfmt` console utility)
 - [LSP-dockerfile](https://github.com/sublimelsp/LSP-dockerfile)
   - (requires https://github.com/rcjsuen/dockerfile-language-server-nodejs)
+- [Terraform](https://github.com/alexlouden/Terraform.tmLanguage)
