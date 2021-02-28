@@ -6,6 +6,20 @@
       "enabled": true,
       "selector": "source.ruby",
       "settings": {},
+    },
+    "terraform": {
+      "command": ["/usr/local/bin/terraform-ls", "serve"],
+      "env": {},
+      "enabled": true,
+      "selector": "source.terraform",
+      "settings": {},
+    },
+    "ruby (steep)": {
+      "command": ["/Users/exclusive/.rbenv/shims/steep", "langserver"],
+      "env": {},
+      "enabled": true,
+      "selector": "source.ruby",
+      "settings": {}
     }
   }
 }
