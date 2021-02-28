@@ -34,6 +34,7 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/mc.sh
 . ~/.zsh/postgresql.sh
 . ~/.zsh/scala.sh
+. ~/.zsh/terraform.sh
 . ~/.zsh/daily.sh
 
 if [ -r /Users/exclusive/.workspace.sh ]; then

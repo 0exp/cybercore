@@ -1,5 +1,6 @@
 ---
 
+# (a set of libraries for development of security-enabled applications)
 - name: '[homebrew/pkg] Install <nss>'
   homebrew:
     package: nss

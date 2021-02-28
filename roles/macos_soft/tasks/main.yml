@@ -10,7 +10,7 @@
     - tmux
     - htop
     - direnv
-    - mc
+    # - mc (TODO: delete MC from my workstation)
     - mkcert
     - nss
     - nmap
