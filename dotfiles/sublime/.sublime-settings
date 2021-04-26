@@ -25,7 +25,7 @@
     "node_modules"
   ],
   "index_files": true,
-  "index_workers": 5,
+  "index_workers": 1,
   "line_padding_bottom": 0,
   "overlay_scroll_bars": "enabled",
   "rulers":
