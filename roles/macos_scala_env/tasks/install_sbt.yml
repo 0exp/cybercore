@@ -4,4 +4,5 @@
   homebrew:
     package: sbt
     state: latest
+    update_homebrew: yes
   notify: brew_pkg_installed

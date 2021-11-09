@@ -19,7 +19,7 @@ My development environments and system configurations (**macOS Monterey**).
 - **python** (3.10.0) / **python** (2.7.18)
 - **nodejs** (latest) / **yarn** (latest@**1.x**)
 - **elixir** (1.12.3) / **erlang** (24.1.4)
-- **scala** (latest) / **sbt** (latest)
+- **scala** (latest@**homebrew**) / **sbt** (latest@**homebrew**)
 - **php** (latest@**homebrew**)
 
 ---
