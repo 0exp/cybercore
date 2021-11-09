@@ -1,8 +1,8 @@
 # cybercore &middot; [![Build Status](https://travis-ci.org/0exp/cybercore.svg?branch=master)](https://travis-ci.org/0exp/cybercore)
 
-My development environments and system configurations
+My development environments and system configurations (**macOS Monteray**).
 
-> ansible@2.10.3 / Java@17.0.1 / XCode@13.1
+> ansible@2.11.6/ Java@17.0.1 / XCode@13.1
 > macOS Monterey (12.0.1)
 
 - [Macbook Setup](#macbook-setup)
@@ -16,7 +16,7 @@ My development environments and system configurations
 
 - **ruby** (3.0.0)
 - **rust** (1.44.1)
-- **python** (3.9.0) / **python** (2.7.18)
+- **python** (3.10.0) / **python** (2.7.18)
 - **nodejs** (latest) / **yarn** (1.22.10)
 - **elixir** (1.11.2) / **erlang** (23.1)
 - **scala** (latest) / **sbt** (latest)
@@ -114,7 +114,7 @@ ansible-playbook macbook_daily.yml --list-tasks
 
 ### Additional instructions
 
-- iterm2 profile: [dotfiles/iterm/exclusive.json](dotfiles/iterm/exclusive.json)
+- iterm2 profile: [dotfiles/iterm/daiver.json](dotfiles/iterm/daiver.json)
 
 ---
 
@@ -135,10 +135,10 @@ ansible-playbook macbook_daily.yml --list-tasks
 
 - tranlsate any text (copy any text to a clipboard and type `trs` in console shell):
 ```shell
-exclusive => ~/Projects
+daiver => ~/Projects
 ➜ trs
 Sorbet - это быстрый и мощный тип проверки, разработанный для Ruby.
-exclusive => ~/Projects
+daiver => ~/Projects
 ➜
  ```
 

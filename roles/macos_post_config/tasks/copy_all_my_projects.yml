@@ -52,5 +52,6 @@
     - smart_injection
     - smart_schema
     - smart_value-object
+    - smart_type-system
   loop_control:
     loop_var: repo_name

@@ -20,7 +20,7 @@
   aliases = config --get-regexp alias
 [core]
   ignorecase = false
-  excludesfile = /Users/exclusive/.gitignore
+  excludesfile = /Users/daiver/.gitignore
   whitespace=-indent-with-non-tab,trailing-space,cr-at-eol
 [color]
   ui = auto
@@ -48,4 +48,4 @@
 [merge]
   tool = smerge
 [include]
-  path = /Users/exclusive/.workspace-gitconfig
+  path = /Users/daiver/.workspace-gitconfig

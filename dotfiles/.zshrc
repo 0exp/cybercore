@@ -1,10 +1,10 @@
-export PATH="$PATH:/Users/exclusive/.local/bin:/usr/local/sbin:/usr/local/opt/rabbitmq/sbin"
-export ZSH=/Users/exclusive/.oh-my-zsh
+export PATH="$PATH:/Users/daiver/.local/bin:/usr/local/sbin:/usr/local/opt/rabbitmq/sbin"
+export ZSH=/Users/daiver/.oh-my-zsh
 ZSH_THEME="spaceship"
 DISABLE_UPDATE_PROMPT=true
 DISABLE_AUTO_UPDATE=true
 PROMPT_EOL_MARK=""
-plugins=(sublime osx docker postgres gpg-agent zsh-autosuggestions)
+plugins=(sublime macos docker postgres gpg-agent zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 . ~/.zsh/projects.sh
@@ -31,12 +31,11 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/solargraph.sh
 . ~/.zsh/sublime.sh
 . ~/.zsh/docker.sh
-. ~/.zsh/mc.sh
 . ~/.zsh/postgresql.sh
 . ~/.zsh/scala.sh
 . ~/.zsh/terraform.sh
 . ~/.zsh/daily.sh
 
-if [ -r /Users/exclusive/.workspace.sh ]; then
-  . /Users/exclusive/.workspace.sh
+if [ -r /Users/daiver/.workspace.sh ]; then
+  . /Users/daiver/.workspace.sh
 fi

@@ -1,7 +1,7 @@
 {
   "clients": {
     "ruby (solorgraph)": {
-      "command": ["/Users/exclusive/.rbenv/shims/solargraph", "stdio"],
+      "command": ["/Users/daiver/.rbenv/shims/solargraph", "stdio"],
       "env": {},
       "enabled": true,
       "selector": "source.ruby",
@@ -15,7 +15,7 @@
       "settings": {},
     },
     "ruby (steep)": {
-      "command": ["/Users/exclusive/.rbenv/shims/steep", "langserver"],
+      "command": ["/Users/daiver/.rbenv/shims/steep", "langserver"],
       "env": {},
       "enabled": true,
       "selector": "source.ruby",
