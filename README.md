@@ -1,8 +1,9 @@
 # cybercore &middot; [![Build Status](https://travis-ci.org/0exp/cybercore.svg?branch=master)](https://travis-ci.org/0exp/cybercore)
 
-> my development environments and system configurations
+My development environments and system configurations
 
-> ansible@2.10.3 / JavaSE@15.0.1
+> ansible@2.10.3 / Java@17.0.1 / XCode@13.1
+> macOS Monterey (12.0.1)
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
