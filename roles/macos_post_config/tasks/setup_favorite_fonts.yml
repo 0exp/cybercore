@@ -15,18 +15,36 @@
     - FiraCode-Retina.ttf
     - FiraCode-VF.ttf
     - JetBrainsMono-Bold.ttf
-    - JetBrainsMono-Bold-Italic.ttf
-    - JetBrainsMono-Medium.ttf
-    - JetBrainsMono-Medium-Italic.ttf
+    - JetBrainsMono-BoldItalic.ttf
     - JetBrainsMono-ExtraBold.ttf
-    - JetBrainsMono-ExtraBold-Italic.ttf
-    - JetBrainsMono-Regular.ttf
+    - JetBrainsMono-ExtraBoldItalic.ttf
+    - JetBrainsMono-ExtraLight.ttf
+    - JetBrainsMono-ExtraLightItalic.ttf
     - JetBrainsMono-Italic.ttf
     - JetBrainsMono-Light.ttf
-    - JetBrainsMono-Light-Italic.ttf
-    - JetBrainsMono-SemiLight.ttf
-    - JetBrainsMono-SemiLight-Italic.ttf
-    - JetBrainsMono-ExtraLight.ttf
-    - JetBrainsMono-ExtraLight-Italic.ttf
+    - JetBrainsMono-LightItalic.ttf
+    - JetBrainsMono-Medium.ttf
+    - JetBrainsMono-MediumItalic.ttf
+    - JetBrainsMono-Regular.ttf
+    - JetBrainsMono-SemiBold.ttf
+    - JetBrainsMono-SemiBoldItalic.ttf
+    - JetBrainsMono-Thin.ttf
+    - JetBrainsMono-ThinItalic.ttf
+    - JetBrainsMonoNL-Bold.ttf
+    - JetBrainsMonoNL-BoldItalic.ttf
+    - JetBrainsMonoNL-ExtraBold.ttf
+    - JetBrainsMonoNL-ExtraBoldItalic.ttf
+    - JetBrainsMonoNL-ExtraLight.ttf
+    - JetBrainsMonoNL-ExtraLightItalic.ttf
+    - JetBrainsMonoNL-Italic.ttf
+    - JetBrainsMonoNL-Light.ttf
+    - JetBrainsMonoNL-LightItalic.ttf
+    - JetBrainsMonoNL-Medium.ttf
+    - JetBrainsMonoNL-MediumItalic.ttf
+    - JetBrainsMonoNL-Regular.ttf
+    - JetBrainsMonoNL-SemiBold.ttf
+    - JetBrainsMonoNL-SemiBoldItalic.ttf
+    - JetBrainsMonoNL-Thin.ttf
+    - JetBrainsMonoNL-ThinItalic.ttf
   loop_control:
     loop_var: font_file
