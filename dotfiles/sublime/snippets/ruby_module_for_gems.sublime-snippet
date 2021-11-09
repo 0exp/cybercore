@@ -1,5 +1,5 @@
 <snippet>
-  <tabTrigger>rmdg</tabTrigger>
+  <tabTrigger>rmdfg</tabTrigger>
   <description>Ruby Module Template for Gems</description>
   <scope>source.ruby</scope>
   <content><![CDATA[

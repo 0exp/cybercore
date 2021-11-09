@@ -1,4 +1,4 @@
-**My package directory path**: `/Users/daiver/Library/Application Support/Sublime Text 3/Packages`
+**My package directory path**: `/Users/daiver/Library/Application Support/Sublime Text/Packages`
 
 - [A File Icon](https://github.com/SublimeText/AFileIcon)
 - [AtomicColorScheme](https://github.com/gerardbm/sublime-atomic-scheme)
@@ -9,7 +9,6 @@
 - [Colorsublme](https://github.com/Colorsublime/Colorsublime-Plugin)
 - [DashDoc](https://github.com/farcaller/DashDoc)
 - [Delete Current File](https://github.com/yaworsw/Sublime-DeleteCurrentFile)
-- [DockBlockr](https://github.com/spadgos/sublime-jsdocs)
 - [Dockerfile Syntax Highlighting](https://github.com/asbjornenge/Docker.tmbundle)
 - [Elixir](https://github.com/elixir-editors/elixir-tmbundle/)
 - [File Rename](https://github.com/brianlow/FileRename)
@@ -20,6 +19,7 @@
 - [Path Tools](https://github.com/pjdietz/sublime-path-tools)
 - [Pretty JSON](https://github.com/dzhibas/SublimePrettyJson)
 - [Protocol Buffer Syntax](https://github.com/vihangm/sublime-protobuf-syntax)
+- [Protobuff Syntax Highlighter](https://github.com/VcamX/protobuf-syntax-highlighting)
 - [RSpec](https://github.com/SublimeText/RSpec)
 - [Ruby Slim](https://github.com/slim-template/ruby-slim.tmbundle)
 - [SimpleCov](https://github.com/sentience/SublimeSimpleCov)
@@ -41,13 +41,10 @@
 - [Toml](https://github.com/jasonwilliams/sublime_toml_highlighting)
 - [INI](https://github.com/clintberry/sublime-text-2-ini)
 - [Pretty YAML](https://github.com/aukaost/SublimePrettyYAML)
-- [GoSublime](https://github.com/DisposaBoy/GoSublime)
-- [Seeing is Believing](https://github.com/JoshCheek/sublime-text-2-and-3-seeing-is-believing)
 - [OpenUri](https://github.com/jfcherng/Sublime-OpenUri/)
 - [SQLTools](https://github.com/mtxr/SublimeText-SQLTools)
 - [AutoFileName](https://github.com/BoundInCode/AutoFileName)
 - [HTMLBeautify](https://github.com/rareyman/HTMLBeautify)
-- [PrettyShell](https://github.com/aerobounce/Sublime-Pretty-Shell)
 - [Rust Enhanced](https://github.com/rust-lang/rust-enhanced)
 - [PostgreSQL Syntax Higlighting](https://github.com/tkopets/sublime-postgresql-syntax)
 - [rainbow_csv](https://github.com/mechatroner/sublime_rainbow_csv)
@@ -59,4 +56,5 @@
   - (requires `shfmt` console utility)
 - [LSP-dockerfile](https://github.com/sublimelsp/LSP-dockerfile)
   - (requires https://github.com/rcjsuen/dockerfile-language-server-nodejs)
+  - `yarn global add dockerfile-language-server-nodejs`
 - [Terraform](https://github.com/alexlouden/Terraform.tmLanguage)
