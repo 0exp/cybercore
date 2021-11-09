@@ -1,6 +1,6 @@
 # cybercore &middot; [![Build Status](https://travis-ci.org/0exp/cybercore.svg?branch=master)](https://travis-ci.org/0exp/cybercore)
 
-My development environments and system configurations (**macOS Monteray**).
+My development environments and system configurations (**macOS Monterey**).
 
 > ansible@2.11.6/ Java@17.0.1 / XCode@13.1
 > macOS Monterey (12.0.1)
