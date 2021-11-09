@@ -1,0 +1,8 @@
+---
+
+- name: '[dev/php] Install <PHP> language (via homebrew)'
+  homebrew:
+    package: php
+    state: latest
+    update_homebrew: yes
+  notify: brew_pkg_installed

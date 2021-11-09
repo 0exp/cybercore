@@ -10,3 +10,4 @@ alias update-elixir="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --t
 alias update-rust="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_rust"
 alias update-pyenv="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_pyenv"
 alias update-scala="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_scala"
+alias update-php="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_php"

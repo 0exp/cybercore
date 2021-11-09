@@ -20,6 +20,7 @@ My development environments and system configurations (**macOS Monterey**).
 - **nodejs** (latest) / **yarn** (latest 1.x)
 - **elixir** (1.12.3) / **erlang** (24.1.4)
 - **scala** (latest) / **sbt** (latest)
+- **php** (latest@homebrew)
 
 ---
 
@@ -33,6 +34,7 @@ My development environments and system configurations (**macOS Monterey**).
   - `macos_rust_env` - setup **Rust** environment;
   - `macos_elixir_env` - setup **Elixir** environment;
   - `macos_scala_env` - setup **Scala** environment;
+  - `macos_php_env` - setup **PHP** environment;
   - `macos_soft` - install neccessary sofwtare;
   - `macos_post_config` - apply post macOS configs (copy dotfiles, setup system fonts, clone projects, etc);
 
@@ -101,6 +103,11 @@ ansible-playbook macbook_daily.yml --list-tasks
 - update **scala** (updates `scala`, `sbt` and `amonite-repl`) (`update-scala`):
   ```shell
   ansible-playbook macbook_daily.yml --tags update_scala
+  ```
+
+- update **php** (`update-php`):
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_php
   ```
 
 ### Software

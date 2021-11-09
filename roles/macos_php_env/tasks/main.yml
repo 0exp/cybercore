@@ -1,0 +1,6 @@
+---
+
+- name: 'Setup PHP environment'
+  include_tasks: "{{ item }}.yml"
+  with_items:
+    - install_php

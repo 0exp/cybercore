@@ -1,6 +1,6 @@
 ---
 
-- name: '[dev/ruby] Update <pyenv>'
+- name: '[dev/python] Update <pyenv>'
   homebrew:
     package: pyenv
     state: latest

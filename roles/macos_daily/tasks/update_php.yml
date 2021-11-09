@@ -1,0 +1,9 @@
+---
+
+- name: '[dev/php] Update <PHP>'
+  import_role:
+    name: macos_php_env
+    tasks_from: install_php
+  tags:
+    - update_php
+    - update_languages
