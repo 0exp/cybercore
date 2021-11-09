@@ -31,3 +31,4 @@
     # - osquery (temporary disabled; TODO: enable it)
     - gping
     - terraform
+    - sdl2

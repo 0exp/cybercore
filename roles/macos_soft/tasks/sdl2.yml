@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <sdl2> (need for ruby gosu gem)'
+  homebrew:
+    package: sdl2
+    state: latest
+  notify: brew_pkg_installed
