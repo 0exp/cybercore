@@ -3,6 +3,7 @@
 My development environments and system configurations (**macOS Monterey**).
 
 > ansible@2.11.6/ Java@17.0.1 / XCode@13.1
+
 > macOS Monterey (12.0.1)
 
 - [Macbook Setup](#macbook-setup)
