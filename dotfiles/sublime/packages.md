@@ -7,6 +7,7 @@
 - [Bracketeer](https://github.com/colinta/SublimeBracketeer)
 - [BracketHighlighter](https://github.com/facelessuser/BracketHighlighter)
 - [Colorsublme](https://github.com/Colorsublime/Colorsublime-Plugin)
+- [DocBlockr](https://github.com/spadgos/sublime-jsdocs)
 - [DashDoc](https://github.com/farcaller/DashDoc)
 - [Delete Current File](https://github.com/yaworsw/Sublime-DeleteCurrentFile)
 - [Dockerfile Syntax Highlighting](https://github.com/asbjornenge/Docker.tmbundle)
