@@ -15,7 +15,7 @@ My development environments and system configurations (**macOS Monterey**).
 
 ---
 
-- **ruby** (3.0.2)
+- **ruby** (3.0.3)
 - **rust** (1.56.1)
 - **python** (3.10.0) / **python** (2.7.18)
 - **nodejs** (latest) / **yarn** (latest@**1.x**)
