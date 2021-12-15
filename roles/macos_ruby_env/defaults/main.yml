@@ -6,10 +6,10 @@ macos_ruby_env:
   bundler_version: '2.2.31'
   rubygems_directory_path: "{{ macbook.home_path }}/.gem"
   rubygems_creds_file: "{{ macbook.home_path }}/.gem/credentials"
-  solargraph_version: '0.44.0'
+  solargraph_version: '0.44.2'
   solargraph_core: '2.7.4'
   solargraph_cache_path: "{{ macbook.home_path }}/.solargraph/cache"
   seeing_is_believing_version: '4.0.1'
-  rbs_version: '1.6.2'
-  typeprof_version: '0.20.2'
-  steep_version: '0.46.0'
+  rbs_version: '1.7.1'
+  typeprof_version: '0.20.4'
+  steep_version: '0.47.0'
