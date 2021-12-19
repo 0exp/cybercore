@@ -1,1 +1,1 @@
-alias trs="pbpaste | trans --brief"
+alias trs="pbpaste | trans :ru -e google --brief"
