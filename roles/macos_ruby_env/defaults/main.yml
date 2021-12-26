@@ -2,7 +2,7 @@
 
 macos_ruby_env:
   rbenv_path: "{{ macbook.home_path }}/.rbenv"
-  ruby_version: '3.0.3'
+  ruby_version: '3.1.0'
   bundler_version: '2.2.32'
   rubygems_directory_path: "{{ macbook.home_path }}/.gem"
   rubygems_creds_file: "{{ macbook.home_path }}/.gem/credentials"
