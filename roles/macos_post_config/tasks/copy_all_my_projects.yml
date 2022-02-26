@@ -53,5 +53,11 @@
     - smart_schema
     - smart_value-object
     - smart_type-system
+    - smart_saga
+    - smart_signature
+    - smart_result
+    - smart_events
+    - smart_dsl
+    - smart_validation
   loop_control:
     loop_var: repo_name
