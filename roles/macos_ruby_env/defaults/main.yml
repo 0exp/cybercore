@@ -9,7 +9,6 @@ macos_ruby_env:
   solargraph_version: '0.44.3'
   solargraph_core: '2.7.4'
   solargraph_cache_path: "{{ macbook.home_path }}/.solargraph/cache"
-  seeing_is_believing_version: '4.0.1'
   rbs_version: '2.2.2'
   typeprof_version: '0.21.2'
   steep_version: '0.47.1'

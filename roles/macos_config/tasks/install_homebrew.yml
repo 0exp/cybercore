@@ -3,13 +3,13 @@
 - name: '[homebrew] Prepare necessary directories for Homebrew'
   file:
     path: /usr/local/sbin # NOTE: can fail - run `sudo mkdir -p /usr/local/sbin` instead
-    owner: "{{ macbook.home_user }}" # NOTE: chonw -R $(whoami) /usr/local/sbin
+    owner: "{{ macbook.home_user }}" # NOTE: chown -R $(whoami) /usr/local/sbin
     state: directory
     recurse: yes
 
 - name: '[homebrew] Check Homebrew installation status'
   stat:
-    path: /usr/local/bin/brew
+    path: /opt/homebrew/bin/brew
   register: macos_homebrew_status
 
 - name: '[homebrew] Check and Install homebrew'
@@ -17,10 +17,10 @@
   block:
     - name: '[gather-homebrew-existence]'
       stat:
-        path: /usr/local/bin/brew
+        path: /opt/homebrew/bin/brew
       register: macos_homebrew_status
     - name: '[install-homebrew-if-it-does-not-exist]'
-      command: /usr/bin/ruby -e "$(curl -fsSL {{ macos_homebrew_url }})"
+      command: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
       when: not macos_homebrew_status.stat.exists
 
 - name: '[homebrew] Update homebrew to the latest version'

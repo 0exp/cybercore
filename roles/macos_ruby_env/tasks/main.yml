@@ -8,6 +8,5 @@
     - configure_ruby
     - setup_rubygems
     - install_necessary_gems
-    - install_seeing_is_believing_version
     - install_solargraph
     - install_type_checkers
