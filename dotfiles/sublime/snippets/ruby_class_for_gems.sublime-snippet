@@ -1,5 +1,5 @@
 <snippet>
-  <tabTrigger>rcsfg</tabTrigger>
+  <tabTrigger>rclfg</tabTrigger>
   <description>Ruby Class Template for Gems</description>
   <scope>source.ruby</scope>
   <content><![CDATA[

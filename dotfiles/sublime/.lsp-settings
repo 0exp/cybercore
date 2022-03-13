@@ -8,7 +8,7 @@
       "settings": {},
     },
     "terraform": {
-      "command": ["/usr/local/bin/terraform-ls", "serve"],
+      "command": ["/opt/homebrew/bin/terraform-ls", "serve"],
       "env": {},
       "enabled": true,
       "selector": "source.terraform",

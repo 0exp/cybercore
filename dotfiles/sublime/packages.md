@@ -1,7 +1,7 @@
-**My package directory path**: `/Users/daiver/Library/Application Support/Sublime Text/Packages`
+**Package directory path**: `/Users/daiver/Library/Application Support/Sublime Text/Packages`
 
 - [A File Icon](https://github.com/SublimeText/AFileIcon)
-- [AtomicColorScheme](https://github.com/gerardbm/sublime-atomic-scheme)
+- [Atomic Color Scheme](https://github.com/gerardbm/sublime-atomic-scheme)
 - [Babel](https://github.com/babel/babel-sublime)
 - [Better CoffeeScript](https://github.com/aponxi/sublime-better-coffeescript)
 - [Bracketeer](https://github.com/colinta/SublimeBracketeer)
@@ -34,7 +34,6 @@
 - [ChangeQuotes](https://github.com/colinta/SublimeChangeQuotes)
 - [LSP](https://github.com/tomv564/LSP)
 - [Local History](https://github.com/vishr/local-history)
-- [TypeScript Syntax](https://github.com/braver/TypeScriptSyntax)
 - [Vue Syntax Highlight](https://github.com/vuejs/vue-syntax-highlight)
 - [Sass](https://github.com/braver/SublimeSass)
 - [Ansible](https://github.com/clifford-github/sublime-ansible)
@@ -59,3 +58,4 @@
   - (requires https://github.com/rcjsuen/dockerfile-language-server-nodejs)
   - `yarn global add dockerfile-language-server-nodejs`
 - [Terraform](https://github.com/alexlouden/Terraform.tmLanguage)
+- [LSP-terraform](https://github.com/sublimelsp/LSP-terraform)
