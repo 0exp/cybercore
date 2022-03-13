@@ -18,6 +18,15 @@ Workflow files: `*.alfredworkflow` (just simply open these files to install)
 - `Dash` - jump to Dash's appropriated documentation from Alfred;
   - sample: `dash ruby2_keywords` - open `ruby2_keywords` documentation in Dash;
 
+## Dash Alfred (workflow)
+
+How to install:
+
+- open Dash and go to the settings
+- open Integration tab
+- double-click on Alfred icon
+- (installation starts :))
+
 
 ## Git Repos (workflow)
 
