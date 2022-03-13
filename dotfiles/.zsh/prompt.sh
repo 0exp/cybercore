@@ -34,7 +34,3 @@ SPACESHIP_BATTERY_SHOW=false
 SPACESHIP_EXIT_CODE_SHOW=false
 SPACESHIP_CHAR_SYMBOL="➜ "
 SPACESHIP_HOST_SHOW=true
-
-autoload -U promptinit
-promptinit
-prompt spaceship
