@@ -1,0 +1,16 @@
+-- main
+coffeescript (npm install --global coffeescript)
+relay
+graphql??
+react
+redux
+redux-saga
+relay
+webpack
+backbone
+underscore
+marionette
+jquery
+jquery-ui
+action-cable
+cypress
