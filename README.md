@@ -2,9 +2,9 @@
 
 My development environments and system configurations (**macOS Monterey**).
 
-> ansible@2.11.6 / Java@17.0.1 / XCode@13.1
+> ansible@2.12.3 / Java@18 / XCode@13.3
 
-> macOS Monterey (12.0.1)
+> macOS Monterey (12.3.1)
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
