@@ -22,6 +22,7 @@ My development environments and system configurations (**macOS Monterey**).
 - **elixir** (1.13.3) / **erlang** (24.2.2)
 - **scala** (latest@**homebrew**) / **sbt** (latest@**homebrew**)
 - **php** (latest@**homebrew**)
+- **coffeescript** (???)
 
 ---
 
@@ -38,6 +39,7 @@ My development environments and system configurations (**macOS Monterey**).
   - `macos_php_env` - setup **PHP** environment;
   - `macos_soft` - install neccessary sofwtare;
   - `macos_post_config` - apply post macOS configs (copy dotfiles, setup system fonts, clone projects, etc);
+  - `macos_coffeescript_env` - ???
 
 **(ansible)** setup macOS:
 ```shell
@@ -164,7 +166,9 @@ ansible-lint *.yml
 
 ### TODO:
 
+- workflow for installatoin of all necessary gems and javascript libs;
+- `CoffeeScript` language ansible roles;
 - migrate to Github Actions CI;
 - `macbook.user` as a customizable runtime setting;
 - clone ohmyzsh and ohmyzsh-related plugins to my repository;
-- clone sublime packages (and use `Package Control: Satisfy Dependencies`)
+- clone sublime packages (and use `Package Control: Satisfy Dependencies`);
