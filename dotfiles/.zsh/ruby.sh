@@ -21,6 +21,8 @@ alias bdsm="bundle pristine"
 alias burndown="bundle install --redownload" # i moli nokogiri ne podorvat tvoi popkins :)
 alias bobo='bundle exec rubocop; bundle exec rspec'
 alias brs="bundle exec rails"
+alias gu="gem update"
+alias gus="gem update --system"
 
 alias yamcop="yamllint --strict \$(git ls-files '*.yaml' '*.yml')"
 alias ansicop="ansible-lint *.yml"
