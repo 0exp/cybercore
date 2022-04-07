@@ -160,3 +160,114 @@ To restart dnsmasq after an upgrade:
 Or, if you don't want/need a background service you can just run:
   /opt/homebrew/opt/dnsmasq/sbin/dnsmasq --keep-in-foreground -C /opt/homebrew/etc/dnsmasq.conf -7 /opt/homebrew/etc/dnsmasq.d,*.c
 ```
+
+- NEO4J
+```shell
+To restart neo4j after an upgrade:
+  brew services restart neo4j
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/neo4j/bin/neo4j console
+```
+
+PROMETHEUS
+```
+When run from `brew services`, `prometheus` is run from
+`prometheus_brew_services` and uses the flags in:
+   /opt/homebrew/etc/prometheus.args
+
+To restart prometheus after an upgrade:
+  brew services restart prometheus
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/prometheus/bin/prometheus_brew_services
+```
+
+- KAFKA
+----START_OF_KAFKA-----
+```shell
+To restart kafka after an upgrade:
+  brew services restart kafka
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/kafka/bin/kafka-server-start /opt/homebrew/etc/kafka/server.properties
+```
+
+==> openssl@3
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /opt/homebrew/etc/openssl@3/certs
+
+and run
+  /opt/homebrew/opt/openssl@3/bin/c_rehash
+
+openssl@3 is keg-only, which means it was not symlinked into /opt/homebrew,
+because macOS provides LibreSSL.
+
+If you need to have openssl@3 first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/openssl@3/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find openssl@3 you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/openssl@3/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/openssl@3/include"
+
+For pkg-config to find openssl@3 you may need to set:
+  export PKG_CONFIG_PATH="/opt/homebrew/opt/openssl@3/lib/pkgconfig"
+
+==> php
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.1/
+
+To restart php after an upgrade:
+  brew services restart php
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php/sbin/php-fpm --nodaemonize
+
+-----END_OF_KAFKA-----
+
+-----
+
+### RUBY
+
+- update rubygems
+
+```shell
+gem update --system
+```
+
+- update all installed gems
+
+```shell
+gem update
+```
+
+- update concrete gem
+
+```shell
+gem update <gemname>
+```
+
+- list installed gems
+
+```shell
+gem list
+```
+
+- list outdated gems
+
+```shell
+gem outdated
+```
+
+- remove old gems
+
+```shell
+gem cleanup
+```
