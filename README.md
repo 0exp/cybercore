@@ -22,7 +22,7 @@ My development environments and system configurations (**macOS Monterey**).
 - **elixir** (1.13.3) / **erlang** (24.2.2)
 - **scala** (latest@**homebrew**) / **sbt** (latest@**homebrew**)
 - **php** (latest@**homebrew**)
-- **coffeescript** (???)
+- **coffeescript** (todo)
 
 ---
 
@@ -39,7 +39,7 @@ My development environments and system configurations (**macOS Monterey**).
   - `macos_php_env` - setup **PHP** environment;
   - `macos_soft` - install neccessary sofwtare;
   - `macos_post_config` - apply post macOS configs (copy dotfiles, setup system fonts, clone projects, etc);
-  - `macos_coffeescript_env` - ???
+  - `macos_coffeescript_env` - (todo)
 
 **(ansible)** setup macOS:
 ```shell
