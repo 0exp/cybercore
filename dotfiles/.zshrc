@@ -4,7 +4,7 @@ ZSH_THEME="spaceship"
 DISABLE_UPDATE_PROMPT=true
 DISABLE_AUTO_UPDATE=true
 PROMPT_EOL_MARK=""
-plugins=(sublime macos docker postgres gpg-agent zsh-autosuggestions)
+plugins=(sublime macos docker postgres gpg-agent zsh-autosuggestions kubectl)
 source $ZSH/oh-my-zsh.sh
 
 . ~/.zsh/projects.sh
