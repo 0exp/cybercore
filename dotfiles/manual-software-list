@@ -21,6 +21,7 @@
 - postgresql
 - rabbitmq
 - memcached
+- prometheus
 - redis
 - torBrowser
 - DashDoc
@@ -34,9 +35,9 @@
 - strongswan
 - influxdb
 - telegraf
-- matterhorn (console MM client)
 - clickhouse
 - neo4j
-- TexturePacker (https://www.codeandweb.com/texturepacker) (gamedev)
 - Lens (k8s ide)
-- Tiled (https://www.mapeditor.org) (gamedev)
+- helm
+- kubectl
+- redmine
