@@ -1,13 +1,13 @@
 --database=postgresql
+--skip-hotwire
+--skip-jbuilder
 --skip-action-mailer
 --skip-action-mailbox
 --skip-action-text
 --skip-active-record
 --skip-active-storage
---skip-sprockets
---skip-spring
+--skip-asset-pipeline
 --skip-javascript
---skip-turbolinks
 --skip-test
 --skip-system-test
 --api
