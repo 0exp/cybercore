@@ -23,6 +23,10 @@ My development environments and system configurations (**macOS Monterey**).
 - **scala** (latest@**homebrew**) / **sbt** (latest@**homebrew**)
 - **php** (latest@**homebrew**)
 - **coffeescript** (todo)
+- **postgresql** (todo)
+- **memcached** (todo)
+- **redis** (todo)
+- **rabbitmq** (todo)
 
 ---
 
