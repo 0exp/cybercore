@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <logrotate>'
+  homebrew:
+    package: logrotate
+    state: latest
+  notify: brew_pkg_installed

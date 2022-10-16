@@ -15,7 +15,7 @@ My development environments and system configurations (**macOS Monterey**).
 
 ---
 
-- **ruby** (3.1.1)
+- **ruby** (3.1.1) / **truffleruby** (22.2.0)
 - **rust** (1.59.0)
 - **python** (3.10.2) / **python** (2.7.18)
 - **nodejs** (latest) / **yarn** (latest@**1.x**)
@@ -172,3 +172,5 @@ ansible-lint *.yml
 - `macbook.user` as a customizable runtime setting;
 - clone ohmyzsh and ohmyzsh-related plugins to my repository;
 - clone sublime packages (and use `Package Control: Satisfy Dependencies`);
+- ruby gemlist with auotmated instalation and updates;
+- js package list with automated installation and updates;

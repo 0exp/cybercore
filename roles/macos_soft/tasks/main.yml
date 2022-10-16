@@ -34,3 +34,5 @@
     - sdl2
     - imagemagick
     - hugo
+    - icu4c
+    - logrotate

@@ -25,6 +25,7 @@ sqlite
 react-rails
 padrino
 sorbet
+sorbet-typed
 yard
 redis
 que

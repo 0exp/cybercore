@@ -29,5 +29,6 @@
         - .tool-versions
         - .railsrc
         - .hushlogin
+        # TODO: - .npmrc
       loop_control:
         loop_var: dotfile

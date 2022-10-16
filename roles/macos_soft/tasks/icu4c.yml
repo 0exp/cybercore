@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <icu4c>'
+  homebrew:
+    package: icu4c
+    state: latest
+  notify: brew_pkg_installed

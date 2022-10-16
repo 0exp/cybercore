@@ -40,4 +40,6 @@
 - Lens (k8s ide)
 - helm
 - kubectl
+- minikube
+- kafka
 - redmine

@@ -1,0 +1,9 @@
+---
+
+- name: '[dev/ruby] Check installed ruby versions'
+  shell: rbenv versions
+  register: installed_ruby_versions
+
+- name: "[dev/ruby] Install <ruby@{{ macos_ruby_env.truffleruby_version }}>"
+  shell: "rbenv install {{ macos_ruby_env.truffleruby_version }}"
+  when: macos_ruby_env.truffleruby_version not in installed_ruby_versions.stdout
