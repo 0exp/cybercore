@@ -8,11 +8,11 @@
     owner: "{{ macbook.home_user }}"
   loop:
     - FiraCode-Bold.ttf
-    - FiraCode-SemiBold.ttf
     - FiraCode-Light.ttf
     - FiraCode-Medium.ttf
     - FiraCode-Regular.ttf
     - FiraCode-Retina.ttf
+    - FiraCode-SemiBold.ttf
     - FiraCode-VF.ttf
     - JetBrainsMono-Bold.ttf
     - JetBrainsMono-BoldItalic.ttf
@@ -46,5 +46,33 @@
     - JetBrainsMonoNL-SemiBoldItalic.ttf
     - JetBrainsMonoNL-Thin.ttf
     - JetBrainsMonoNL-ThinItalic.ttf
+    - MartianMono-CnBd.ttf
+    - MartianMono-CnLt.ttf
+    - MartianMono-CnMd.ttf
+    - MartianMono-CnRg.ttf
+    - MartianMono-CnTh.ttf
+    - MartianMono-CnxBd.ttf
+    - MartianMono-CnxLt.ttf
+    - MartianMono-NrBd.ttf
+    - MartianMono-NrLt.ttf
+    - MartianMono-NrMd.ttf
+    - MartianMono-NrRg.ttf
+    - MartianMono-NrTh.ttf
+    - MartianMono-NrxBd.ttf
+    - MartianMono-NrxLt.ttf
+    - MartianMono-StdBd.ttf
+    - MartianMono-StdLt.ttf
+    - MartianMono-StdMd.ttf
+    - MartianMono-StdRg.ttf
+    - MartianMono-StdTh.ttf
+    - MartianMono-StdxBd.ttf
+    - MartianMono-StdxLt.ttf
+    - MartianMono-sWdBd.ttf
+    - MartianMono-sWdLt.ttf
+    - MartianMono-sWdMd.ttf
+    - MartianMono-sWdRg.ttf
+    - MartianMono-sWdTh.ttf
+    - MartianMono-sWdxBd.ttf
+    - MartianMono-sWdxLt.ttf
   loop_control:
     loop_var: font_file

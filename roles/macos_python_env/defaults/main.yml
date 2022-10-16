@@ -3,6 +3,6 @@
 macos_python_env:
   pyenv_path: "{{ macbook.home_path }}/.rbenv"
   python_versions:
-    - '3.10.2'
+    - '3.10.7'
     - '2.7.18'
   main_python_version: '3.10.2'
