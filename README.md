@@ -4,7 +4,7 @@ My development environments and system configurations (**macOS Monterey**).
 
 > ansible@2.12.3 / Java@18 / XCode@13.3
 
-> macOS Monterey (12.3.1)
+> macOS Monterey (12.6)
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
@@ -16,10 +16,10 @@ My development environments and system configurations (**macOS Monterey**).
 ---
 
 - **ruby** (3.1.2) / **truffleruby** (22.2.0)
-- **rust** (1.59.0)
-- **python** (3.10.2) / **python** (2.7.18)
+- **rust** (1.64.0)
+- **python** (3.10.7) / **python** (2.7.18)
 - **nodejs** (latest) / **yarn** (latest@**1.x**)
-- **elixir** (1.13.3) / **erlang** (24.2.2)
+- **elixir** (1.14.1) / **erlang** (25.1)
 - **scala** (latest@**homebrew**) / **sbt** (latest@**homebrew**)
 - **php** (latest@**homebrew**)
 - **coffeescript** (todo)
