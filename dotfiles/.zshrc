@@ -1,4 +1,4 @@
-export PATH="$PATH:/opt/homebrew/bin:/Users/daiver/.local/bin:/opt/homebrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/local/opt/rabbitmq/sbin"
+export PATH="/opt/homebrew/bin:$PATH:/Users/daiver/.local/bin:/opt/homebrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/local/opt/rabbitmq/sbin"
 export ZSH=/Users/daiver/.oh-my-zsh
 ZSH_THEME="spaceship"
 DISABLE_UPDATE_PROMPT=true
