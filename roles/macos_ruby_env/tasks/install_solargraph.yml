@@ -18,10 +18,3 @@
         path: "{{ macos_ruby_env.solargraph_cache_path }}"
         owner: "{{ macbook.home_user }}"
         state: directory
-    - name: '[dev/ruby] solargraph: configure'
-      shell: |
-        set -o pipefail
-        eval "$(rbenv init -)"
-        rbenv global {{ macos_ruby_env.ruby_version }}
-        rbenv rehash
-        solargraph download-core {{ macos_ruby_env.solargraph_core }}

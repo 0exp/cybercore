@@ -15,7 +15,7 @@ My development environments and system configurations (**macOS Monterey**).
 
 ---
 
-- **ruby** (3.1.2) / **truffleruby** (22.2.0)
+- **ruby** (3.2.2) / **truffleruby** (22.3.1)
 - **rust** (1.64.0)
 - **python** (3.10.7) / **python** (2.7.18)
 - **nodejs** (latest) / **yarn** (latest@**1.x**)
@@ -111,7 +111,6 @@ ansible-playbook macbook_daily.yml --list-tasks
   ```shell
   ansible-playbook macbook_daily.yml --tags update_scala
   ```
-
 - update **php** (`update-php`):
   ```shell
   ansible-playbook macbook_daily.yml --tags update_php
