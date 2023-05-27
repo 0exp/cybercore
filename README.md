@@ -27,6 +27,7 @@ My development environments and system configurations (**macOS Monterey**).
 - **memcached** (todo)
 - **redis** (todo)
 - **rabbitmq** (todo)
+- **kafka** (todo)
 
 ---
 
