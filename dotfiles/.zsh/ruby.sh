@@ -1,3 +1,4 @@
+# bundler
 alias be="bundle exec"
 alias bi="bundle install"
 alias bu="bundle update"
@@ -22,6 +23,8 @@ alias bdsm="bundle pristine"
 alias burndown="bundle install --redownload" # i moli nokogiri ne podorvat tvoi popkins :)
 alias bobo='bundle exec rubocop; bundle exec rspec'
 alias brs="bundle exec rails"
+
+# gem
 alias gu="gem update"
 alias gus="gem update --system"
 
@@ -30,3 +33,6 @@ alias ansicop="ansible-lint *.yml"
 
 alias rbtime="time -l ruby --disable-gems" # TODO: use native rube instead of rbenv
 alias timerb="time -l ruby --disable-gems" # TODO: use native rube instead of rbenv
+
+# steep
+alias bisc="bundle exec steep check"
