@@ -49,3 +49,5 @@
   tool = smerge
 [include]
   path = /Users/daiver/.workspace-gitconfig
+[init]
+  defaultBranch = main
