@@ -15,23 +15,15 @@
     version: 'HEAD'
   loop:
     - cybercore
-    - armonica
-    - diablo-ruby
     - qonfig
     - any_cache
     - armitage
     - jaina
     - symbiont-ruby
-    - rabbit_matcher
     - sidekiq_portal
     - recipes
     - evil_events
-    - 0exp.github.io
-    - blast_wave
     - siege
-    - gem_template
-    - click_home
-    - meta_struct
   loop_control:
     loop_var: repo_name
 

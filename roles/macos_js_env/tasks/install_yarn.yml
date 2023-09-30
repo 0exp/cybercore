@@ -1,7 +1,24 @@
 ---
 
-- name: "[dev/js] Install <yarn@{{ macos_js_env.yarn_version }}>"
-  homebrew:
-    package: yarn
-    state: latest
-  notify: brew_pkg_installed
+# NOTE: Initially the yarn version is 1.22* and the <latest>
+#   only installation tryes to install latest 1.22.* version.
+#   So in first we need to install the <stable> version in order
+#   to install yarn with version >1 (3 at this moment). And THEN
+#   try to install the latest (3.x at this moment).
+- name: "[dev/js] Install yarn"
+  shell: |
+    set -o pipefail
+    source {{ macos_js_env.nvm_path }}/nvm.sh
+    yarn set version stable --yarn-path ~/
+    yarn install
+  args:
+    chdir: '~'
+
+- name: "[dev/js] Install yarn"
+  shell: |
+    set -o pipefail
+    source {{ macos_js_env.nvm_path }}/nvm.sh
+    yarn set version latest
+    yarn install
+  args:
+    chdir: '~'

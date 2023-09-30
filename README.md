@@ -1,10 +1,10 @@
 # cybercore &middot; [![Build Status](https://travis-ci.org/0exp/cybercore.svg?branch=master)](https://travis-ci.org/0exp/cybercore)
 
-My development environments and system configurations (**macOS Monterey**).
+My development environments and system configurations (**macOS Sonoma**).
 
-> ansible@2.12.3 / Java@18 / XCode@13.3
+> ansible@8.4.0 [core 2.15.4] / Java@21 / XCode@15.0
 
-> macOS Monterey (12.6)
+> macOS Sonoma (14.0)
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
@@ -15,11 +15,15 @@ My development environments and system configurations (**macOS Monterey**).
 
 ---
 
-- **ruby** (3.2.2) / **truffleruby** (22.3.1)
-- **rust** (1.64.0)
-- **python** (3.10.7) / **python** (2.7.18)
-- **nodejs** (latest) / **yarn** (latest@**1.x**)
-- **elixir** (1.14.1) / **erlang** (25.1)
+> ! Check PREINSTALLATION_REQUIREMENTS.md first!
+
+---
+
+- **ruby** (3.2.2) / **truffleruby** (23.1.0)
+- **rust** (1.72.1)
+- **python** (3.11.5)
+- **nodejs** (latest)
+- **elixir** (1.15.6) / **erlang** (26.1)
 - **scala** (latest@**homebrew**) / **sbt** (latest@**homebrew**)
 - **php** (latest@**homebrew**)
 - **coffeescript** (todo)

@@ -6,9 +6,8 @@
     - install_nvm
     - install_nodejs
     - install_yarn
-    # TODO - install_verdaccio
-    # TODO (install through verdaccio) - install_dangerous_packages
-    # TODO: - install_npm
+    # TODO: - install_verdaccio
+    # TODO: (install through verdaccio) - install_dangerous_packages
     # TODO: (отдельна  спецовая таска, сунуть куда-нибудь ее в правильное место) - update_npm
     # TODO: надо алиасов накатить на поднятие verdacio как сервиса/демона
     # TODO: нужны конфиги для вердачио (в дотфайлсах)
@@ -16,7 +15,7 @@
     # TODO: нужно заинсталлить .npmrc с прописанным там verdaccio registry (будет все там проксироваться)
     # TODO: алиасы для npm install -g, npm install и тд
 
-# по дефолту в консолье вердачиб поставился вот так:
+# по дефолту в консолье вердачио поставился вот так:
 # ```
 # ➜  verdaccio
 #  info --- Creating default config file in /Users/daiver/.config/verdaccio/config.yaml

@@ -4,5 +4,4 @@
   shell: |
     set -o pipefail
     curl https://sh.rustup.rs -sSf | sh -s -- -y
-  args:
-    warn: no
+  ignore_errors: true

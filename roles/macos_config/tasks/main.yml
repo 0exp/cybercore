@@ -5,7 +5,6 @@
   with_items:
     - update_os
     - prepare_system_env
-    - install_homebrew
     - install_general_dependencies
     - setup_ansible_env
     - install_oh_my_zsh

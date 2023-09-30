@@ -10,7 +10,7 @@
     - name: '[brew/install] Install <terraform>'
       homebrew:
         package: hashicorp/tap/terraform
-        state: latest
+        state: present
       notify: brew_pkg_installed
     - name: '[terraform] Enable autocompletion ZSH commands'
       shell: |

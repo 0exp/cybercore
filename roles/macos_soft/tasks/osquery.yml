@@ -1,7 +1,8 @@
 ---
 
-- name: '[homebrew/cask/pkg] Install <osquery>'
-  shell: |
-    set -o pipefail
-    brew reinstall --cask osquery
+- name: '[homebrew/pkg] Install <osquery>'
+  homebrew:
+    package: osquery
+    state: latest
+  ignore_errors: true
   notify: brew_pkg_installed

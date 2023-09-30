@@ -7,6 +7,5 @@
     gem install {{ required_gem }}
   loop:
     - "bundler --version={{ macos_ruby_env.bundler_version }}"
-    - travis
   loop_control:
     loop_var: required_gem

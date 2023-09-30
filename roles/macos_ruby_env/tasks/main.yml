@@ -5,7 +5,7 @@
   with_items:
     - install_rbenv
     - install_ruby
-    - isntall_truffleruby
+    - install_truffleruby
     - configure_ruby
     - setup_rubygems
     - install_necessary_gems

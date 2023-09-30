@@ -20,5 +20,7 @@
     - unzip
     - curl
     - fop
+    - git
+    - coreutils
   loop_control:
     loop_var: dependency
