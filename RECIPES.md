@@ -163,8 +163,8 @@ Or, if you don't want/need a background service you can just run:
 
 - NEO4J
 ```shell
-To restart neo4j after an upgrade:
-  brew services restart neo4j
+To start neo4j now and restart at login:
+  brew services start neo4j
 Or, if you don't want/need a background service you can just run:
   /opt/homebrew/opt/neo4j/bin/neo4j console
 ```
@@ -182,7 +182,6 @@ Or, if you don't want/need a background service you can just run:
 ```
 
 - KAFKA
-----START_OF_KAFKA-----
 ```shell
 To restart kafka after an upgrade:
   brew services restart kafka

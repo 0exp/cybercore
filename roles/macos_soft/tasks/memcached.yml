@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <memcached>'
+  homebrew:
+    package: memcached
+    state: latest
+  notify: brew_pkg_installed

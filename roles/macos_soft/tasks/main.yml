@@ -13,10 +13,13 @@
    - htop
    - hugo
    - icu4c
+   - influxdb
    - imagemagick
+   - kafka
    - logrotate
    - mas
    - mc
+   - memcached
    - mitmproxy
    - mkcert
    - nmap
@@ -24,14 +27,18 @@
    - openssl
    - osquery
    - overmind
+   - postgresql
    - protobuf
    - pstree
    - pwgen
+   - rabbitmq
+   - redis
    - ripgrep
    - sdl2
    - shellcheck
    - shfmt
    - telnet
+   - telegraf
    - terraform
    - tmux
    - translate_shell

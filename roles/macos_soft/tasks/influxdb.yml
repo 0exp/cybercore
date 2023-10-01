@@ -1,0 +1,13 @@
+---
+
+- name: '[homebrew/pkg] Install <influxdb>'
+  homebrew:
+    package: influxdb
+    state: latest
+  notify: brew_pkg_installed
+
+- name: '[homebrew/pkg] Install <influxdb-cli>'
+  homebrew:
+    package: influxdb-cli
+    state: latest
+  notify: brew_pkg_installed

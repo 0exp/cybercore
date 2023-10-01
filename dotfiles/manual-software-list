@@ -17,24 +17,13 @@
     2) use `sm` alias
   )
 - telegram
-- postgresql
-- rabbitmq
-- memcached
 - prometheus
-- redis
-- torBrowser
 - DashDoc
 - macpass (keepass for Mac) (https://macpassapp.org)
 - chrome
 - strongswan
-- influxdb
-- telegraf
 - clickhouse
-- neo4j
-- Lens (k8s ide)
 - helm
 - kubectl
 - minikube
-- kafka
-- redmine
 - 4K Video Downloader

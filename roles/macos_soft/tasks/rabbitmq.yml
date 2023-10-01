@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <rabbitmq>'
+  homebrew:
+    package: rabbitmq
+    state: latest
+  notify: brew_pkg_installed

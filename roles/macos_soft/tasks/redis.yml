@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <redis>'
+  homebrew:
+    package: redis
+    state: latest
+  notify: brew_pkg_installed

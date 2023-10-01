@@ -1,0 +1,4 @@
+---
+
+macos_soft:
+  postgresql_version: 16

@@ -19,19 +19,23 @@ My development environments and system configurations (**macOS Sonoma**).
 
 ---
 
+> Homebrew latest-version date: <01.10.2023>
+
 - **ruby** (3.2.2) / **truffleruby** (23.1.0)
 - **rust** (1.72.1)
 - **python** (3.11.5)
-- **nodejs** (latest)
+- **nodejs** (latest) (**20.8.0** at commit moment)
 - **elixir** (1.15.6) / **erlang** (26.1)
-- **scala** (latest@**homebrew**) / **sbt** (latest@**homebrew**)
-- **php** (latest@**homebrew**)
-- **coffeescript** (todo)
-- **postgresql** (todo)
-- **memcached** (todo)
-- **redis** (todo)
-- **rabbitmq** (todo)
-- **kafka** (todo)
+- **scala** (latest@**homebrew**) (**3.3.1**) / **sbt** (latest@**homebrew**) (**1.9.6**)
+- **php** (latest@**homebrew**) (**8.2.11**)
+- **postgresql** (16.0)
+- **memcached** (latest@**homebrew**) (**1.6.21**)
+- **redis** (latest@**homebrew**) (**7.2.1**)
+- **rabbitmq** (latest@**homebrew**) (**3.12.6**)
+- **kafka** (latest@**homebrew**) (**3.5.1**)
+- **influxdb** (latest@**homebrew**) (**2.7.3**)
+- **telegraf** (latest@**homebrew**) (**1.28.1**)
+- **neo4j** (latest@**homebrew**) (**5.12.0**)
 
 ---
 
@@ -48,7 +52,6 @@ My development environments and system configurations (**macOS Sonoma**).
   - `macos_php_env` - setup **PHP** environment;
   - `macos_soft` - install neccessary sofwtare;
   - `macos_post_config` - apply post macOS configs (copy dotfiles, setup system fonts, clone projects, etc);
-  - `macos_coffeescript_env` - (todo)
 
 **(ansible)** setup macOS:
 ```shell
@@ -175,7 +178,6 @@ ansible-lint *.yml
 ### TODO:
 
 - workflow for installatoin of all necessary gems and javascript libs;
-- `CoffeeScript` language ansible roles;
 - migrate to Github Actions CI;
 - `macbook.user` as a customizable runtime setting;
 - clone ohmyzsh and ohmyzsh-related plugins to my repository;

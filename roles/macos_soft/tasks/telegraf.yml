@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <telegraf>'
+  homebrew:
+    package: telegraf
+    state: latest
+  notify: brew_pkg_installed

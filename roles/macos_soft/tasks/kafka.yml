@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <kafka>'
+  homebrew:
+    package: kafka
+    state: latest
+  notify: brew_pkg_installed
