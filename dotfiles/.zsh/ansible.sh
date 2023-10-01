@@ -11,3 +11,4 @@ alias update-rust="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tag
 alias update-pyenv="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_pyenv"
 alias update-scala="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_scala"
 alias update-php="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_php"
+alias update-gems="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_ruby_gems"

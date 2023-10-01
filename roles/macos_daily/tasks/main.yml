@@ -10,3 +10,4 @@
 - import_tasks: update_software.yml
 - import_tasks: update_scala.yml
 - import_tasks: actualize_solargraph.yml
+- import_tasks: update_ruby_gems.yml

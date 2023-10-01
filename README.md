@@ -92,6 +92,10 @@ ansible-playbook macbook_daily.yml --list-tasks
   ```shell
   ansible-playbook macbook_daily.yml --tags update_languages
   ```
+-- update ruby gems (`update-gems`):
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_ruby_gems
+  ```
 
 ### Programming languages
 

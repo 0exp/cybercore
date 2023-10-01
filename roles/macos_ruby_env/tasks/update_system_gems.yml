@@ -1,0 +1,7 @@
+---
+
+- name: "[dev/ruby] Update system gems"
+  shell: |
+    eval "$(rbenv init -)"
+    rbenv global {{ macos_ruby_env.ruby_version }}
+    gem update

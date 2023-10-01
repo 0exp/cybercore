@@ -1,0 +1,8 @@
+---
+
+- name: '[macOS] Update Ruby Gems'
+  import_role:
+    name: macos_ruby_env
+    tasks_from: update_system_gems
+  tags:
+    - update_ruby_gems
