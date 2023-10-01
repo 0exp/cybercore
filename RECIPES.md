@@ -1,3 +1,10 @@
+### Generate new SSH Key
+
+```shell
+ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+```
+
 ### Ansible upgrade
 
 `pip3 install --user --upgrade ansible` :|
@@ -228,8 +235,6 @@ To restart php after an upgrade:
   brew services restart php
 Or, if you don't want/need a background service you can just run:
   /opt/homebrew/opt/php/sbin/php-fpm --nodaemonize
-
------END_OF_KAFKA-----
 
 -----
 
