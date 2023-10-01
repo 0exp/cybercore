@@ -1,0 +1,8 @@
+---
+
+- name: '[homebrew/pkg] Install <MonitorControl>'
+  homebrew:
+    package: MonitorControl
+    state: present
+    ignore_errors: true
+  notify: brew_pkg_installed

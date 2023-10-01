@@ -3,6 +3,6 @@
 - name: '[homebrew/pkg] Install <osquery>'
   homebrew:
     package: osquery
-    state: latest
+    state: present
   ignore_errors: true
   notify: brew_pkg_installed
