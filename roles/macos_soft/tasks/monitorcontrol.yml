@@ -4,5 +4,5 @@
   homebrew:
     package: MonitorControl
     state: present
-    ignore_errors: true
+  ignore_errors: true
   notify: brew_pkg_installed
