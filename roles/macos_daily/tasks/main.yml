@@ -11,3 +11,4 @@
 - import_tasks: update_scala.yml
 - import_tasks: actualize_solargraph.yml
 - import_tasks: update_ruby_gems.yml
+- import_tasks: update_k8s.yml

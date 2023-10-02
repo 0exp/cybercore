@@ -1,0 +1,8 @@
+---
+
+- name: '[dev/k8s] Install <kubectl>'
+  homebrew:
+    package: kubectl
+    state: latest
+    update_homebrew: yes
+  notify: brew_pkg_installed

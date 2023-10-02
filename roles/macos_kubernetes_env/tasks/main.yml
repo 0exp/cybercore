@@ -1,0 +1,6 @@
+---
+
+- name: 'Setup K8S environment'
+  include_tasks: "{{ item }}.yml"
+  with_items:
+    - install_kubectl

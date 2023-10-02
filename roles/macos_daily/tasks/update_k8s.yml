@@ -1,0 +1,8 @@
+---
+
+- name: '[macOS] Update Kubernetes (k8s) environemnt'
+  import_role:
+    name: macos_kubernetes_env
+  tags:
+    - update_k8s
+    - update_kubernetes

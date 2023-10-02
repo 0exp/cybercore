@@ -22,6 +22,7 @@ My development environments and system configurations (**macOS Sonoma**).
 > Homebrew latest-version date: <01.10.2023>
 
 - **ruby** (3.2.2) / **truffleruby** (23.1.0)
+- **k8s** (?)
 - **rust** (1.72.1)
 - **python** (3.11.5)
 - **nodejs** (latest) (**20.8.0** at commit moment)
@@ -43,6 +44,7 @@ My development environments and system configurations (**macOS Sonoma**).
 
 **(ansible)** macOS roles:
   - `macos_config` - apply basic macOS configs;
+  - `macos_kubernetes_env` - setup *K8S* environment;
   - `macos_pyton_env` - setup **Python** environment;
   - `macos_js_env` - setup **JavaScript** environment;
   - `macos_ruby_env` - setup **Ruby** environment;
@@ -92,9 +94,13 @@ ansible-playbook macbook_daily.yml --list-tasks
   ```shell
   ansible-playbook macbook_daily.yml --tags update_languages
   ```
--- update ruby gems (`update-gems`):
+- update ruby gems (`update-gems`):
   ```shell
   ansible-playbook macbook_daily.yml --tags update_ruby_gems
+  ```
+- update k8s env (`update-k8s`, `update-kubernetes`):
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_k8s
   ```
 
 ### Programming languages
