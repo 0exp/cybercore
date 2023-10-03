@@ -62,3 +62,4 @@
 - [LSP-terraform](https://github.com/sublimelsp/LSP-terraform)
 - [YamlToJson](https://github.com/dannysummerlin/YamlToJson)
 - [RBS](https://github.com/soutaro/sublime-rbs-plugin)
+- [DotENV](https://github.com/zaynali53/DotENV)
