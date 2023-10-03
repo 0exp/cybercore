@@ -43,7 +43,6 @@
 - [INI](https://github.com/clintberry/sublime-text-2-ini)
 - [Pretty YAML](https://github.com/aukaost/SublimePrettyYAML)
 - [OpenUri](https://github.com/jfcherng/Sublime-OpenUri/)
-- [SQLTools](https://github.com/mtxr/SublimeText-SQLTools)
 - [AutoFileName](https://github.com/BoundInCode/AutoFileName)
 - [HTMLBeautify](https://github.com/rareyman/HTMLBeautify)
 - [Rust Enhanced](https://github.com/rust-lang/rust-enhanced)
