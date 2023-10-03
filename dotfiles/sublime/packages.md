@@ -12,6 +12,7 @@
 - [Delete Current File](https://github.com/yaworsw/Sublime-DeleteCurrentFile)
 - [Dockerfile Syntax Highlighting](https://github.com/asbjornenge/Docker.tmbundle)
 - [Elixir](https://github.com/elixir-editors/elixir-tmbundle/)
+- [Executor](https://github.com/tonsky/Sublime-Executor/)
 - [File Rename](https://github.com/brianlow/FileRename)
 - [Fix Mac Path](https://github.com/int3h/SublimeFixMacPath)
 - [Git](https://github.com/kemayo/sublime-text-git)
