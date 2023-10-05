@@ -22,7 +22,7 @@ My development environments and system configurations (**macOS Sonoma**).
 > Homebrew latest-version date: <01.10.2023>
 
 - **ruby** (3.2.2) / **truffleruby** (23.1.0)
-- **k8s** (?)
+- **k8s** / **minikube** (?)
 - **rust** (1.72.1)
 - **python** (3.11.5)
 - **nodejs** (latest) (**20.8.0** at commit moment)

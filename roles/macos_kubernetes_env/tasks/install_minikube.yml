@@ -1,0 +1,8 @@
+---
+
+- name: '[dev/k8s] Install <minikube>'
+  homebrew:
+    package: minikube
+    state: latest
+    update_homebrew: yes
+  notify: brew_pkg_installed
