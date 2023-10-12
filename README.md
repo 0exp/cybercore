@@ -20,12 +20,13 @@ My development environments and system configurations (**macOS Sonoma**).
 ---
 
 > Homebrew latest-version date: <01.10.2023>
+> NVM latest-version date: <01.10.2023>
 
 - **ruby** (3.2.2) / **truffleruby** (23.1.0)
 - **k8s** / **minikube** (?)
 - **rust** (1.72.1)
 - **python** (3.11.5)
-- **nodejs** (latest) (**20.8.0**)
+- **nodejs** (latest@**nvm**) (**20.8.0**)
 - **elixir** (1.15.6) / **erlang** (26.1)
 - **scala** (latest@**homebrew**) (**3.3.1**) / **sbt** (latest@**homebrew**) (**1.9.6**)
 - **php** (latest@**homebrew**) (**8.2.11**)
