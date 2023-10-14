@@ -299,6 +299,11 @@ To restart php after an upgrade:
 Or, if you don't want/need a background service you can just run:
   /opt/homebrew/opt/php/sbin/php-fpm --nodaemonize
 
+In order to Change port listening port of php-fpm:
+
+1. open: /opt/homebrew/etc/php/8.2/php-fpm.d/www.conf
+2. change: listen = 127.0.0.1:9000
+
 -----
 
 ### RUBY
