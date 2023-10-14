@@ -31,6 +31,7 @@ My development environments and system configurations (**macOS Sonoma**).
 - **scala** (latest@**homebrew**) (3.3.1) / **sbt** (latest@**homebrew**) (**1.9.6)
 - **php** (latest@**homebrew**) (8.2.11)
 - **postgresql** (16.0)
+- **clickhouse** (23.5)
 - **memcached** (latest@**homebrew**) (1.6.21)
 - **redis** (latest@**homebrew**) (7.2.1)
 - **rabbitmq** (latest@**homebrew**) (3.12.6)
@@ -38,7 +39,6 @@ My development environments and system configurations (**macOS Sonoma**).
 - **influxdb** (latest@**homebrew**) (2.7.3)
 - **telegraf** (latest@**homebrew**) (1.28.1)
 - **neo4j** (latest@**homebrew**) (5.12.0)
-- **clickhouse** (latest@**homebrew**) (23.5)
 
 ---
 
