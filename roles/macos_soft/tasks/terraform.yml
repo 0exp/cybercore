@@ -6,7 +6,6 @@
       homebrew_tap:
         name: hashicorp/tap
         state: present
-      notify: brew_pkg_installed
     - name: '[brew/install] Install <terraform>'
       homebrew:
         package: hashicorp/tap/terraform
@@ -21,3 +20,4 @@
       homebrew:
         package: hashicorp/tap/terraform-ls
         state: latest
+      notify: brew_pkg_installed

@@ -1,0 +1,15 @@
+---
+
+- name: '[macOS/DB] Install <influxdb>'
+  block:
+    - name: '[brew/install] Install <influxdb>'
+      homebrew:
+        package: influxdb
+        state: latest
+      notify: brew_pkg_installed
+
+    - name: '[brew/install] Install <influxdb-cli>'
+      homebrew:
+        package: influxdb-cli
+        state: latest
+      notify: brew_pkg_installed

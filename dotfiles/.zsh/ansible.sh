@@ -13,4 +13,6 @@ alias update-scala="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --ta
 alias update-php="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_php"
 alias update-gems="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_ruby_gems"
 alias update-k8s="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_k8s"
-alias update-kubernetes="update-k8s"
+alias update-kubernetes="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_kubernetes"
+alias update-databases="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_databases"
+alias update-dbs="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_dbs"

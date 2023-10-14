@@ -1,7 +1,0 @@
----
-
-- name: '[homebrew/pkg] Install <postgresql>'
-  homebrew:
-    package: "postgresql@{{ macos_soft.postgresql_version }}"
-    state: latest
-  notify: brew_pkg_installed

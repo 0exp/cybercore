@@ -3,6 +3,7 @@
 - name: 'Initial macOS system configuration'
   include_tasks: "{{ item }}.yml"
   with_items:
+    - configure_max_files_config
     - update_os
     - prepare_system_env
     - install_general_dependencies

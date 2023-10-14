@@ -23,21 +23,22 @@ My development environments and system configurations (**macOS Sonoma**).
 > NVM latest-version date: <01.10.2023>
 
 - **ruby** (3.2.2) / **truffleruby** (23.1.0)
-- **k8s** / **minikube** (?)
+- **k8s** / **minikube** (latest@**homebrew**) (?)
 - **rust** (1.72.1)
 - **python** (3.11.5)
-- **nodejs** (latest@**nvm**) (**20.8.0**)
+- **nodejs** (latest@**nvm**) (20.8.0)
 - **elixir** (1.15.6) / **erlang** (26.1)
-- **scala** (latest@**homebrew**) (**3.3.1**) / **sbt** (latest@**homebrew**) (**1.9.6**)
-- **php** (latest@**homebrew**) (**8.2.11**)
+- **scala** (latest@**homebrew**) (3.3.1) / **sbt** (latest@**homebrew**) (**1.9.6)
+- **php** (latest@**homebrew**) (8.2.11)
 - **postgresql** (16.0)
-- **memcached** (latest@**homebrew**) (**1.6.21**)
-- **redis** (latest@**homebrew**) (**7.2.1**)
-- **rabbitmq** (latest@**homebrew**) (**3.12.6**)
-- **kafka** (latest@**homebrew**) (**3.5.1**)
-- **influxdb** (latest@**homebrew**) (**2.7.3**)
-- **telegraf** (latest@**homebrew**) (**1.28.1**)
-- **neo4j** (latest@**homebrew**) (**5.12.0**)
+- **memcached** (latest@**homebrew**) (1.6.21)
+- **redis** (latest@**homebrew**) (7.2.1)
+- **rabbitmq** (latest@**homebrew**) (3.12.6)
+- **kafka** (latest@**homebrew**) (3.5.1)
+- **influxdb** (latest@**homebrew**) (2.7.3)
+- **telegraf** (latest@**homebrew**) (1.28.1)
+- **neo4j** (latest@**homebrew**) (5.12.0)
+- **clickhouse** (latest@**homebrew**) (23.5)
 
 ---
 
@@ -45,7 +46,8 @@ My development environments and system configurations (**macOS Sonoma**).
 
 **(ansible)** macOS roles:
   - `macos_config` - apply basic macOS configs;
-  - `macos_kubernetes_env` - setup *K8S* environment;
+  - `macos_databases` - setup databases (**PostgreSQL**, **Memcached**, **Redis**, **ClickHouse**, **InfluxDB**);
+  - `macos_kubernetes_env` - setup **K8S** environment;
   - `macos_pyton_env` - setup **Python** environment;
   - `macos_js_env` - setup **JavaScript** environment;
   - `macos_ruby_env` - setup **Ruby** environment;
@@ -58,7 +60,7 @@ My development environments and system configurations (**macOS Sonoma**).
 
 **(ansible)** setup macOS:
 ```shell
-ansible-playbook macbook_setup.yml -v
+ansible-playbook macbook_setup.yml -vvv
 ```
 
 - [sublime package list](dotfiles/sublime/packages.md)
@@ -102,6 +104,10 @@ ansible-playbook macbook_daily.yml --list-tasks
 - update k8s env (`update-k8s`, `update-kubernetes`):
   ```shell
   ansible-playbook macbook_daily.yml --tags update_k8s
+  ```
+- update databases (`update-databases`, `update-dbs`):
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_databases
   ```
 
 ### Programming languages

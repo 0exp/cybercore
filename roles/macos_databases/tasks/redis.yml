@@ -1,6 +1,6 @@
 ---
 
-- name: '[homebrew/pkg] Install <redis>'
+- name: '[macOS/DB] Install <redis>'
   homebrew:
     package: redis
     state: latest

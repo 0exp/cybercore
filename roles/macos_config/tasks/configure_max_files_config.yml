@@ -1,0 +1,41 @@
+---
+
+- name: '[macOS/Config] Configure maxfiles config'
+  block:
+    - name: '[macOS/Config] Drop old configurations'
+      become: true
+      become_user: root
+      file:
+        path: /Library/LaunchDaemons/limit.maxfiles.plist
+        state: absent
+    - name: '[macOS/Config] Create limit.maxfiles.plist'
+      become: true
+      become_user: root
+      copy:
+        dest: /Library/LaunchDaemons/limit.maxfiles.plist
+        content: |
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+                  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+            <dict>
+              <key>Label</key>
+              <string>limit.maxfiles</string>
+              <key>ProgramArguments</key>
+              <array>
+                <string>launchctl</string>
+                <string>limit</string>
+                <string>maxfiles</string>
+                <string>524288</string>
+                <string>524288</string>
+              </array>
+              <key>RunAtLoad</key>
+              <true/>
+              <key>ServiceIPC</key>
+              <false/>
+            </dict>
+          </plist>
+    - name: '[macOS/Config] Set permissions'
+      become: true
+      become_user: root
+      shell: chown root:wheel /Library/LaunchDaemons/limit.maxfiles.plist

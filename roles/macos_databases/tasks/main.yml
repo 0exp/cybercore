@@ -1,0 +1,11 @@
+---
+
+- name: 'Install DB Software'
+  include_tasks: "{{ item }}.yml"
+  with_items:
+    - postgresql
+    - memcached
+    - redis
+    - influxdb
+    - telegraf
+    - clickhouse

@@ -1,0 +1,8 @@
+---
+
+- name: '[dev/databases] Update databases>'
+  import_role:
+    name: macos_databases
+  tags:
+    - update_databases
+    - update_dbs

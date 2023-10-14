@@ -19,9 +19,13 @@ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 
 ### MacOS system’s maxfiles config
 
+1. Create the plist file
+
+```shell
+touch /Library/LaunchDaemons/limit.maxfiles.plist
 ```
-/Library/LaunchDaemons/limit.maxfiles.plist # create new file
-```
+
+2. Seed the content below:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -36,8 +40,8 @@ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
       <string>launchctl</string>
       <string>limit</string>
       <string>maxfiles</string>
-      <string>524288</string> <!-- YOUR CHANGE IS HERE -->
-      <string>524288</string> <!-- YOUR CHANGE IS HERE -->
+      <string>524288</string>
+      <string>524288</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
@@ -47,14 +51,34 @@ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 </plist>
 ```
 
+3. Give the file correct permissions:
+
 ```shell
 sudo chown root:wheel /Library/LaunchDaemons/limit.maxfiles.plist
 ```
 
-...reboot...
+4. Validate that the file is correct:
 
 ```shell
-ulimit -n # check new value
+sudo plutil /Library/LaunchDaemons/limit.maxfiles.plist
+```
+
+5. Load the file (OR reboot):
+
+```shell
+sudo launchctl load -w /Library/LaunchDaemons/limit.maxfiles.plist
+```
+
+6. Check new value:
+
+```shell
+ulimit -n
+```
+
+OR:
+
+```shell
+launchctl limit maxfiles
 ```
 
 ---
@@ -94,6 +118,45 @@ sudo systemsetup -setremotelogin off
 ```
 
 ### MacOS Brew Services
+
+- CLICKHOUSE
+
+```shell
+  brew postinstall clickhouse/clickhouse/clickhouse@23.5
+==> Caveats
+If you intend to run ClickHouse server:
+
+  - Familiarize yourself with the usage recommendations:
+      https://clickhouse.com/docs/en/operations/tips/
+
+  - Increase the maximum number of open files limit in the system:
+      macOS: https://clickhouse.com/docs/en/development/build-osx/#caveats
+      Linux: man limits.conf
+
+  - Set the 'net_admin', 'ipc_lock', and 'sys_nice' capabilities on /opt/homebrew/opt/clickhouse@23.5/bin/clickhouse binary. If the capabilities are not set the taskstats accounting will be disabled. You can enable taskstats accounting by setting those capabilities manually later.
+      Linux: sudo setcap 'cap_net_admin,cap_ipc_lock,cap_sys_nice+ep' /opt/homebrew/opt/clickhouse@23.5/bin/clickhouse
+
+  - By default, the pre-configured 'default' user has an empty password. Consider setting a real password for it:
+      https://clickhouse.com/docs/en/operations/settings/settings-users/
+
+  - By default, ClickHouse server is configured to listen for local connections only. Adjust 'listen_host' configuration parameter to allow wider range of addresses for incoming connections:
+      https://clickhouse.com/docs/en/operations/server-configuration-parameters/settings/#server_configuration_parameters-listen_host
+
+To start clickhouse/clickhouse/clickhouse@23.5 now and restart at login:
+  brew services start clickhouse/clickhouse/clickhouse@23.5
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/clickhouse@23.5/bin/clickhouse server --config-file /opt/homebrew/etc/clickhouse-server/config.xml --pid-file /opt/homebrew/var/run/clickhouse-server/clickhouse-server.pid
+==> Summary
+```
+
+```shell
+Directories:
+
+Config:    $(brew --prefix)/etc/clickhouse-server/
+Data:      $(brew --prefix)/var/lib/clickhouse/
+Logs:      $(brew --prefix)/var/log/clickhouse-server/
+PID file:  $(brew --prefix)/var/run/clickhouse-server/
+```
 
 - POSTGRESQL
 
