@@ -19,26 +19,24 @@ My development environments and system configurations (**macOS Sonoma**).
 
 ---
 
-> Homebrew latest-version date: <01.10.2023>
-> NVM latest-version date: <01.10.2023>
-
-- **ruby** (3.2.2) / **truffleruby** (23.1.0)
+- **ruby** (<u>3.2.2</u>) / **truffleruby** (<u>23.1.0</u>)
 - **k8s** / **minikube** (latest@**homebrew**) (?)
-- **rust** (1.72.1)
-- **python** (3.11.5)
-- **nodejs** (latest@**nvm**) (20.8.0)
-- **elixir** (1.15.6) / **erlang** (26.1)
-- **scala** (latest@**homebrew**) (3.3.1) / **sbt** (latest@**homebrew**) (**1.9.6)
-- **php** (latest@**homebrew**) (8.2.11)
-- **postgresql** (16.0)
-- **clickhouse** (23.5)
-- **memcached** (latest@**homebrew**) (1.6.21)
-- **redis** (latest@**homebrew**) (7.2.1)
-- **rabbitmq** (latest@**homebrew**) (3.12.6)
-- **kafka** (latest@**homebrew**) (3.5.1)
-- **influxdb** (latest@**homebrew**) (2.7.3)
-- **telegraf** (latest@**homebrew**) (1.28.1)
-- **neo4j** (latest@**homebrew**) (5.12.0)
+- **rust** (<u>1.72.1</u>)
+- **python** (<u>3.11.5</u>)
+- **nodejs** (latest@**nvm**) (<u>20.8.0</u>) (01.10.2023)
+- **elixir** (<u>1.15.6</u>) / **erlang** (<u>26.1)</u>
+- **scala** (latest@**homebrew**) (<u>3.3.1</u>) (01.10.2023)
+- **php** (latest@**homebrew**) (<u>8.2.11</u>) (01.10.2023)
+- **postgresql** (<u>16.0</u>)
+- **clickhouse** (<u>23.5</u>)
+- **memcached** (latest@**homebrew**) (<u>1.6.21</u>) (01.10.2023)
+- **redis** (latest@**homebrew**) (<u>7.2.1</u>) (01.10.2023)
+- **rabbitmq** (latest@**homebrew**) (<u>3.12.6</u>) (01.10.2023)
+- **kafka** (latest@**homebrew**) (<u>3.5.1</u>) (01.10.2023)
+- **influxdb** (latest@**homebrew**) (<u>2.7.3</u>) (01.10.2023)
+- **telegraf** (latest@**homebrew**) (<u>1.28.1</u>) (01.10.2023)
+- **neo4j** (latest@**homebrew**) (<u>5.12.0</u>) (01.10.2023)
+- **etcd** (latest@**homebrew**) (<u>3.5.9</u>) (21.10.2023)
 
 ---
 

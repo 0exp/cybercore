@@ -1,0 +1,7 @@
+---
+
+- name: '[macOS/DB] Install <etcd>'
+  homebrew:
+    package: etcd
+    state: latest
+  notify: brew_pkg_installed

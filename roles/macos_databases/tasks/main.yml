@@ -9,3 +9,4 @@
     - influxdb
     - telegraf
     - clickhouse
+    - etcd

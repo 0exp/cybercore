@@ -2,7 +2,7 @@
 
 - name: '[macOS/DB] Install <clickhouse>'
   block:
-    - name: '[brew/tap] Add clickhouse repository'
+    - name: '[clickhouse/brew/tap] Add clickhouse repository'
       homebrew_tap:
         name: clickhouse/clickhouse
         state: present
@@ -46,7 +46,7 @@
                   <default/>
               </quotas>
           </clickhouse>
-    - name: '[brew/install] Install <clickhouse>'
+    - name: '[clickhouse/brew/install] Install <clickhouse>'
       homebrew:
         package: clickhouse/clickhouse/clickhouse@{{ macos_databases.clickhouse_version }}
         state: latest

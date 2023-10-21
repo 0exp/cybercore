@@ -259,6 +259,15 @@ Or, if you don't want/need a background service you can just run:
   /opt/homebrew/opt/kafka/bin/kafka-server-start /opt/homebrew/etc/kafka/server.properties
 ```
 
+- etcd
+
+```shell
+To restart etcd after an upgrade:
+  brew services restart etcd
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/etcd/bin/etcd
+```
+
 ==> openssl@3
 A CA file has been bootstrapped using certificates from the system
 keychain. To add additional certificates, place .pem files in
