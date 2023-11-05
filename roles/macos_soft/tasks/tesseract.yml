@@ -1,0 +1,14 @@
+---
+
+- name: '[homebrew/pkg] Install <tesseract>'
+  block:
+    - name: '[brew/install] Install <tesseract>'
+      homebrew:
+        package: tesseract
+        state: present
+      notify: brew_pkg_installed
+    - name: '[brew/install] Install <tesseract-lang>'
+      homebrew:
+        package: tesseract-lang
+        state: present
+      notify: brew_pkg_installed
