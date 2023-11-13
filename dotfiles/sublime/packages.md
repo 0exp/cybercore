@@ -62,3 +62,4 @@
 - [YamlToJson](https://github.com/dannysummerlin/YamlToJson)
 - [RBS](https://github.com/soutaro/sublime-rbs-plugin)
 - [DotENV](https://github.com/zaynali53/DotENV)
+- [CMake](https://github.com/zyxar/Sublime-CMakeLists)
