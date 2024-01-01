@@ -4,7 +4,7 @@ My development environments and system configurations (**macOS Sonoma**).
 
 > ansible@8.4.0 [core 2.15.4] / Java@21 / XCode@15.0
 
-> macOS Sonoma (14.0)
+> macOS Sonoma (14.2.1)
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
@@ -19,7 +19,7 @@ My development environments and system configurations (**macOS Sonoma**).
 
 ---
 
-- **ruby** (<u>3.2.2</u>) / **truffleruby** (<u>23.1.0</u>)
+- **ruby** (<u>3.3.0</u>) / **truffleruby** (<u>23.1.1</u>)
 - **k8s** / **minikube** (latest@**homebrew**) (?)
 - **rust** (<u>1.72.1</u>)
 - **python** (<u>3.11.5</u>)
