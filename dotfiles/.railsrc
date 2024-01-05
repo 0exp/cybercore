@@ -10,4 +10,5 @@
 --skip-javascript
 --skip-test
 --skip-system-test
+--skip-brakeman
 --api
