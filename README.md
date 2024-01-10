@@ -1,4 +1,4 @@
-# cybercore &middot; [![Build Status](https://travis-ci.org/0exp/cybercore.svg?branch=master)](https://travis-ci.org/0exp/cybercore)
+# cybercore
 
 My development environments and system configurations (**macOS Sonoma**).
 
