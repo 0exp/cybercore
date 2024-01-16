@@ -1,0 +1,13 @@
+---
+
+- name: '[macOS/DB] Install <vault>'
+  block:
+    - name: '[vault/brew/tap] Add vault repository'
+      homebrew_tap:
+        name: hashicorp/tap
+        state: present
+    - name: '[vault/brew/install] Install <vault>'
+      homebrew:
+        package: hashicorp/tap/vault
+        state: latest
+      notify: brew_pkg_installed

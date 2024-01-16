@@ -26,17 +26,18 @@ My development environments and system configurations (**macOS Sonoma**).
 - **nodejs** (latest@**nvm**) (<u>20.8.0</u>) (01.10.2023)
 - **elixir** (<u>1.15.6</u>) / **erlang** (<u>26.1)</u>
 - **scala** (latest@**homebrew**) (<u>3.3.1</u>) (01.10.2023)
-- **php** (latest@**homebrew**) (<u>8.2.11</u>) (01.10.2023)
+- **php** (latest@**homebrew**) (<u>8.3.1</u>) (17.10.2023)
 - **postgresql** (<u>16.0</u>)
 - **clickhouse** (<u>23.5</u>)
-- **memcached** (latest@**homebrew**) (<u>1.6.21</u>) (01.10.2023)
-- **redis** (latest@**homebrew**) (<u>7.2.1</u>) (01.10.2023)
-- **rabbitmq** (latest@**homebrew**) (<u>3.12.6</u>) (01.10.2023)
-- **kafka** (latest@**homebrew**) (<u>3.5.1</u>) (01.10.2023)
-- **influxdb** (latest@**homebrew**) (<u>2.7.3</u>) (01.10.2023)
-- **telegraf** (latest@**homebrew**) (<u>1.28.1</u>) (01.10.2023)
-- **neo4j** (latest@**homebrew**) (<u>5.12.0</u>) (01.10.2023)
-- **etcd** (latest@**homebrew**) (<u>3.5.9</u>) (21.10.2023)
+- **memcached** (latest@**homebrew**) (<u>1.6.22</u>) (17.10.2023)
+- **redis** (latest@**homebrew**) (<u>7.2.3</u>) (17.10.2023)
+- **rabbitmq** (latest@**homebrew**) (<u>3.12.11</u>) (17.10.2023)
+- **kafka** (latest@**homebrew**) (<u>3.6.1</u>) (17.10.2023)
+- **influxdb** (latest@**homebrew**) (<u>2.7.3</u>) (17.01.2024)
+- **telegraf** (latest@**homebrew**) (<u>1.29.1</u>) (17.01.2024)
+- **neo4j** (latest@**homebrew**) (<u>5.13.0</u>) (17.01.2024)
+- **etcd** (latest@**homebrew**) (<u>3.5.11</u>) (17.01.2024)
+- **vault** (latest@**homebrew**) (<u>1.15.4</u>) (17.01.2024)
 
 ---
 

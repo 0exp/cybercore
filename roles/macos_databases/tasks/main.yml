@@ -10,3 +10,4 @@
     - telegraf
     - clickhouse
     - etcd
+    - vault
