@@ -45,7 +45,7 @@ My development environments and system configurations (**macOS Sonoma**).
 
 **(ansible)** macOS roles:
   - `macos_config` - apply basic macOS configs;
-  - `macos_databases` - setup databases (**PostgreSQL**, **Memcached**, **Redis**, **ClickHouse**, **InfluxDB**);
+  - `macos_databases` - setup databases (**PostgreSQL**, **Memcached**, **Redis**, **ClickHouse**, **InfluxDB**, and **Vault**);
   - `macos_kubernetes_env` - setup **K8S** environment;
   - `macos_pyton_env` - setup **Python** environment;
   - `macos_js_env` - setup **JavaScript** environment;
