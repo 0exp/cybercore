@@ -22,7 +22,6 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/pyenv.sh
 . ~/.zsh/rbenv.sh
 . ~/.zsh/rust.sh
-. ~/.zsh/travis.sh
 . ~/.zsh/zsh.sh
 . ~/.zsh/prompt.sh
 . ~/.zsh/ansible.sh
