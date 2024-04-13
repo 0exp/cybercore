@@ -1,6 +1,7 @@
 **Package directory path**: `/Users/daiver/Library/Application Support/Sublime Text/Packages`
 
 - [A File Icon](https://github.com/SublimeText/AFileIcon)
+- [AddRemoveFolder](https://github.com/fsaad/Sublime-AddRemoveFolder)
 - [Atomic Color Scheme](https://github.com/gerardbm/sublime-atomic-scheme)
 - [Babel](https://github.com/babel/babel-sublime)
 - [Better CoffeeScript](https://github.com/aponxi/sublime-better-coffeescript)
