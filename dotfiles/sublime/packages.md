@@ -66,3 +66,4 @@
 - [CMake](https://github.com/zyxar/Sublime-CMakeLists)
 - [SSH Config](https://github.com/robballou/sublimetext-sshconfig)
 - [SingleTrailingNewLine](https://github.com/mattst/sublime-single-trailing-new-line)
+- [RawLineEdit](https://github.com/facelessuser/RawLineEdit/)
