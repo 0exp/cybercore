@@ -65,3 +65,4 @@
 - [DotENV](https://github.com/zaynali53/DotENV)
 - [CMake](https://github.com/zyxar/Sublime-CMakeLists)
 - [SSH Config](https://github.com/robballou/sublimetext-sshconfig)
+- [SingleTrailingNewLine](https://github.com/mattst/sublime-single-trailing-new-line)
