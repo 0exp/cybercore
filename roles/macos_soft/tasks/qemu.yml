@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <qemu>'
+  homebrew:
+    package: qemu
+    state: latest
+  notify: brew_pkg_installed
