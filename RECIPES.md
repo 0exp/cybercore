@@ -352,3 +352,47 @@ gem outdated
 ```shell
 gem cleanup
 ```
+
+### Minikube
+
+- create cluster:
+
+```shell
+minikube start
+```
+
+- delete all clusters:
+
+```shell
+minikube delete --all
+```
+
+- add dashboard:
+
+```shell
+minikube dashboard
+```
+
+- show addons:
+
+```shell
+minikube addons list
+```
+
+- stop the cluster:
+
+```shell
+minikube stop
+```
+
+- pause minikube:
+
+```shell
+minikube pause
+```
+
+- unpause minikube:
+
+```shell
+minikube unpause
+```
