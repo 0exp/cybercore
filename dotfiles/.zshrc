@@ -35,6 +35,7 @@ source $ZSH/oh-my-zsh.sh
 . ~/.zsh/scala.sh
 . ~/.zsh/terraform.sh
 . ~/.zsh/daily.sh
+. ~/.zsh/kubernetes.sh
 
 if [ -r /Users/daiver/.workspace.sh ]; then
   . /Users/daiver/.workspace.sh

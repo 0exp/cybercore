@@ -1,0 +1,5 @@
+alias kfc="st ~/.kube/config"
+alias kcfg="st ~/.kube/confg"
+alias kcf="st ~/.kube/config"
+alias skcf="bat ~/.kube/config"
+alias kcc="kubectl config current-context"
