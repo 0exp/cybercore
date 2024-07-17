@@ -67,3 +67,4 @@
 - [SSH Config](https://github.com/robballou/sublimetext-sshconfig)
 - [SingleTrailingNewLine](https://github.com/mattst/sublime-single-trailing-new-line)
 - [RawLineEdit](https://github.com/facelessuser/RawLineEdit/)
+- [Gomod](https://github.com/mitranim/sublime-gomod)
