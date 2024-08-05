@@ -68,3 +68,4 @@
 - [SingleTrailingNewLine](https://github.com/mattst/sublime-single-trailing-new-line)
 - [RawLineEdit](https://github.com/facelessuser/RawLineEdit/)
 - [Gomod](https://github.com/mitranim/sublime-gomod)
+- [SideBarTools](https://github.com/braver/SideBarTools)
