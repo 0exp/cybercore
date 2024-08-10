@@ -19,7 +19,7 @@ My development environments and system configurations (**macOS Sonoma**).
 
 ---
 
-- **ruby** (<u>3.3.0</u>) / **truffleruby** (<u>23.1.1</u>)
+- **ruby** (<u>3.3.4</u>) / **truffleruby** (<u>23.1.1</u>)
 - **k8s** / **minikube** (latest@**homebrew**) (?)
 - **rust** (<u>1.72.1</u>)
 - **python** (<u>3.11.5</u>)
