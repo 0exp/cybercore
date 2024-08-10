@@ -1,25 +1,52 @@
+// Settings in here override those in "LSP/LSP.sublime-settings"
 {
   "clients": {
+    "gopls": {
+      "command": ["/Users/daiver/go/bin/gopls", "serve"],
+      "env": {},
+      "enabled": true,
+      "selector": "source.go",
+      "settings": {}
+    },
     "ruby (solorgraph)": {
       "command": ["/Users/daiver/.rbenv/shims/solargraph", "stdio"],
       "env": {},
       "enabled": true,
       "selector": "source.ruby",
-      "settings": {},
+      "settings": {}
     },
     "terraform": {
       "command": ["/opt/homebrew/bin/terraform-ls", "serve"],
       "env": {},
       "enabled": true,
       "selector": "source.terraform",
-      "settings": {},
+      "settings": {}
     },
     "ruby (steep)": {
       "command": ["/Users/daiver/.rbenv/shims/steep", "langserver"],
       "env": {},
-      "enabled": true,
+      "enabled": false,
       "selector": "source.ruby",
       "settings": {}
+    },
+    "ruby-lsp": {
+      "enabled": false,
+      "command": ["/Users/daiver/.rbenv/shims/ruby-lsp"],
+      "selector": "source.ruby",
+      "initializationOptions": {
+        "enabledFeatures": {
+          "diagnostics": false
+        },
+        "experimentalFeaturesEnabled": true
+      }
     }
-  }
+  },
+  "show_references_in_quick_panel": true,
+  "inhibit_word_completions": true,
+  "show_code_actions": "annotation",
+  "show_inlay_hints": true,
+  "show_code_lens": "annotation",
+  "hover_highlight_style": "underline",
+  "semantic_highlighting": true,
+  "log_debug": true,
 }
