@@ -35,6 +35,7 @@ My development environments and system configurations (**macOS Sonoma**).
 - **kafka** (latest@**homebrew**) (<u>3.6.1</u>) (17.10.2023)
 - **influxdb** (latest@**homebrew**) (<u>2.7.3</u>) (17.01.2024)
 - **telegraf** (latest@**homebrew**) (<u>1.29.1</u>) (17.01.2024)
+- **prometheus** (latest@**homebrew**) (<u></u>) (22.10.2024)
 - **neo4j** (latest@**homebrew**) (<u>5.13.0</u>) (17.01.2024)
 - **etcd** (latest@**homebrew**) (<u>3.5.11</u>) (17.01.2024)
 - **vault** (latest@**homebrew**) (<u>1.15.4</u>) (17.01.2024)
@@ -45,7 +46,8 @@ My development environments and system configurations (**macOS Sonoma**).
 
 **(ansible)** macOS roles:
   - `macos_config` - apply basic macOS configs;
-  - `macos_databases` - setup databases (**PostgreSQL**, **Memcached**, **Redis**, **ClickHouse**, **InfluxDB**, and **Vault**);
+  - `macos_databases` - setup databases (**PostgreSQL**, **Memcached**, **Redis**, **ClickHouse**, and **Vault**);
+  - `macos_monitoring` - setup monitoring software (**InfluxDB**, **Telegraf**, **Prometheus**);
   - `macos_kubernetes_env` - setup **K8S** environment;
   - `macos_pyton_env` - setup **Python** environment;
   - `macos_js_env` - setup **JavaScript** environment;
@@ -107,6 +109,11 @@ ansible-playbook macbook_daily.yml --list-tasks
 - update databases (`update-databases`, `update-dbs`):
   ```shell
   ansible-playbook macbook_daily.yml --tags update_databases
+  ```
+
+- update minotiring tools (`update-monitoring`):
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_monitoring
   ```
 
 ### Programming languages

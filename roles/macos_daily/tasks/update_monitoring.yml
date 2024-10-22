@@ -1,0 +1,7 @@
+---
+
+- name: '[dev/monitoring] Update monitoring tools'
+  import_role:
+    name: macos_monitoring
+  tags:
+    - update_monitoring

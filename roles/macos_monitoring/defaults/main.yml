@@ -1,0 +1,6 @@
+---
+
+macos_monitoring:
+  prometheus: ~
+  telegraf: ~
+  influxdb: ~

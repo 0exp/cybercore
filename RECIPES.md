@@ -268,7 +268,8 @@ Or, if you don't want/need a background service you can just run:
   /opt/homebrew/opt/etcd/bin/etcd
 ```
 
-==> openssl@3
+- openssl@3
+```shell
 A CA file has been bootstrapped using certificates from the system
 keychain. To add additional certificates, place .pem files in
   /opt/homebrew/etc/openssl@3/certs
@@ -288,8 +289,10 @@ For compilers to find openssl@3 you may need to set:
 
 For pkg-config to find openssl@3 you may need to set:
   export PKG_CONFIG_PATH="/opt/homebrew/opt/openssl@3/lib/pkgconfig"
+```
 
-==> php
+- php
+```shell`
 To enable PHP in Apache add the following to httpd.conf and restart Apache:
     LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
 
@@ -312,6 +315,19 @@ In order to Change port listening port of php-fpm:
 
 1. open: /opt/homebrew/etc/php/8.2/php-fpm.d/www.conf
 2. change: listen = 127.0.0.1:9000
+```
+
+- prometheus
+```shell
+When run from `brew services`, `prometheus` is run from
+`prometheus_brew_services` and uses the flags in:
+   /opt/homebrew/etc/prometheus.args
+
+To start prometheus now and restart at login:
+  brew services start prometheus
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/prometheus/bin/prometheus_brew_services
+```
 
 -----
 

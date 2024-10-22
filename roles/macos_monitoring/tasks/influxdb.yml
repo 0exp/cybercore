@@ -1,6 +1,6 @@
 ---
 
-- name: '[macOS/DB] Install <influxdb>'
+- name: '[macOS/monitoring] Install <influxdb>'
   block:
     - name: '[brew/install] Install <influxdb>'
       homebrew:

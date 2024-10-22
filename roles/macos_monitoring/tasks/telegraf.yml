@@ -1,6 +1,6 @@
 ---
 
-- name: '[macOS/DB] Install <telegraf>'
+- name: '[macOS/monitoring] Install <telegraf>'
   homebrew:
     package: telegraf
     state: latest

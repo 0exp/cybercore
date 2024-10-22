@@ -16,3 +16,4 @@ alias update-k8s="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags
 alias update-kubernetes="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_kubernetes"
 alias update-databases="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_databases"
 alias update-dbs="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_dbs"
+alias update-monitoring="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_monitoring"

@@ -1,0 +1,7 @@
+---
+
+- name: '[macOS/monitoring] Install <prometheus>'
+  homebrew:
+    package: prometheus
+    state: latest
+  notify: brew_pkg_installed

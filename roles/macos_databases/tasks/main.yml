@@ -6,8 +6,6 @@
     - postgresql
     - memcached
     - redis
-    - influxdb
-    - telegraf
     - clickhouse
     - etcd
     - vault

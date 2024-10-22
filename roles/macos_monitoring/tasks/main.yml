@@ -1,0 +1,8 @@
+---
+
+- name: 'Install Monitoring Tools'
+  include_tasks: "{{ item }}.yml"
+  with_items:
+    - influxdb
+    - telegraf
+    - prometheus
