@@ -47,7 +47,7 @@ My development environments and system configurations (**macOS Sonoma**).
 **(ansible)** macOS roles:
   - `macos_config` - apply basic macOS configs;
   - `macos_databases` - setup databases (**PostgreSQL**, **Memcached**, **Redis**, **ClickHouse**, and **Vault**);
-  - `macos_monitoring` - setup monitoring software (**InfluxDB**, **Telegraf**, **Prometheus**);
+  - `macos_monitoring` - setup monitoring tools (**InfluxDB**, **Telegraf**, **Prometheus**);
   - `macos_kubernetes_env` - setup **K8S** environment;
   - `macos_pyton_env` - setup **Python** environment;
   - `macos_js_env` - setup **JavaScript** environment;
@@ -110,7 +110,6 @@ ansible-playbook macbook_daily.yml --list-tasks
   ```shell
   ansible-playbook macbook_daily.yml --tags update_databases
   ```
-
 - update minotiring tools (`update-monitoring`):
   ```shell
   ansible-playbook macbook_daily.yml --tags update_monitoring
