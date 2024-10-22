@@ -36,6 +36,7 @@ My development environments and system configurations (**macOS Sonoma**).
 - **influxdb** (latest@**homebrew**) (<u>2.7.5</u>) (22.10.2024)
 - **telegraf** (latest@**homebrew**) (<u>1.32.1</u>) (22.10.2024)
 - **prometheus** (latest@**homebrew**) (<u>2.55.0</u>) (22.10.2024)
+- **victoriametrics** (latest@**homebrew**) (<u></u>) (22.10.2024)
 - **neo4j** (latest@**homebrew**) (<u>5.24.2</u>) (22.10.2024)
 - **etcd** (latest@**homebrew**) (<u>3.5.16</u>) (22.10.2024)
 - **vault** (latest@**homebrew**) (<u>1.15.4</u>) (17.01.2024)
@@ -47,7 +48,7 @@ My development environments and system configurations (**macOS Sonoma**).
 **(ansible)** macOS roles:
   - `macos_config` - apply basic macOS configs;
   - `macos_databases` - setup databases (**PostgreSQL**, **Memcached**, **Redis**, **ClickHouse**, and **Vault**);
-  - `macos_monitoring` - setup monitoring tools (**InfluxDB**, **Telegraf**, **Prometheus**);
+  - `macos_monitoring` - setup monitoring tools (**InfluxDB**, **Telegraf**, **Prometheus**, **VictoriaMetrics**);
   - `macos_kubernetes_env` - setup **K8S** environment;
   - `macos_pyton_env` - setup **Python** environment;
   - `macos_js_env` - setup **JavaScript** environment;

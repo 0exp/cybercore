@@ -292,7 +292,7 @@ For pkg-config to find openssl@3 you may need to set:
 ```
 
 - php
-```shell`
+```shell
 To enable PHP in Apache add the following to httpd.conf and restart Apache:
     LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
 
@@ -327,6 +327,20 @@ To start prometheus now and restart at login:
   brew services start prometheus
 Or, if you don't want/need a background service you can just run:
   /opt/homebrew/opt/prometheus/bin/prometheus_brew_services
+```
+
+- victoriametrics
+```shell
+==> Caveats
+To start victoriametrics now and restart at login:
+  brew services start victoriametrics
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/victoriametrics/bin/victoria-metrics -httpListenAddr\=127.0.0.1:8428 -promscrape.config\=/opt/homebrew/etc/victoriametrics/scrape.yml -storageDataPath\=/opt/homebrew/var/victoriametrics-data
+==> Summary
+🍺  /opt/homebrew/Cellar/victoriametrics/1.105.0: 9 files, 21.5MB
+==> Running `brew cleanup victoriametrics`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 ```
 
 -----
