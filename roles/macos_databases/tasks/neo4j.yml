@@ -1,0 +1,7 @@
+---
+
+- name: '[macOS/DB] Install <neo4j>'
+  homebrew:
+    package: neo4j
+    state: latest
+  notify: brew_pkg_installed

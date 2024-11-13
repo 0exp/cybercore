@@ -9,3 +9,4 @@
     - clickhouse
     - etcd
     - vault
+    - neo4j

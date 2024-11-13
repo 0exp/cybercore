@@ -15,32 +15,34 @@ My development environments and system configurations (**macOS Sonoma**).
 
 ---
 
-> ! Check PREINSTALLATION_REQUIREMENTS.md first!
+> ! Check `PREINSTALLATION_REQUIREMENTS.md` in first!
 
 ---
 
-- **ruby** (<u>3.3.4</u>) / **truffleruby** (<u>23.1.1</u>)
-- **k8s** / **minikube** (latest@**homebrew**) (<u>1.34.0) (22.10.2024)
-- **nodejs** (latest@**nvm**) (<u>20.8.0</u>) (01.10.2023)
-- **elixir** (<u>1.15.6</u>) / **erlang** (<u>26.1)</u>
-- **java** (<u>23.0.1</u>u>)
-- **scala** (latest@**homebrew**) (<u>3.5.1</u>) (22.10.2024)
-- **php** (latest@**homebrew**) (<u>8.3.12</u>) (22.10.2024)
-- **rust** (<u>1.72.1</u>)
-- **python** (<u>3.13.0</u>)
-- **postgresql** (<u>16.0</u>)
-- **clickhouse** (<u>23.5</u>)
-- **memcached** (latest@**homebrew**) (<u>1.6.32</u>) (22.10.2024)
-- **redis** (latest@**homebrew**) (<u>7.2.5</u>) (22.10.2024)
-- **rabbitmq** (latest@**homebrew**) (<u>3.12.11</u>) (17.10.2023)
-- **kafka** (latest@**homebrew**) (<u>3.8.0</u>) (22.10.2024)
-- **influxdb** (latest@**homebrew**) (<u>2.7.5</u>) (22.10.2024)
-- **telegraf** (latest@**homebrew**) (<u>1.32.1</u>) (22.10.2024)
-- **prometheus** (latest@**homebrew**) (<u>2.55.0</u>) (22.10.2024)
-- **victoriametrics** (latest@**homebrew**) (<u></u>) (22.10.2024)
-- **neo4j** (latest@**homebrew**) (<u>5.24.2</u>) (22.10.2024)
-- **etcd** (latest@**homebrew**) (<u>3.5.16</u>) (22.10.2024)
-- **vault** (latest@**homebrew**) (<u>1.15.4</u>) (17.01.2024)
+- **ruby** (<u>3.3.6</u>) (24.11.2024)
+- **truffleruby** (<u>24.1.1</u>) (24.11.2024)
+- **minikube** (latest@**homebrew**) (<u>1.34.0) (14.11.2024)
+- **nodejs** (latest@**nvm**) (<u>23.2.0</u>) (14.11.2024)
+- **elixir** (<u>1.17.3</u>) (14.11.2024)
+- **erlang** (<u>27.1.2)</u> (14.11.2024)
+- **java** (<u>23.0.1</u>u>) (14.11.2024)
+- **scala** (latest@**homebrew**) (<u>3.5.2</u>) (14.11.2024)
+- **php** (latest@**homebrew**) (<u>8.3.13</u>) (14.11.2024)
+- **rust** (<u>1.82.0</u>) (14.11.2024)
+- **python** (<u>3.13.0</u>) (14.11.2024)
+- **postgresql** (<u>17.0</u>) (14.11.2024)
+- **clickhouse** (<u>24.10.1.2812</u>) (14.11.2024)
+- **memcached** (latest@**homebrew**) (<u>1.6.32</u>) (14.11.2024)
+- **redis** (latest@**homebrew**) (<u>7.2.6</u>) (14.11.2024)
+- **rabbitmq** (latest@**homebrew**) (<u>4.0.3</u>) (14.11.2023)
+- **kafka** (latest@**homebrew**) (<u>3.9.0</u>) (14.11.2024)
+- **influxdb** (latest@**homebrew**) (<u>2.7.10</u>) (14.11.2024)
+- **telegraf** (latest@**homebrew**) (<u>1.32.2</u>) (14.11.2024)
+- **prometheus** (latest@**homebrew**) (<u>2.55.1</u>) (14.11.2024)
+- **victoriametrics** (latest@**homebrew**) (<u>20241105-190334</u>) (14.11.2024)
+- **neo4j** (latest@**homebrew**) (<u>5.25.1</u>) (14.11.2024)
+- **etcd** (latest@**homebrew**) (<u>3.5.17</u>) (14.11.2024)
+- **vault** (latest@**homebrew**) (<u>1.1814</u>) (14.11.2024)
 
 ---
 
@@ -196,15 +198,3 @@ pip3 install -r requirements.txt
 yamllint --strict $(git ls-files '*.yaml' '*.yml')
 ansible-lint *.yml
 ```
-
----
-
-### TODO:
-
-- workflow for installatoin of all necessary gems and javascript libs;
-- migrate to Github Actions CI;
-- `macbook.user` as a customizable runtime setting;
-- clone ohmyzsh and ohmyzsh-related plugins to my repository;
-- clone sublime packages (and use `Package Control: Satisfy Dependencies`);
-- ruby gemlist with auotmated instalation and updates;
-- js package list with automated installation and updates;
