@@ -3,5 +3,5 @@
 Minimal installation:
 
 ```shell
-cp cybercore/dotfiles/sublime/snippets/*-snippet ~/Library/Application\ Support/Sublime\ Text/Packages/User
+cp ~/Projects/cybercore/dotfiles/sublime/snippets/*-snippet ~/Library/Application\ Support/Sublime\ Text/Packages/User
 ```

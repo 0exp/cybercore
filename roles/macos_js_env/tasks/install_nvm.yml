@@ -4,9 +4,8 @@
   file:
     path: "{{ macos_js_env.nvm_path }}"
     state: absent
-
-- name: "[dev/js] Install <nvm@{{ macos_js_env.nvm_version }}>"
-  git:
-    repo: "{{ macos_js_env.nvm_repo }}"
-    dest: "{{ macos_js_env.nvm_path }}"
-    version: "{{ macos_js_env.nvm_version }}"
+- name: "[dev/js] Install Install <nvm@{{ macos_js_env.nvm_version }}"
+  ansible.builtin.shell:
+    "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/{{ macos_js_env.nvm_version }}/install.sh | bash"
+  args:
+    creates: "{{ macos_js_env.nvm_path }}"

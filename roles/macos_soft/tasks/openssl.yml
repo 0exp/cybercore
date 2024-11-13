@@ -5,9 +5,3 @@
     package: openssl
     state: latest
   notify: brew_pkg_installed
-
-- name: '[homebrew/pkg] Install <openssl@1.1>' # NOTE: for backward compatability
-  homebrew:
-    package: openssl@1.1
-    state: present
-  notify: brew_pkg_installed

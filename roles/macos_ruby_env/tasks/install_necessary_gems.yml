@@ -10,5 +10,7 @@
     - "steep"
     - "typeprof"
     - "rbs"
+    - "pry"
+    - "pry-doc"
   loop_control:
     loop_var: required_gem

@@ -5,12 +5,14 @@
     - name: '[macOS/Config] Drop old configurations'
       become: true
       become_user: root
+      become_method: sudo
       file:
         path: /Library/LaunchDaemons/limit.maxfiles.plist
         state: absent
     - name: '[macOS/Config] Create limit.maxfiles.plist'
       become: true
       become_user: root
+      become_method: sudo
       copy:
         dest: /Library/LaunchDaemons/limit.maxfiles.plist
         content: |

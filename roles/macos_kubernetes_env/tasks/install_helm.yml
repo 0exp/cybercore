@@ -1,0 +1,8 @@
+---
+
+- name: '[dev/k8s] Install <helm>'
+  homebrew:
+    package: helm
+    state: latest
+    update_homebrew: yes
+  notify: brew_pkg_installed

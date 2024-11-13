@@ -1,6 +1,8 @@
 # Preinstallation Requirements
 
+
 ##1. Install brew
+export HOMEBREW_FORCE_BREWED_CURL=1
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 ##1.1. Setup PATH variable (nano ~/.zshrc)
@@ -16,10 +18,10 @@ brew install pyenv
 eval "$(pyenv init -)"
 
 ##3. Install python
-pyenv install 3.11.5 (latest at this moment)
+pyenv install 3.13.0 (latest at this moment)
 
 ##3.1. Setup python version (nano ~/.python-version)
-3.11.5 (at this moment)
+3.13.0 (at this moment)
 
 ##4. Setup pipx
 python -m pip install --user pipx
@@ -47,8 +49,5 @@ https://www.oracle.com/java/technologies/downloads/
 ##6.1. Check Java Accesibility
 javac --version
 
-##7. Install some core macos utils
+##7. Install necessary utils for the next macos setup
 brew install coreutils curl git
-
-##8. Install Planet VPN and run it
-https://freevpnplanet.com/

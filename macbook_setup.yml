@@ -1,3 +1,5 @@
+# For setup run: ansible-playbook macbook_setup.yml -vvv --ask-become-pass
+
 ---
 
 - name: 'Initial MacBook configuration'

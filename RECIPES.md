@@ -292,7 +292,7 @@ For pkg-config to find openssl@3 you may need to set:
 ```
 
 - php
-```shell`
+```shell
 To enable PHP in Apache add the following to httpd.conf and restart Apache:
     LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
 
@@ -327,6 +327,37 @@ To start prometheus now and restart at login:
   brew services start prometheus
 Or, if you don't want/need a background service you can just run:
   /opt/homebrew/opt/prometheus/bin/prometheus_brew_services
+```
+
+- node_exporter
+```shell
+When run from `brew services`, `node_exporter` is run from
+`node_exporter_brew_services` and uses the flags in:
+  /opt/homebrew/etc/node_exporter.args
+
+To start node_exporter now and restart at login:
+  brew services start node_exporter
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/node_exporter/bin/node_exporter_brew_services
+==> Summary
+🍺  /opt/homebrew/Cellar/node_exporter/1.8.2: 12 files, 11.6MB
+==> Running `brew cleanup node_exporter`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+```
+
+- victoriametrics
+```shell
+==> Caveats
+To start victoriametrics now and restart at login:
+  brew services start victoriametrics
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/victoriametrics/bin/victoria-metrics -httpListenAddr\=127.0.0.1:8428 -promscrape.config\=/opt/homebrew/etc/victoriametrics/scrape.yml -storageDataPath\=/opt/homebrew/var/victoriametrics-data
+==> Summary
+🍺  /opt/homebrew/Cellar/victoriametrics/1.105.0: 9 files, 21.5MB
+==> Running `brew cleanup victoriametrics`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 ```
 
 -----

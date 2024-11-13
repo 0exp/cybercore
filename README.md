@@ -2,9 +2,9 @@
 
 My development environments and system configurations (**macOS Sonoma**).
 
-> ansible@8.4.0 [core 2.15.4] / Java@21 / XCode@15.0
+> ansible-core@2.17.6 / java@23 / XCode@16.1
 
-> macOS Sonoma (14.2.1)
+> macOS Sonoma (15.1)
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
@@ -20,24 +20,26 @@ My development environments and system configurations (**macOS Sonoma**).
 ---
 
 - **ruby** (<u>3.3.4</u>) / **truffleruby** (<u>23.1.1</u>)
-- **k8s** / **minikube** (latest@**homebrew**) (?)
-- **rust** (<u>1.72.1</u>)
-- **python** (<u>3.11.5</u>)
+- **k8s** / **minikube** (latest@**homebrew**) (<u>1.34.0) (22.10.2024)
 - **nodejs** (latest@**nvm**) (<u>20.8.0</u>) (01.10.2023)
 - **elixir** (<u>1.15.6</u>) / **erlang** (<u>26.1)</u>
-- **scala** (latest@**homebrew**) (<u>3.3.1</u>) (01.10.2023)
-- **php** (latest@**homebrew**) (<u>8.3.1</u>) (17.10.2023)
+- **java** (<u>23.0.1</u>u>)
+- **scala** (latest@**homebrew**) (<u>3.5.1</u>) (22.10.2024)
+- **php** (latest@**homebrew**) (<u>8.3.12</u>) (22.10.2024)
+- **rust** (<u>1.72.1</u>)
+- **python** (<u>3.13.0</u>)
 - **postgresql** (<u>16.0</u>)
 - **clickhouse** (<u>23.5</u>)
-- **memcached** (latest@**homebrew**) (<u>1.6.22</u>) (17.10.2023)
-- **redis** (latest@**homebrew**) (<u>7.2.3</u>) (17.10.2023)
+- **memcached** (latest@**homebrew**) (<u>1.6.32</u>) (22.10.2024)
+- **redis** (latest@**homebrew**) (<u>7.2.5</u>) (22.10.2024)
 - **rabbitmq** (latest@**homebrew**) (<u>3.12.11</u>) (17.10.2023)
-- **kafka** (latest@**homebrew**) (<u>3.6.1</u>) (17.10.2023)
-- **influxdb** (latest@**homebrew**) (<u>2.7.3</u>) (17.01.2024)
-- **telegraf** (latest@**homebrew**) (<u>1.29.1</u>) (17.01.2024)
-- **prometheus** (latest@**homebrew**) (<u></u>) (22.10.2024)
-- **neo4j** (latest@**homebrew**) (<u>5.13.0</u>) (17.01.2024)
-- **etcd** (latest@**homebrew**) (<u>3.5.11</u>) (17.01.2024)
+- **kafka** (latest@**homebrew**) (<u>3.8.0</u>) (22.10.2024)
+- **influxdb** (latest@**homebrew**) (<u>2.7.5</u>) (22.10.2024)
+- **telegraf** (latest@**homebrew**) (<u>1.32.1</u>) (22.10.2024)
+- **prometheus** (latest@**homebrew**) (<u>2.55.0</u>) (22.10.2024)
+- **victoriametrics** (latest@**homebrew**) (<u></u>) (22.10.2024)
+- **neo4j** (latest@**homebrew**) (<u>5.24.2</u>) (22.10.2024)
+- **etcd** (latest@**homebrew**) (<u>3.5.16</u>) (22.10.2024)
 - **vault** (latest@**homebrew**) (<u>1.15.4</u>) (17.01.2024)
 
 ---
@@ -47,7 +49,7 @@ My development environments and system configurations (**macOS Sonoma**).
 **(ansible)** macOS roles:
   - `macos_config` - apply basic macOS configs;
   - `macos_databases` - setup databases (**PostgreSQL**, **Memcached**, **Redis**, **ClickHouse**, and **Vault**);
-  - `macos_monitoring` - setup monitoring software (**InfluxDB**, **Telegraf**, **Prometheus**);
+  - `macos_monitoring` - setup monitoring tools (**InfluxDB**, **Telegraf**, **Prometheus**, **VictoriaMetrics**);
   - `macos_kubernetes_env` - setup **K8S** environment;
   - `macos_pyton_env` - setup **Python** environment;
   - `macos_js_env` - setup **JavaScript** environment;
@@ -61,7 +63,7 @@ My development environments and system configurations (**macOS Sonoma**).
 
 **(ansible)** setup macOS:
 ```shell
-ansible-playbook macbook_setup.yml -vvv
+ansible-playbook macbook_setup.yml -vvv --ask-become-pass
 ```
 
 - [sublime package list](dotfiles/sublime/packages.md)
@@ -110,7 +112,6 @@ ansible-playbook macbook_daily.yml --list-tasks
   ```shell
   ansible-playbook macbook_daily.yml --tags update_databases
   ```
-
 - update minotiring tools (`update-monitoring`):
   ```shell
   ansible-playbook macbook_daily.yml --tags update_monitoring

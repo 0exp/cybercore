@@ -21,7 +21,7 @@
         - .python-version
         - .ruby-version
         - .tmux.conf
-        - .vimrc
+        # TODO: - .vimrc
         - .zsh/
         - .zshrc
         - .ansible.cfg

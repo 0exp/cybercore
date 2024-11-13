@@ -5,3 +5,4 @@
   with_items:
     - install_kubectl
     - install_minikube
+    - install_helm

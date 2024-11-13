@@ -1,5 +1,4 @@
 ---
 
 macos_databases:
-  postgresql_version: "16"
-  clickhouse_version: "23.5"
+  postgresql_version: "17"

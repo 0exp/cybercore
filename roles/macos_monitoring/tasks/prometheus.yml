@@ -1,7 +1,14 @@
 ---
 
 - name: '[macOS/monitoring] Install <prometheus>'
-  homebrew:
-    package: prometheus
-    state: latest
-  notify: brew_pkg_installed
+  block:
+    - name: '[macos/Monitoring/prometheus] Install <prometheus>'
+      homebrew:
+        package: prometheus
+        state: latest
+      notify: brew_pkg_installed
+    - name: '[macos/Monitoring/node_exporter] Install <node_exporter>'
+      homebrew:
+        package: node_exporter
+        state: latest
+      notify: brew_pkg_installed

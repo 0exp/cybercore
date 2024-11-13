@@ -1,8 +1,8 @@
 ---
 
 macos_elixir_env:
-  asdf_version: v0.13.1
+  asdf_version: v0.14.1
   asdf_path: "{{ macbook.home_path }}/.asdf"
   asdf_repo: https://github.com/asdf-vm/asdf.git
-  erlang_version: '26.1'
-  elixir_version: '1.15.6'
+  erlang_version: '27.1.2'
+  elixir_version: '1.17.3'

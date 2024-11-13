@@ -2,10 +2,6 @@
 
 - name: '[macOS/DB] Install <clickhouse>'
   block:
-    - name: '[clickhouse/brew/tap] Add clickhouse repository'
-      homebrew_tap:
-        name: clickhouse/clickhouse
-        state: present
     - name: '[clickhouse/configs] Create homebrew-clickhouse Config directory'
       file:
         path: /opt/homebrew/etc/clickhouse-server
@@ -48,6 +44,6 @@
           </clickhouse>
     - name: '[clickhouse/brew/install] Install <clickhouse>'
       homebrew:
-        package: clickhouse/clickhouse/clickhouse@{{ macos_databases.clickhouse_version }}
+        package: clickhouse
         state: latest
       notify: brew_pkg_installed
