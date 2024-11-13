@@ -17,8 +17,8 @@ My development environments and system configurations (**macOS Sonoma**).
 
 ---
 
-- **ruby** (<u>3.3.6</u>) (24.11.2024)
-- **truffleruby** (<u>24.1.1</u>) (24.11.2024)
+- **ruby** (<u>3.3.6</u>) (14.11.2024)
+- **truffleruby** (<u>24.1.1</u>) (14.11.2024)
 - **minikube** (latest@**homebrew**) (<u>1.34.0) (14.11.2024)
 - **nodejs** (latest@**nvm**) (<u>23.2.0</u>) (14.11.2024)
 - **elixir** (<u>1.17.3</u>) (14.11.2024)
