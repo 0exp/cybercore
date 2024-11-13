@@ -2,7 +2,7 @@
 
 My development environments and system configurations (**macOS Sonoma**).
 
-> (macOS Sonoma 15.1): ansible-core@2.17.6 / java@23 / XCode@16.1
+> (macOS Sonoma 15.1) ansible-core@2.17.6 / java@23 / XCode@16.1
 
 - [Macbook Setup](#macbook-setup)
 - [Daily Tasks](#daily-tasks)
