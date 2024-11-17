@@ -7,10 +7,11 @@
     gem install {{ required_gem }}
   loop:
     - "bundler --version={{ macos_ruby_env.bundler_version }}"
-    - "steep"
-    - "typeprof"
-    - "rbs"
-    - "pry"
-    - "pry-doc"
+    - rbs
+    - rbs-inline
+    - typeprof
+    - steep
+    - pry
+    - pry-doc
   loop_control:
     loop_var: required_gem
