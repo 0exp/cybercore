@@ -1,0 +1,7 @@
+// GitGutter Settings - User
+{
+  "git_binary": "/opt/homebrew/bin/git",
+  "debounce_delay": 100,
+  "show_status_bar_text": false,
+  "show_line_annotation": "false",
+}

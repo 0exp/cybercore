@@ -11,9 +11,12 @@
   "highlight_line": true,
   "ignored_packages":
   [
+    "Hungry Backspace",
     "Local History",
     "OpenUri",
     "SimpleCov",
+    "Status Bar File Size",
+    "TabNav",
     "Vintage",
   ],
   "indent_guide_options":
