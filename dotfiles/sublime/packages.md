@@ -54,6 +54,7 @@
 - [Protocol Buffer Syntax](https://github.com/vihangm/sublime-protobuf-syntax)
 - [rainbow_csv](https://github.com/mechatroner/sublime_rainbow_csv)
 - [RawLineEdit](https://github.com/facelessuser/RawLineEdit/)
+- [REST Client](https://github.com/yeraydiazdiaz/sublime-rest-client)
 - [RBS](https://github.com/soutaro/sublime-rbs-plugin)
 - [RSpec](https://github.com/SublimeText/RSpec)
 - [Ruby Slim](https://github.com/slim-template/ruby-slim.tmbundle)
