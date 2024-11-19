@@ -4,21 +4,21 @@
     "gopls": {
       "command": ["/Users/daiver/go/bin/gopls", "serve"],
       "env": {},
-      "enabled": true,
+      "enabled": false,
       "selector": "source.go",
       "settings": {}
     },
     "ruby (solorgraph)": {
       "command": ["/Users/daiver/.rbenv/shims/solargraph", "stdio"],
       "env": {},
-      "enabled": true,
+      "enabled": false,
       "selector": "source.ruby",
       "settings": {}
     },
     "terraform": {
       "command": ["/opt/homebrew/bin/terraform-ls", "serve"],
       "env": {},
-      "enabled": true,
+      "enabled": false,
       "selector": "source.terraform",
       "settings": {}
     },
