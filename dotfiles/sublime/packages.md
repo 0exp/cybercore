@@ -15,6 +15,7 @@
 - [Colorsublme](https://github.com/Colorsublime/Colorsublime-Plugin)
 - [CommandsBrowser](https://github.com/Sublime-Instincts/CommandsBrowser)
 - [Compare Side By Side](https://github.com/kaste/Compare-Side-By-Side)
+- [CoolBase64](https://github.com/k-amryn/CoolBase64-sublime)
 - [DashDoc](https://github.com/farcaller/DashDoc)
 - [Delete Current File](https://github.com/yaworsw/Sublime-DeleteCurrentFile)
 - [DocBlockr](https://github.com/spadgos/sublime-jsdocs)
