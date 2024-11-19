@@ -11,8 +11,9 @@
   "highlight_line": true,
   "ignored_packages":
   [
+    "Local History",
     "OpenUri",
-    "SQLTools",
+    "SimpleCov",
     "Vintage",
   ],
   "indent_guide_options":

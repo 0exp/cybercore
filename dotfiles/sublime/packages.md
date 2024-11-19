@@ -33,6 +33,7 @@
 - [LSP](https://github.com/tomv564/LSP)
 - [MarkdownPreview](https://github.com/facelessuser/MarkdownPreview)
 - [OpenUri](https://github.com/jfcherng/Sublime-OpenUri/)
+- [StatusBarFileSize](https://github.com/SublimeText/StatusBarFileSize)
 - [Origami](https://github.com/SublimeText/Origami)
 - [Path Tools](https://github.com/pjdietz/sublime-path-tools)
 - [Pkl](https://github.com/apple/pkl.tmbundle)
