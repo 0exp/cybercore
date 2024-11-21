@@ -6,28 +6,28 @@
       "env": {},
       "enabled": false,
       "selector": "source.go",
-      "settings": {}
+      "settings": {},
     },
     "ruby (solorgraph)": {
       "command": ["/Users/daiver/.rbenv/shims/solargraph", "stdio"],
       "env": {},
       "enabled": false,
-      "selector": "source.ruby",
-      "settings": {}
+      "selector": "source.ruby | text.html.ruby | source.rbs",
+      "settings": {},
     },
     "terraform": {
       "command": ["/opt/homebrew/bin/terraform-ls", "serve"],
       "env": {},
       "enabled": false,
       "selector": "source.terraform",
-      "settings": {}
+      "settings": {},
     },
     "ruby (steep)": {
       "command": ["/Users/daiver/.rbenv/shims/steep", "langserver"],
       "env": {},
-      "enabled": false,
-      "selector": "source.ruby",
-      "settings": {}
+      "enabled": true,
+      "selector": "source.ruby | text.html.ruby",
+      "settings": {},
     },
     "ruby-lsp": {
       "enabled": false,
@@ -35,11 +35,15 @@
       "selector": "source.ruby",
       "initializationOptions": {
         "enabledFeatures": {
-          "diagnostics": false
+          "diagnostics": false,
         },
-        "experimentalFeaturesEnabled": true
-      }
-    }
+        "experimentalFeaturesEnabled": true,
+      },
+    },
+    "erlang-ls":
+    {
+      "enabled": true
+    },
   },
   "show_references_in_quick_panel": true,
   "inhibit_word_completions": true,
