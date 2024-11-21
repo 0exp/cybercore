@@ -5,5 +5,17 @@
   { "keys": ["super+shift+j"], "command": "view_in_browser", "args": { "browser": "safari" } },
   { "keys": ["super+shift+'"], "command": "change_quotes" },
   { "keys": ["super+shift+l"], "command": "lsp_symbol_definition" },
-  { "keys": ["super+shift+d"], "command": "dash_doc" }
+  { "keys": ["super+shift+d"], "command": "dash_doc" },
+
+  // Origami: Pane Navigation
+  { "keys": ["super+k", "w"], "command": "travel_to_pane", "args": {"direction": "up"} },
+  { "keys": ["super+k", "d"], "command": "travel_to_pane", "args": {"direction": "right"} },
+  { "keys": ["super+k", "s"], "command": "travel_to_pane", "args": {"direction": "down"} },
+  { "keys": ["super+k", "a"], "command": "travel_to_pane", "args": {"direction": "left"} },
+
+  // Origami: Create Pane
+  { "keys": ["super+k", "super+w"], "command": "create_pane", "args": {"direction": "up"} },
+  { "keys": ["super+k", "super+d"], "command": "create_pane", "args": {"direction": "right"} },
+  { "keys": ["super+k", "super+s"], "command": "create_pane", "args": {"direction": "down"} },
+  { "keys": ["super+k", "super+a"], "command": "create_pane", "args": {"direction": "left"} },
 ]
