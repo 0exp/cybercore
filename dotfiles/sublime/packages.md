@@ -2,6 +2,7 @@
 
 - [A File Icon](https://github.com/SublimeText/AFileIcon)
 - [AddRemoveFolder](https://github.com/fsaad/Sublime-AddRemoveFolder)
+- [AdvancedNewFile](https://github.com/SublimeText/AdvancedNewFile)
 - [Ansible](https://github.com/clifford-github/sublime-ansible)
 - [Atomic Color Scheme](https://github.com/gerardbm/sublime-atomic-scheme)
 - [AutoFileName](https://github.com/BoundInCode/AutoFileName)
