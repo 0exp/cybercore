@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <raylib>'
+  homebrew:
+    package: raylib
+    state: latest
+  notify: brew_pkg_installed

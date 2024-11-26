@@ -32,6 +32,7 @@
     - pstree
     - pwgen
     - rabbitmq
+    - raylib
     - ripgrep
     - sdl2
     - shellcheck
