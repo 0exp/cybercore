@@ -33,6 +33,7 @@
 - [HTMLBeautify](https://github.com/rareyman/HTMLBeautify)
 - [Hungry Backspace](https://github.com/xdrop/Hungry-Backspace)
 - [JWT Decode](https://github.com/Xiangjiaox/jwt-sublime-text)
+- [InlineOutline](https://github.com/kaste/InlineOutline)
 - [INI](https://github.com/clintberry/sublime-text-2-ini)
 - [Less](https://github.com/SublimeText/Less)
 - [Local History](https://github.com/vishr/local-history)
