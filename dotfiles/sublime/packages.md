@@ -42,6 +42,7 @@
 - [LSP](https://github.com/tomv564/LSP)
 - [MarkdownPreview](https://github.com/facelessuser/MarkdownPreview)
 - [OpenUri](https://github.com/jfcherng/Sublime-OpenUri/)
+- [OverrideAudite](https://github.com/OdatNurd/OverrideAudit)
 - [StatusBarFileSize](https://github.com/SublimeText/StatusBarFileSize)
 - [Origami](https://github.com/SublimeText/Origami)
 - [PackageDev](https://github.com/SublimeText/PackageDev)
