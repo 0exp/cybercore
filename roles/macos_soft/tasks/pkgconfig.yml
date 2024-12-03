@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <pkgconfig>'
+  homebrew:
+    package: pkgconfig
+    state: latest
+  notify: brew_pkg_installed

@@ -28,6 +28,7 @@
     - openssl
     - osquery
     - overmind
+    - pkgconfig
     - protobuf
     - pstree
     - pwgen
