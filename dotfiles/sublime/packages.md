@@ -40,6 +40,7 @@
 - [LSP-dockerfile](https://github.com/sublimelsp/LSP-dockerfile) (requires https://github.com/rcjsuen/dockerfile-language-server-nodejs) (`yarn global add dockerfile-language-server-nodejs`)
 - [LSP-terraform](https://github.com/sublimelsp/LSP-terraform)
 - [LSP](https://github.com/tomv564/LSP)
+- [MarkdownCodeExporter](https://github.com/SublimeText-Markdown/MarkdownCodeExporter)
 - [MarkdownPreview](https://github.com/facelessuser/MarkdownPreview)
 - [OpenUri](https://github.com/jfcherng/Sublime-OpenUri/)
 - [OverrideAudite](https://github.com/OdatNurd/OverrideAudit)
