@@ -13,6 +13,7 @@
 - [ChangeQuotes](https://github.com/colinta/SublimeChangeQuotes)
 - [CMake](https://github.com/zyxar/Sublime-CMakeLists)
 - [CoffeeScript](https://github.com/SublimeText/CoffeeScript)
+- [ColorHelper](https://github.com/facelessuser/ColorHelper)
 - [Colorsublme](https://github.com/Colorsublime/Colorsublime-Plugin)
 - [CommandsBrowser](https://github.com/Sublime-Instincts/CommandsBrowser)
 - [Compare Side By Side](https://github.com/kaste/Compare-Side-By-Side)
