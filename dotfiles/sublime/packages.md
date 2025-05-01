@@ -80,7 +80,6 @@
 - [Terraform](https://github.com/alexlouden/Terraform.tmLanguage)
 - [Tmux Syntax Highlight](https://github.com/kei-q/sublime-tmux-syntax-highlight)
 - [TodoReview](https://github.com/jonathandelgado/SublimeTodoReview)
-- [TOML](https://github.com/jasonwilliams/sublime_toml_highlighting)
 - [VAlign](https://github.com/jarod2d/sublime_valign)
 - [View in Browser](https://github.com/adampresley/sublime-view-in-browser)
 - [Vue Syntax Highlight](https://github.com/vuejs/vue-syntax-highlight)
