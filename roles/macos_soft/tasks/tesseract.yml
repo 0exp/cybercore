@@ -7,6 +7,7 @@
         package: tesseract
         state: present
       notify: brew_pkg_installed
+
     - name: '[brew/install] Install <tesseract-lang>'
       homebrew:
         package: tesseract-lang

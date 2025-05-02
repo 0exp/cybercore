@@ -17,30 +17,39 @@ My development environments and system configurations (**macOS Sonoma**).
 
 ---
 
-- **ruby** (<u>3.3.6</u>) (14.11.2024)
-- **truffleruby** (<u>24.1.1</u>) (14.11.2024)
-- **minikube** (latest@**homebrew**) (<u>1.34.0</u>) (14.11.2024)
-- **nodejs** (latest@**nvm**) (<u>23.2.0</u>) (14.11.2024)
-- **elixir** (<u>1.17.3</u>) (14.11.2024)
-- **erlang** (<u>27.1.2)</u> (14.11.2024)
-- **java** (<u>23.0.1</u>u>) (14.11.2024)
-- **scala** (latest@**homebrew**) (<u>3.5.2</u>) (14.11.2024)
-- **php** (latest@**homebrew**) (<u>8.3.13</u>) (14.11.2024)
-- **rust** (<u>1.82.0</u>) (14.11.2024)
-- **python** (<u>3.13.0</u>) (14.11.2024)
-- **postgresql** (<u>17.0</u>) (14.11.2024)
-- **clickhouse** (<u>24.10.1.2812</u>) (14.11.2024)
-- **memcached** (latest@**homebrew**) (<u>1.6.32</u>) (14.11.2024)
-- **redis** (latest@**homebrew**) (<u>7.2.6</u>) (14.11.2024)
-- **rabbitmq** (latest@**homebrew**) (<u>4.0.3</u>) (14.11.2023)
-- **kafka** (latest@**homebrew**) (<u>3.9.0</u>) (14.11.2024)
-- **influxdb** (latest@**homebrew**) (<u>2.7.10</u>) (14.11.2024)
-- **telegraf** (latest@**homebrew**) (<u>1.32.2</u>) (14.11.2024)
-- **prometheus** (latest@**homebrew**) (<u>2.55.1</u>) (14.11.2024)
-- **victoriametrics** (latest@**homebrew**) (<u>20241105-190334</u>) (14.11.2024)
-- **neo4j** (latest@**homebrew**) (<u>5.25.1</u>) (14.11.2024)
-- **etcd** (latest@**homebrew**) (<u>3.5.17</u>) (14.11.2024)
-- **vault** (latest@**homebrew**) (<u>1.1814</u>) (14.11.2024)
+- **ruby** (<u>3.4.3</u>) (02.05.2025)
+- **go** (<u>1.24.2</u>) (02.05.2025)
+- **truffleruby** (<u>24.2.1</u>) (02.05.2025)
+- **minikube** (latest@**homebrew**) (<u>1.35.0</u>) (02.05.2025)
+- **nodejs** (latest@**nvm**) (<u>23.11.0</u>) (02.05.2025)
+- **elixir** (<u>1.18.3</u>) (02.05.2025)
+- **erlang** (<u>27.3.3)</u> (02.05.2025)
+- **java** (<u>24.0.1</u>u>) (02.05.2025)
+- **scala** (latest@**homebrew**) (<u>3.6.4</u>) (02.05.2025)
+- **php** (latest@**homebrew**) (<u>8.4.6</u>) (02.05.2025)
+- **rust** (<u>1.86.0</u>) (02.05.2025)
+- **python** (<u>3.13.3</u>) (02.05.2025)
+- **postgresql** (<u>17.4</u>) (01.05.2025)
+- **clickhouse** (<u>25.3.2.39</u>) (01.05.2025)
+- **memcached** (latest@**homebrew**) (<u>1.6.38</u>) (01.05.2025)
+- **redis** (latest@**homebrew**) (<u>7.2.7</u>) (01.05.2025)
+- **rabbitmq** (latest@**homebrew**) (<u>4.1.0</u>) (14.11.2023)
+- **kafka** (latest@**homebrew**) (<u>4.0.0</u>) (02.05.2025)
+- **influxdb** (latest@**homebrew**) (<u>2.7.11</u>) (01.05.2025)
+- **telegraf** (latest@**homebrew**) (<u>1.34.2</u>) (01.05.2025)
+- **grafana** (latest@**homebrew**) (<u>11.6.1</u>) (01.05.2025)
+-- **agent** (latest@**homebrew**) (<u>0.44.2</u>) (01.05.2025)
+-- **alloy** (latest@**homebrew**) (<u>1.8.2</u>) (01.05.2025)
+-- **loki** (latest@**homebrew**) (<u>3.5.0</u>) (01.05.2025)
+-- **pyroscope** (latest@**homebrew**) (<u>1.13.2</u>) (01.05.2025)
+- **prometheus** (latest@**homebrew**) (<u> 3.3.0</u>) (01.05.2025)
+-- **node_exporter** (latest@**homebrew**) (<u>1.9.0</u>) (01.05.2025)
+- **victoriametrics** (latest@**homebrew**) (<u>1.116.0</u>) (01.05.2025)
+-- **victorialogs** (latest@**homebrew**) (<u>1.21.0</u>) (01.05.2025)
+- **opensearch** (latest@**homebrew**) (<u></u>) (01.05.2025)
+- **neo4j** (latest@**homebrew**) (<u>2025.03.0</u>) (01.05.2025)
+- **etcd** (latest@**homebrew**) (<u>3.5.21</u>) (01.05.2025)
+- **vault** (latest@**homebrew**) (<u>1.19.0</u>) (01.05.2025)
 
 ---
 
@@ -48,18 +57,19 @@ My development environments and system configurations (**macOS Sonoma**).
 
 **(ansible)** macOS roles:
   - `macos_config` - apply basic macOS configs;
-  - `macos_databases` - setup databases (**PostgreSQL**, **Memcached**, **Redis**, **ClickHouse**, and **Vault**);
-  - `macos_monitoring` - setup monitoring tools (**InfluxDB**, **Telegraf**, **Prometheus**, **VictoriaMetrics**);
+  - `macos_databases` - setup databases (**PostgreSQL**, **Memcached**, **Redis**, **ClickHouse**, **Vault**, etc.);
+  - `macos_monitoring` - setup monitoring tools (**InfluxDB**, **Telegraf**, **Prometheus**, **VictoriaMetrics**, **OpenSearch**, etc.);
   - `macos_kubernetes_env` - setup **K8S** environment;
   - `macos_pyton_env` - setup **Python** environment;
   - `macos_js_env` - setup **JavaScript** environment;
   - `macos_ruby_env` - setup **Ruby** environment;
   - `macos_rust_env` - setup **Rust** environment;
   - `macos_elixir_env` - setup **Elixir** environment;
+  - `macos_erlang_env` - setup **Erlang** environment;
   - `macos_scala_env` - setup **Scala** environment;
   - `macos_php_env` - setup **PHP** environment;
   - `macos_soft` - install neccessary sofwtare;
-  - `macos_post_config` - apply post macOS configs (copy dotfiles, setup system fonts, clone projects, etc);
+  - `macos_post_config` - apply post macOS configs (copy dotfiles, setup system fonts, clone github projects, etc);
 
 **(ansible)** setup macOS:
 ```shell
@@ -138,6 +148,10 @@ ansible-playbook macbook_daily.yml --list-tasks
 - update **elixir** (`update-elixir`):
   ```shell
   ansible-playbook macbook_daily.yml --tags update_elixir
+  ```
+- update **erlang** (`update-erlang`):
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_erlang
   ```
 - update **scala** (updates `scala`, `sbt` and `amonite-repl`) (`update-scala`):
   ```shell

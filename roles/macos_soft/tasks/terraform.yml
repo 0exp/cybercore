@@ -6,16 +6,19 @@
       homebrew_tap:
         name: hashicorp/tap
         state: present
+
     - name: '[brew/install] Install <terraform>'
       homebrew:
         package: hashicorp/tap/terraform
         state: present
       notify: brew_pkg_installed
+
     - name: '[terraform] Enable autocompletion ZSH commands'
       shell: |
         set -o pipefail
         terraform -install-autocomplete
       ignore_errors: yes
+
     - name: '[terraform] Install Terraform LSP'
       homebrew:
         package: hashicorp/tap/terraform-ls

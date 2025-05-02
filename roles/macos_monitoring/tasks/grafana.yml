@@ -1,0 +1,43 @@
+---
+
+- name: '[macOS/monitoring] Install <grafana>'
+  block:
+    - name: "[monitoring/grafana/agent-flow/tap] Add <grafana>'s repositories"
+      homebrew_tap:
+        name: grafana/grafana
+        state: present
+
+    - name: '[monitoring/grafana/install] Install <grafana>'
+      homebrew:
+        package: grafana
+        state: latest
+      notify: brew_pkg_installed
+
+    - name: '[monitoring/grafana/agent-flow/isntall] Install <agent-flow>'
+      homebrew:
+        package: grafana-agent-flow
+        state: latest
+      notify: brew_pkg_installed
+
+    - name: '[monitoring/grafana/alloy/install] Install <alloy>'
+      homebrew:
+        package: grafana/grafana/alloy
+        state: latest
+      notify: brew_pkg_installed
+
+    - name: '[macos/monitoring/grafana] Install <loki>'
+      homebrew:
+        package: loki
+        state: latest
+      notify: brew_pkg_installed
+
+    - name: "[monitoring/grafana/brew/pyroscope] Add <pyroscope> repository"
+      homebrew_tap:
+        name: pyroscope-io/brew
+        state: present
+
+    - name: '[macos/monitoring/grafana] Install <pyroscope>'
+      homebrew:
+        package: pyroscope-io/brew/pyroscope
+        state: latest
+      notify: brew_pkg_installed

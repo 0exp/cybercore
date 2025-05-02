@@ -6,10 +6,12 @@
       file:
         path: /opt/homebrew/etc/clickhouse-server
         state: directory
+
     - name: '[clickhouse/configs] Create homebrew-clickhouse Data directory'
       file:
         path: /opt/homebrew/var/lib/clickhouse/
         state: directory
+
     - name: '[clickhouse/configs] Seed default settings file'
       copy:
         dest: /opt/homebrew/etc/clickhouse-server/config.xml
@@ -42,6 +44,7 @@
                   <default/>
               </quotas>
           </clickhouse>
+
     - name: '[clickhouse/brew/install] Install <clickhouse>'
       homebrew:
         package: clickhouse

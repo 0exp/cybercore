@@ -1,7 +1,15 @@
 ---
 
 - name: '[macOS/monitoring] Install <victoriametrics>'
-  homebrew:
-    package: victoriametrics
-    state: latest
-  notify: brew_pkg_installed
+  block:
+    - name: '[monitoring/victoriametrics/metrics/install] Install <victoriametrics>'
+      homebrew:
+        package: victoriametrics
+        state: latest
+      notify: brew_pkg_installed
+
+    - name: '[monitoring/victoriametrics/logs/install] Install <victorialogs>'
+      homebrew:
+        package: victorialogs
+        state: latest
+      notify: brew_pkg_installed

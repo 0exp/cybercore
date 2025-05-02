@@ -2,7 +2,7 @@
 
 macos_js_env:
   nvm_path: "{{ macbook.home_path }}/.nvm"
-  nvm_version: "v0.40.1"
+  nvm_version: "v0.40.3"
   nvm_repo: "https://github.com/nvm-sh/nvm.git"
   node_version: node
   yarn_version: '1.22.22'

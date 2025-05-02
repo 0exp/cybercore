@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <cmake>'
+  homebrew:
+    package: cmake
+    state: latest
+  notify: brew_pkg_installed

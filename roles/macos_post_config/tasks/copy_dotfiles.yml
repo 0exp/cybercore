@@ -6,6 +6,7 @@
       file:
         path: "{{ macbook.home_path }}/.zsh/"
         state: absent
+
     - name: '[macos/dots] copy dot-files and .zsh/-directory'
       copy:
         src: "dotfiles/{{ dotfile }}"

@@ -3,6 +3,7 @@
 - name: 'Install macOS-related necessary software'
   include_tasks: "{{ item }}.yml"
   with_items:
+    - cmake
     - tesseract
     - bat
     - blueutil

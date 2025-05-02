@@ -5,7 +5,6 @@
   with_items:
     - install_nvm
     - install_nodejs
-    - install_yarn
     # TODO: - install_verdaccio
     # TODO: (install through verdaccio) - install_dangerous_packages
     # TODO: (отдельна  спецовая таска, сунуть куда-нибудь ее в правильное место) - update_npm
@@ -15,12 +14,13 @@
     # TODO: нужно заинсталлить .npmrc с прописанным там verdaccio registry (будет все там проксироваться)
     # TODO: алиасы для npm install -g, npm install и тд
 
-# по дефолту в консолье вердачио поставился вот так:
-# ```
-# ➜  verdaccio
-#  info --- Creating default config file in /Users/daiver/.config/verdaccio/config.yaml
-#  warn --- config file  - /Users/daiver/.config/verdaccio/config.yaml
-#  warn --- Plugin successfully loaded: verdaccio-htpasswd
-#  warn --- Plugin successfully loaded: verdaccio-audit
-#  warn --- http address - http://localhost:4873/ - verdaccio/5.8.0
-#  ```
+# NOTE:
+#   по дефолту в консолье вердачио поставился вот так:
+#   ```
+#   ➜  verdaccio
+#    info --- Creating default config file in /Users/daiver/.config/verdaccio/config.yaml
+#    warn --- config file  - /Users/daiver/.config/verdaccio/config.yaml
+#    warn --- Plugin successfully loaded: verdaccio-htpasswd
+#    warn --- Plugin successfully loaded: verdaccio-audit
+#    warn --- http address - http://localhost:4873/ - verdaccio/5.8.0
+#    ```

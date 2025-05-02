@@ -12,15 +12,18 @@
         name: spaceship-prompt
         global: yes
         state: absent
+
     - name: '[spaceship-prompt] install new version'
       npm:
         name: spaceship-prompt
         global: yes
+
     - name: '[spaceship-prompt] clone originals'
       git:
         repo: "{{ repo_url }}"
         dest: "{{ clone_path }}"
         version: 'HEAD'
+
     - name: '[spaceship-prompt] link zsh theme'
       file:
         src: "{{ cloned_theme_path }}"

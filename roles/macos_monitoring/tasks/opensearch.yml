@@ -1,0 +1,7 @@
+---
+
+- name: '[macOS/monitoring] Install <opensearch>'
+  homebrew:
+    package: opensearch
+    state: latest
+  notify: brew_pkg_installed

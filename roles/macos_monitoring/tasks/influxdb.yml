@@ -2,13 +2,13 @@
 
 - name: '[macOS/monitoring] Install <influxdb>'
   block:
-    - name: '[brew/install] Install <influxdb>'
+    - name: '[macos/monitoring/influxdb] Install <influxdb>'
       homebrew:
         package: influxdb
         state: latest
       notify: brew_pkg_installed
 
-    - name: '[brew/install] Install <influxdb-cli>'
+    - name: '[macos/monitoring/influxdb] Install <influxdb-cli>'
       homebrew:
         package: influxdb-cli
         state: latest

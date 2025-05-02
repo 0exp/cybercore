@@ -6,6 +6,7 @@
       file:
         path: "{{ macos_ruby_env.solargraph_cache_path }}"
         state: absent
+
     - name: "[dev/ruby] solargraph: install ({{ macos_ruby_env.solargraph_version }})"
       shell: |
         set -o pipefail
@@ -13,6 +14,7 @@
         rbenv global {{ macos_ruby_env.ruby_version }}
         rbenv rehash
         gem install solargraph -v {{ macos_ruby_env.solargraph_version }}
+
     - name: "[dev/ruby] solargraph: prepare cache directory"
       file:
         path: "{{ macos_ruby_env.solargraph_cache_path }}"

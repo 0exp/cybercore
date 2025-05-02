@@ -2,13 +2,13 @@
 
 macos_ruby_env:
   rbenv_path: "{{ macbook.home_path }}/.rbenv"
-  ruby_version: '3.4.2'
-  truffleruby_version: 'truffleruby-24.2.0'
-  bundler_version: '2.6.6'
+  ruby_version: '3.4.3'
+  truffleruby_version: 'truffleruby-24.2.1'
+  bundler_version: '2.6.8'
   rubygems_directory_path: "{{ macbook.home_path }}/.gem"
   rubygems_creds_file: "{{ macbook.home_path }}/.gem/credentials"
-  solargraph_version: '0.53.4'
+  solargraph_version: '0.54.2'
   solargraph_cache_path: "{{ macbook.home_path }}/.solargraph/cache"
-  rbs_version: '3.9.1'
+  rbs_version: '3.9.2'
   typeprof_version: '0.30.1'
   steep_version: '1.10.0'

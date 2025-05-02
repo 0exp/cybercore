@@ -7,3 +7,5 @@
     - telegraf
     - prometheus
     - victoriametrics
+    - opensearch
+    - grafana

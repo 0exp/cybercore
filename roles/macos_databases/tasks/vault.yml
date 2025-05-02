@@ -6,6 +6,7 @@
       homebrew_tap:
         name: hashicorp/tap
         state: present
+
     - name: '[vault/brew/install] Install <vault>'
       homebrew:
         package: hashicorp/tap/vault

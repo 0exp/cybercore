@@ -6,6 +6,7 @@
     source {{ macos_js_env.nvm_path }}/nvm.sh
     nvm install {{ macos_js_env.node_version }}
 
+# NOTE: corepack includes <yarn>
 - name: "[dev/js] Setup corepack"
   shell: |
     set -o pipefail

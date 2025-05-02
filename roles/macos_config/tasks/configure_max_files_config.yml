@@ -9,6 +9,7 @@
       file:
         path: /Library/LaunchDaemons/limit.maxfiles.plist
         state: absent
+
     - name: '[macOS/Config] Create limit.maxfiles.plist'
       become: true
       become_user: root
@@ -37,6 +38,7 @@
               <false/>
             </dict>
           </plist>
+
     - name: '[macOS/Config] Set permissions'
       become: true
       become_user: root

@@ -1,3 +1,15 @@
+### (Homebrew) Show package version installed from Homebrew:
+
+```shell
+brew info grafana/grafana/alloy
+```
+
+### (Homebrew) Show installed cascs:
+
+```shell
+brew list --cask
+```
+
 ### Generate new SSH Key
 
 ```shell
