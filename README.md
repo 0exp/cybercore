@@ -33,7 +33,7 @@ My development environments and system configurations (**macOS Sonoma**).
 - **clickhouse** (<u>25.3.2.39</u>) (01.05.2025)
 - **memcached** (latest@**homebrew**) (<u>1.6.38</u>) (01.05.2025)
 - **redis** (latest@**homebrew**) (<u>7.2.7</u>) (01.05.2025)
-- **rabbitmq** (latest@**homebrew**) (<u>4.1.0</u>) (14.11.2023)
+- **rabbitmq** (latest@**homebrew**) (<u>4.1.0</u>) (01.05.2025)
 - **kafka** (latest@**homebrew**) (<u>4.0.0</u>) (02.05.2025)
 - **influxdb** (latest@**homebrew**) (<u>2.7.11</u>) (01.05.2025)
 - **telegraf** (latest@**homebrew**) (<u>1.34.2</u>) (01.05.2025)
