@@ -21,6 +21,7 @@
     - { role: macos_config }
     - { role: macos_soft, environment: { HOMEBREW_CASK_OPTS: '--appdir=/Applications' } }
     - { role: macos_databases }
+    - { role: macos_go_env }
     - { role: macos_monitoring }
     - { role: macos_python_env }
     - { role: macos_js_env }
@@ -30,4 +31,5 @@
     - { role: macos_scala_env }
     - { role: macos_php_env }
     - { role: macos_kubernetes_env }
+    - { role: macos_ai_env }
     - { role: macos_post_config }

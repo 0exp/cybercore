@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <utf8proc>'
+  homebrew:
+    package: utf8proc
+    state: latest
+  notify: brew_pkg_installed

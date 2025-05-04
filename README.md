@@ -18,7 +18,7 @@ My development environments and system configurations (**macOS Sonoma**).
 ---
 
 - **ruby** (<u>3.4.3</u>) (02.05.2025)
-- **go** (<u>1.24.2</u>) (02.05.2025)
+- **go** (latest@**homebrew**) (<u>1.24.2</u>) (04.05.2025)
 - **truffleruby** (<u>24.2.1</u>) (02.05.2025)
 - **minikube** (latest@**homebrew**) (<u>1.35.0</u>) (02.05.2025)
 - **nodejs** (latest@**nvm**) (<u>23.11.0</u>) (02.05.2025)
@@ -60,7 +60,9 @@ My development environments and system configurations (**macOS Sonoma**).
   - `macos_databases` - setup databases (**PostgreSQL**, **Memcached**, **Redis**, **ClickHouse**, **Vault**, etc.);
   - `macos_monitoring` - setup monitoring tools (**InfluxDB**, **Telegraf**, **Prometheus**, **VictoriaMetrics**, **OpenSearch**, etc.);
   - `macos_kubernetes_env` - setup **K8S** environment;
+  - `macos_ai_env` - setup **AI** environment (*llama.cpp*, *ollama*, *jan*, etc.);
   - `macos_pyton_env` - setup **Python** environment;
+  - `macos_go_env` - setup **Go** environment;
   - `macos_js_env` - setup **JavaScript** environment;
   - `macos_ruby_env` - setup **Ruby** environment;
   - `macos_rust_env` - setup **Rust** environment;
@@ -126,6 +128,10 @@ ansible-playbook macbook_daily.yml --list-tasks
   ```shell
   ansible-playbook macbook_daily.yml --tags update_monitoring
   ```
+- update ai env (`update-ai`):
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_ai_env
+  ```
 
 ### Programming languages
 
@@ -160,6 +166,10 @@ ansible-playbook macbook_daily.yml --list-tasks
 - update **php** (`update-php`):
   ```shell
   ansible-playbook macbook_daily.yml --tags update_php
+  ```
+- update **go** (`update-go`):
+  ```shell
+  ansible-playbook macbook_daily.yml --tags update_go
   ```
 
 ### Software

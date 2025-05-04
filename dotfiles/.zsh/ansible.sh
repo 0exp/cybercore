@@ -18,3 +18,5 @@ alias update-kubernetes="ansible-playbook ~/Projects/cybercore/macbook_daily.yml
 alias update-databases="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_databases"
 alias update-dbs="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_dbs"
 alias update-monitoring="ansible-playbook ~/Projects/cybercore/macbook_daily.yml --tags update_monitoring"
+alias update-ai="ansible-playbook macbook_daily.yml --tags update_ai_env"
+alias update-go="ansible-playbook macbook_daily.yml --tags update_go"

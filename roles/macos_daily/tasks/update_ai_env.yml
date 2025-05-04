@@ -1,0 +1,8 @@
+---
+
+- name: '[dev/databases] Update <AI> environment'
+  import_role:
+    name: macos_ai_env
+  tags:
+    - update_ai_env
+    - update_ai

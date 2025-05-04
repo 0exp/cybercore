@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <diffutils>'
+  homebrew:
+    package: diffutils
+    state: latest
+  notify: brew_pkg_installed

@@ -1,0 +1,4 @@
+---
+
+- name: brew_pkg_installed
+  shell: brew cleanup

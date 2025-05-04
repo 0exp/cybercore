@@ -372,6 +372,14 @@ Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
 Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 ```
 
+- ollama
+```shell
+To restart ollama after an upgrade:
+  brew services restart ollama
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/ollama/bin/ollama serve
+```
+
 -----
 
 ### RUBY

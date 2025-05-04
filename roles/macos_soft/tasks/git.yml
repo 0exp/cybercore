@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <git>'
+  homebrew:
+    package: git
+    state: latest
+  notify: brew_pkg_installed

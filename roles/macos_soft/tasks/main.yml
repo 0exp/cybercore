@@ -4,6 +4,9 @@
   include_tasks: "{{ item }}.yml"
   with_items:
     - cmake
+    - curl
+    - coreutils
+    - git
     - tesseract
     - bat
     - blueutil
@@ -46,3 +49,13 @@
     - tree
     - watchman
     - wget
+    - libassuan
+    - libgpgerror
+    - libpng
+    - libusb
+    - mpfr
+    - pixman
+    - utf8proc
+    - fmt
+    - diffutils
+    - freetds

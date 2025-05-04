@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <coreutils>'
+  homebrew:
+    package: coreutils
+    state: latest
+  notify: brew_pkg_installed

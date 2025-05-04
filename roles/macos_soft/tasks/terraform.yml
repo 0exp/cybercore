@@ -11,16 +11,18 @@
       homebrew:
         package: hashicorp/tap/terraform
         state: present
+      ignore_errors: yes
       notify: brew_pkg_installed
 
     - name: '[terraform] Enable autocompletion ZSH commands'
       shell: |
         set -o pipefail
-        terraform -install-autocomplete
       ignore_errors: yes
+        terraform -install-autocomplete
 
     - name: '[terraform] Install Terraform LSP'
       homebrew:
         package: hashicorp/tap/terraform-ls
         state: latest
+      ignore_errors: yes
       notify: brew_pkg_installed

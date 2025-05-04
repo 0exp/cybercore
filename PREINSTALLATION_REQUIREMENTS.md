@@ -51,9 +51,3 @@ javac --version
 
 ##7. Install necessary utils for the next macos setup
 brew install coreutils curl git
-
-##7. Install Go lang
-https://go.dev/doc/install
-
-
-##7.1. Check Go Accessibility

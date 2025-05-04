@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <fmt>'
+  homebrew:
+    package: fmt
+    state: latest
+  notify: brew_pkg_installed

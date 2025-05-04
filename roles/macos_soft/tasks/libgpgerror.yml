@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <libgpg-error>'
+  homebrew:
+    package: libgpg-error
+    state: latest
+  notify: brew_pkg_installed

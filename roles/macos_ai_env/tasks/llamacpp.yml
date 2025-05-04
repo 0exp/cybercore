@@ -1,0 +1,8 @@
+---
+
+- name: '[macos/AI] Install <llama.cpp>'
+  homebrew:
+    package: llama.cpp
+    state: latest
+    update_homebrew: yes
+  notify: brew_pkg_installed

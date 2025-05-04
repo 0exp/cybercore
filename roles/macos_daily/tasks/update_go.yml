@@ -1,0 +1,8 @@
+---
+
+- name: '[dev/go] Update <Go> language environment'
+  import_role:
+    name: macos_go_env
+  tags:
+    - update_go
+    - update_go_env

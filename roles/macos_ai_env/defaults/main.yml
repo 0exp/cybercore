@@ -1,0 +1,7 @@
+---
+
+macos_ai_env:
+  ollama_models:
+    - mistral-small3.1
+  jan_models:
+    - mistral-small-24b:24b

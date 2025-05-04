@@ -1,0 +1,7 @@
+---
+
+- name: '[dev/go] Install <go>'
+  homebrew:
+    package: go
+    state: latest
+  notify: brew_pkg_installed

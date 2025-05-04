@@ -1,0 +1,7 @@
+---
+
+- name: '[homebrew/pkg] Install <mpfr>'
+  homebrew:
+    package: mpfr
+    state: latest
+  notify: brew_pkg_installed

@@ -1,0 +1,8 @@
+---
+
+- name: 'Setup <AI> environment'
+  include_tasks: "{{ item }}.yml"
+  with_items:
+    - llamacpp
+    - ollama
+    - jan
