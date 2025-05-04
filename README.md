@@ -50,6 +50,10 @@ My development environments and system configurations (**macOS Sonoma**).
 - **neo4j** (latest@**homebrew**) (<u>2025.03.0</u>) (01.05.2025)
 - **etcd** (latest@**homebrew**) (<u>3.5.21</u>) (01.05.2025)
 - **vault** (latest@**homebrew**) (<u>1.19.0</u>) (01.05.2025)
+- **ai**
+  - **jan** (latest@**homebrew**) (<u>?</u>) (04.05.2025)
+  - **llama.cpp** (latest@**homebrew**) (<u>?</u>) (04.05.2025)
+  - **ollama** (latest@**homebrew**) (<u>?</u>) (04.05.2025)
 
 ---
 
@@ -60,7 +64,7 @@ My development environments and system configurations (**macOS Sonoma**).
   - `macos_databases` - setup databases (**PostgreSQL**, **Memcached**, **Redis**, **ClickHouse**, **Vault**, etc.);
   - `macos_monitoring` - setup monitoring tools (**InfluxDB**, **Telegraf**, **Prometheus**, **VictoriaMetrics**, **OpenSearch**, etc.);
   - `macos_kubernetes_env` - setup **K8S** environment;
-  - `macos_ai_env` - setup **AI** environment (*llama.cpp*, *ollama*, *jan*, etc.);
+  - `macos_ai_env` - setup **AI** environment (**llama.cpp**, **ollama**, **jan**, etc.);
   - `macos_pyton_env` - setup **Python** environment;
   - `macos_go_env` - setup **Go** environment;
   - `macos_js_env` - setup **JavaScript** environment;
