@@ -50,7 +50,7 @@ My development environments and system configurations (**macOS Sonoma**).
 - **neo4j** (latest@**homebrew**) (<u>2025.03.0</u>) (01.05.2025)
 - **etcd** (latest@**homebrew**) (<u>3.5.21</u>) (01.05.2025)
 - **vault** (latest@**homebrew**) (<u>1.19.0</u>) (01.05.2025)
-- **ai**
+- **ai:**
   - **jan** (latest@**homebrew**) (<u>?</u>) (04.05.2025)
   - **llama.cpp** (latest@**homebrew**) (<u>?</u>) (04.05.2025)
   - **ollama** (latest@**homebrew**) (<u>?</u>) (04.05.2025)
