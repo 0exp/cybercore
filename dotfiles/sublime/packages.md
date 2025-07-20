@@ -49,6 +49,7 @@
 - [OverrideAudite](https://github.com/OdatNurd/OverrideAudit)
 - [StatusBarFileSize](https://github.com/SublimeText/StatusBarFileSize)
 - [Origami](https://github.com/SublimeText/Origami)
+- [OrgExtended](https://github.com/ihdavids/orgextended)
 - [PackageDev](https://github.com/SublimeText/PackageDev)
 - [PackageResourceViewer](https://github.com/skuroda/PackageResourceViewer)
 - [PackagesUI](https://github.com/unknownuser88/PackagesUI)
