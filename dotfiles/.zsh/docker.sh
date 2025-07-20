@@ -1,3 +1,7 @@
+fpath=(/Users/daiver/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+
 alias dps="docker ps"
 alias ddf="docker diff"
 alias dlg="docker logs"
