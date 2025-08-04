@@ -4,6 +4,7 @@
 - [AddRemoveFolder](https://github.com/fsaad/Sublime-AddRemoveFolder)
 - [AdvancedNewFile](https://github.com/SublimeText/AdvancedNewFile)
 - [Ansible](https://github.com/clifford-github/sublime-ansible)
+- [ANSIescape](https://github.com/aziz/SublimeANSI)
 - [Atomic Color Scheme](https://github.com/gerardbm/sublime-atomic-scheme)
 - [AutoFileName](https://github.com/BoundInCode/AutoFileName)
 - [AutomaticPackageReloader](https://github.com/randy3k/AutomaticPackageReloader)
