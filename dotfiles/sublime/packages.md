@@ -13,6 +13,7 @@
 - [BracketHighlighter](https://github.com/facelessuser/BracketHighlighter)
 - [ChangeQuotes](https://github.com/colinta/SublimeChangeQuotes)
 - [Clipboard Manager](https://github.com/colinta/SublimeClipboardManager)
+- [CloseOtherWindows](https://github.com/mavuio/CloseOtherWindows_SublimePlugin)
 - [CMake](https://github.com/zyxar/Sublime-CMakeLists)
 - [CoffeeScript](https://github.com/SublimeText/CoffeeScript)
 - [ColorHelper](https://github.com/facelessuser/ColorHelper)
