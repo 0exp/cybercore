@@ -12,6 +12,7 @@
 - [Bracketeer](https://github.com/colinta/SublimeBracketeer)
 - [BracketHighlighter](https://github.com/facelessuser/BracketHighlighter)
 - [ChangeQuotes](https://github.com/colinta/SublimeChangeQuotes)
+- [Clipboard Manager](https://github.com/colinta/SublimeClipboardManager)
 - [CMake](https://github.com/zyxar/Sublime-CMakeLists)
 - [CoffeeScript](https://github.com/SublimeText/CoffeeScript)
 - [ColorHelper](https://github.com/facelessuser/ColorHelper)
