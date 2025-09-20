@@ -1,0 +1,11 @@
+{
+  "extensions":
+  [
+    "Steepfile"
+  ],
+  // originally: "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+  // what changed: removed `!` and `?` symbols;
+  // why: tell Sublime to include trailing ? and ! characters in word selections
+  //  (cmd+d will include ? and ! symbols in selection :))
+  "word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~"
+}
