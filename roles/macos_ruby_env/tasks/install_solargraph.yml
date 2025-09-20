@@ -14,6 +14,7 @@
         rbenv global {{ macos_ruby_env.ruby_version }}
         rbenv rehash
         gem install solargraph -v {{ macos_ruby_env.solargraph_version }}
+        gem install solargraph-rspec -v {{ macos_ruby_env.solargraph_rspec_version }}
 
     - name: "[dev/ruby] solargraph: prepare cache directory"
       file:

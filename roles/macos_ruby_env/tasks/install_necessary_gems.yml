@@ -9,9 +9,12 @@
     - "bundler --version={{ macos_ruby_env.bundler_version }}"
     - rbs
     - rbs-inline
+    - ruby-lsp
+    - ruby-lsp-rails
     - typeprof
     - steep
     - pry
     - pry-doc
+    - solargraph
   loop_control:
     loop_var: required_gem

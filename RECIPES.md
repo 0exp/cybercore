@@ -463,3 +463,35 @@ minikube pause
 ```shell
 minikube unpause
 ```
+
+
+- solagrpah config (not accepted to the core at the moment):
+
+```yaml
+---
+include:
+- "**/*.rb"
+exclude:
+- spec/**/*
+- test/**/*
+- vendor/**/*
+- ".bundle/**/*"
+require: []
+domains: []
+reporters:
+- rubocop
+- require_not_found
+- typecheck
+- update_errors
+- solargraph-rspec
+formatter:
+  rubocop:
+    cops: safe
+    except: []
+    only: []
+    extra_args: []
+require_paths: []
+plugins:
+- solagraph-rspec
+max_files: 5000
+```

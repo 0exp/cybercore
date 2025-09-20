@@ -8,7 +8,10 @@ macos_ruby_env:
   rubygems_directory_path: "{{ macbook.home_path }}/.gem"
   rubygems_creds_file: "{{ macbook.home_path }}/.gem/credentials"
   solargraph_version: '0.54.2'
+  solargraph_rspec_version: '0.5.1'
   solargraph_cache_path: "{{ macbook.home_path }}/.solargraph/cache"
   rbs_version: '3.9.2'
+  ruby_lsp_version: '0.26.1'
+  ruby_lsp_rails_version: '0.4.8'
   typeprof_version: '0.30.1'
   steep_version: '1.10.0'
