@@ -13,6 +13,7 @@
   [
     "Hungry Backspace",
     "Local History",
+    "MarkdownPreview",
     "OpenUri",
     "SimpleCov",
     "Status Bar File Size",
@@ -38,7 +39,7 @@
   ],
   "show_encoding": true,
   "show_line_endings": true,
-  "show_encoding": true,
+  // "show_encoding": true,
   "tab_size": 2,
   "theme": "Adaptive.sublime-theme",
   "translate_tabs_to_spaces": true,
@@ -46,5 +47,9 @@
   "trim_only_modified_white_space": false,
   "word_wrap": false,
   "hardware_acceleration": "opengl",
-  "mde.auto_fold_link.enabled": false, # NOTE: just for MarkdownEditing plugin
+  "mde.auto_fold_link.enabled": false,
+  "wrap_width": 0,
+  "WrapPlus.break_long_words": false,
+  "WrapPlus.break_on_hyphens": false,
+  "WrapPlus.include_line_endings": "auto",
 }
